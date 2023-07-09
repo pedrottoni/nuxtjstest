@@ -22,15 +22,15 @@
         </div>
         <div class="flex items-center mt-2">
           <h6 class="mt-2">Github repo for this template</h6>
-          <UButton
+          <BaseButton
             size="xs"
             class="ml-2"
             color="secondary"
-            to="https://github.com/pinegrow/pg-nuxt-tailwindcss-nuxtlabs-ui"
+            to="https://github.com/pinegrow/pg-nuxt-tailwindcss"
             target="_blank"
           >
             <span>Click here</span>
-          </UButton>
+          </BaseButton>
         </div>
         <slot />
       </div>

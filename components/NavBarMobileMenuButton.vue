@@ -3,14 +3,15 @@
   const { isMobileMenuOpen, openMobileMenu } = useMobileMenu()
 </script>
 <template>
-  <UButton
+  <BaseButton
     size="xl"
-    class="!py-2 !rounded-lg leading-none"
     :icon="
-      isMobileMenuOpen ? 'i-material-symbols-close' : 'i-material-symbols-menu'
+      isMobileMenuOpen ? 'material-symbols:close' : 'material-symbols:menu'
     "
+    class="!py-2 !rounded-lg leading-none"
     @click="openMobileMenu"
-    ><span class="sr-only">Open main menu</span>
-  </UButton>
+  >
+    <span class="sr-only">Open main menu</span>
+  </BaseButton>
 </template>
 <style scoped></style>

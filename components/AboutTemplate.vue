@@ -62,9 +62,12 @@
           that enables you to visually design your Vue single-file components in
           Vue Designer.
         </p>
-
         <div class="flex justify-center lg:justify-start">
-          <UButton label="Quick Start >" size="lg" to="/quick-start"></UButton>
+          <BaseButton
+            label="Quick Start >"
+            size="lg"
+            to="/quick-start"
+          ></BaseButton>
         </div>
       </div>
     </div>

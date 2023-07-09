@@ -26,42 +26,19 @@
             <h1 class="capitalize leading-tight mb-2 text-white">
               Vue Designer
             </h1>
-            <h5 class="mb-6 text-gray-50">
+            <h5 class="mb-6 text-gray-300">
               A desktop drag-and-drop editor for Mac, Windows and Linux that
               lets you visually design your Vue apps.
             </h5>
-            <UCard class="mt-4">
-              <template #default>
-                <UAvatarGroup size="xl" :max="3">
-                  <UAvatar
-                    src="https://avatars.githubusercontent.com/u/739984?v=4"
-                    size="xl"
-                  ></UAvatar>
-                  <UAvatar
-                    src="https://images.unsplash.com/photo-1580489944761-15a19d654956?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDQyfHxwcm9maWxlfGVufDB8fHx8MTY4NzE2ODcyNnww&ixlib=rb-4.0.3&q=80&w=200"
-                    size="xl"
-                  ></UAvatar>
-                  <UAvatar
-                    src="https://images.unsplash.com/photo-1573495612522-d994e72e5f56?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE4fHxhZnJpY2FuJTIwY29tcHV0ZXIlMjB3b21hbnxlbnwwfHx8fDE2ODcxNjg5NzV8MA&ixlib=rb-4.0.3&q=80&w=200"
-                    size="xl"
-                  ></UAvatar>
-                  <UAvatar
-                    src="https://avatars.githubusercontent.com/u/739984?v=4"
-                    size="xl"
-                  ></UAvatar>
-                </UAvatarGroup>
-              </template>
-            </UCard>
-            <UButton
-              label="Learn More!"
+            <BaseButton
+              class="!rounded-3xl px-6 py-4"
               to="https://vuedesigner.com"
-              size="xl"
               trailing
-              trailing-icon="i-material-symbols-open-in-new"
               target="_blank"
-              class="!rounded-3xl mt-4 px-6 py-4"
-            >
-            </UButton>
+              trailing-icon="material-symbols:open-in-new"
+              size="xl"
+              label="Learn More!"
+            />
           </div>
         </div>
       </div>
