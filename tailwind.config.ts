@@ -2,9 +2,7 @@ import {
   pg_colors,
   pg_fonts,
   pg_backgrounds,
-} from './themes/pg-tailwindcss/tokens.mjs'
-
-import { safelist } from './utils/colors'
+} from './themes/pg-tailwindcss/tokens.cjs'
 
 export default {
   darkMode: 'class',
@@ -12,13 +10,19 @@ export default {
     require('@tailwindcss/typography'),
     require('@tailwindcss/forms'),
     require('@pinegrow/tailwindcss-plugin').default({
-      colors: pg_colors, // primary, secondary etc
+      // colors: { ...pg_colors, pp: pg_colors.primary }, // pp, primary, secondary etc
       fonts: pg_fonts,
       backgrounds: pg_backgrounds, // bg-design-image, bg-design-image-large
     }),
   ],
 
-  safelist,
+  theme: {
+    extend: {
+      // Nuxtlabs/ui can process colors extended directly, and not via plugin (as above), so the colors are added here instead of passing it to @pinegrow/tailwindcss-plugin above
+      // Primary is added additionally as pp as it's required to set nuxtlabs/ui's primary in app.config.ts. Other colors like secondary etc can be used in nuxtlabs/ui component's color prop
+      colors: { ...pg_colors, pp: pg_colors.primary },
+    },
+  },
 
   get content() {
     const _content = [

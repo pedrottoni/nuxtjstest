@@ -34,36 +34,36 @@
           >
             <ul class="text-center lg:mt-2 lg:text-left">
               <li class="mb-4">
-                <BaseButton
+                <UButton
                   to="https://pinegrow.com/docs/vue/"
                   external
                   target="_blank"
                   variant="link"
-                  class="text-white dark:text-primary-800"
+                  class="!text-white dark:text-primary-800"
                   color="white"
-                  >Documentation</BaseButton
+                  >Documentation</UButton
                 >
               </li>
               <li class="mb-4">
-                <BaseButton
+                <UButton
                   to="https://www.youtube.com/@vuedesigner/playlists"
                   external
                   target="_blank"
                   variant="link"
                   class="!text-white dark:text-primary-800"
                   color="white"
-                  >Video Tutorials</BaseButton
+                  >Video Tutorials</UButton
                 >
               </li>
               <li class="mb-4">
-                <BaseButton
+                <UButton
                   to="https://pinegrow.com/docs/vue/support/"
                   external
                   target="_blank"
                   variant="link"
                   class="!text-white dark:text-primary-800"
                   color="white"
-                  >Support</BaseButton
+                  >Support</UButton
                 >
               </li>
             </ul>
@@ -73,36 +73,36 @@
           >
             <ul class="text-center lg:mt-2 lg:text-left">
               <li class="mb-4">
-                <BaseButton
+                <UButton
                   to="https://vuedesigner.com"
                   external
                   target="_blank"
                   variant="link"
                   class="!text-white dark:text-primary-800"
                   color="white"
-                  >Trial</BaseButton
+                  >Trial</UButton
                 >
               </li>
               <li class="mb-4">
-                <BaseButton
+                <UButton
                   to="https://vuedesigner.com/#buy"
                   external
                   target="_blank"
                   variant="link"
                   class="!text-white dark:text-primary-800"
                   color="white"
-                  >Purchase</BaseButton
+                  >Purchase</UButton
                 >
               </li>
               <li class="mb-4">
-                <BaseButton
+                <UButton
                   to="https://forum.pinegrow.com/c/vue-designer"
                   external
                   target="_blank"
                   variant="link"
                   class="!text-white dark:text-primary-800"
                   color="white"
-                  >Community Forum</BaseButton
+                  >Community Forum</UButton
                 >
               </li>
             </ul>

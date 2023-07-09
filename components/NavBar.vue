@@ -32,7 +32,7 @@
             <NavBarMobileMenuButton
               v-if="mobileNavTabs.length"
               class="hidden sm:block"
-            />
+            ></NavBarMobileMenuButton>
             <NavBarMobileMenuButton v-if="navlinks.length" class="sm:hidden" />
             <NavBarMobileMenu
               class="hidden sm:flex sm:justify-end absolute right-0 mt-4"
