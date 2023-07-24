@@ -213,35 +213,13 @@
     )
   })
 </script>
-
 <template>
-  <component
-    :is="buttonIs"
-    :class="buttonClass"
-    :aria-label="ariaLabel"
-    v-bind="buttonProps"
-  >
-    <Icon
-      v-if="isLeading && leadingIconName"
-      :name="leadingIconName"
-      :class="leadingIconClass"
-      aria-hidden="true"
-    />
-    <slot>
-      <span
-        v-if="label"
-        :class="[truncate ? 'text-left break-all line-clamp-1' : '']"
-      >
-        {{ label }}
-      </span>
-    </slot>
-    <Icon
-      v-if="isTrailing && trailingIconName"
-      :name="trailingIconName"
-      :class="trailingIconClass"
-      aria-hidden="true"
-    />
-  </component>
+    <component :is="buttonIs" :class="buttonClass" :aria-label="ariaLabel" v-bind="buttonProps">
+        <Icon v-if="isLeading && leadingIconName" :name="leadingIconName" :class="leadingIconClass" aria-hidden="true"/>
+        <slot><span v-if="label" :class="[truncate ? 'text-left break-all line-clamp-1' : '']">
+        {{ label }} </span>
+        </slot>
+        <Icon v-if="isTrailing && trailingIconName" :name="trailingIconName" :class="trailingIconClass" aria-hidden="true"/>
+    </component>
 </template>
-
 <style scoped></style>

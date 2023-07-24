@@ -3,10 +3,12 @@ import {
   pg_fonts,
   pg_backgrounds,
 } from './themes/pg-tailwindcss/tokens.mjs'
-
+import type { Config } from 'tailwindcss'
+import { tailwindConfig } from '@storefront-ui/vue/tailwind-config'
 import { safelist } from './utils/colors'
 
-export default {
+export default <Config>{
+  presets: [tailwindConfig],
   darkMode: 'class',
   plugins: [
     require('@tailwindcss/typography'),
@@ -29,6 +31,7 @@ export default {
       './nuxt.config.{js,ts}',
       './app.vue',
       '*.{mjs,js,ts}',
+      './**/*.vue', './node_modules/@storefront-ui/vue/**/*.{js,mjs}'
     ]
     return process.env.NODE_ENV === 'production'
       ? _content

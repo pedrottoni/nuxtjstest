@@ -10,10 +10,10 @@
   })
 </script>
 <template>
-  <main>
-    <HeroSection />
-    <AboutTemplate />
-    <WalkThrough />
-  </main>
+    <main>
+        <HeroSection/>
+        <AboutTemplate/>
+        <WalkThrough/>
+    </main>
 </template>
 <style scoped></style>

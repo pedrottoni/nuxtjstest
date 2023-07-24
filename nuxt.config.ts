@@ -23,6 +23,8 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@vueuse/nuxt',
     '@element-plus/nuxt',
+    '@nuxthq/ui',
+    '@nuxtjs/tailwindcss',
   ],
   pinegrow: {
     liveDesigner: {
@@ -66,6 +68,25 @@ export default defineNuxtConfig({
     },
     highlight: {
       theme: 'dracula-soft',
+    },
+  },
+  build: {
+    transpile:
+      process.env.NODE_ENV === 'production'
+        ? [
+            'naive-ui',
+            'vueuc',
+            '@css-render/vue3-ssr',
+            '@juggle/resize-observer',
+          ]
+        : ['@juggle/resize-observer'],
+  },
+  vite: {
+    optimizeDeps: {
+      include:
+        process.env.NODE_ENV === 'development'
+          ? ['naive-ui', 'vueuc', 'date-fns-tz/esm/formatInTimeZone']
+          : [],
     },
   },
 })
