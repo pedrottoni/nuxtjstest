@@ -41,14 +41,9 @@
                   required
                   name="fields[email]"
                 />
-                <BaseButton
-                  type="submit"
-                  class="ml-2"
-                  size="md"
-                  color="secondary"
-                >
+                <UButton type="submit" class="ml-2" size="md" color="secondary">
                   Sign Up
-                </BaseButton>
+                </UButton>
               </div>
             </form>
           </div>

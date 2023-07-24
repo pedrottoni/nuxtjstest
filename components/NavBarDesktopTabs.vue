@@ -17,7 +17,7 @@
 <template>
   <div class="h-full items-center">
     <div class="flex h-full space-x-2">
-      <BaseButton
+      <UButton
         v-for="(navlink, index) in navlinks"
         :key="index"
         :to="navlink.link"
@@ -26,18 +26,18 @@
         :variant="isCurrentRoute(navlink, currentPath) ? 'solid' : 'ghost'"
         class="!rounded-lg"
       >
-      </BaseButton>
+      </UButton>
     </div>
-    <BaseButton
+    <UButton
       class="ml-3"
       target="_blank"
       to="https://vuedesigner.com"
       size="xl"
-      icon="mdi:pine-tree"
+      icon="i-mdi-pine-tree"
       color="secondary"
       trailing
       ><span class="pl-2">Try Now</span>
-    </BaseButton>
+    </UButton>
   </div>
 </template>
 <style scoped></style>
