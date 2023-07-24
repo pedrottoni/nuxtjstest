@@ -5,6 +5,9 @@
   // 	title: 'About',
   //	navOrder: 4,
   // })
+  useHead({
+    title: () => 'about',
+  })
 </script>
 
 <template>

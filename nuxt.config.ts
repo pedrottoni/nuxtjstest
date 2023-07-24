@@ -9,7 +9,8 @@ export default defineNuxtConfig({
       author: 'Pinegrow',
       nav: [
         { text: 'Home', link: '/' },
-        { text: `Quick Start`, link: '/quick-start' },
+        { text: 'Sobre', link: '/about' },
+        { text: 'Time', link: '/team' },
         { text: 'Subscribe', link: '/subscribe' },
       ],
     },
