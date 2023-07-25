@@ -7,7 +7,7 @@
     return navlinks.value.slice(0, 6)
   })
   const mobileNavTabs = computed(() => {
-    return navlinks.value.slice(2, navlinks.value.length)
+    return navlinks.value.slice(0, navlinks.value.length)
   })
 </script>
 <template>
@@ -39,7 +39,6 @@
                     </div>
                     <DarkModeSwitch/>
                     <div class="-mr-2 items-center relative">
-                        <NavBarMobileMenuButton v-if="mobileNavTabs.length" class="hidden sm:block"></NavBarMobileMenuButton>
                         <NavBarMobileMenuButton v-if="navlinks.length" class="sm:hidden"/>
                         <NavBarMobileMenu class="hidden sm:flex sm:justify-end absolute right-0 mt-4" :navlinks="mobileNavTabs" :current-path="currentPath"/>
                     </div>

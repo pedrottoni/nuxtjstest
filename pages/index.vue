@@ -11,7 +11,9 @@
 </script>
 <template>
     <main>
-        <HeroSection/>
+        <HeroSectionIndex/>
+        <ParceirosIndex/>
+        <ModeloInovador/>
         <AboutTemplate/>
         <WalkThrough/>
     </main>

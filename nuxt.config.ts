@@ -3,9 +3,8 @@
 export default defineNuxtConfig({
   runtimeConfig: {
     public: {
-      title: `Vue Designer`,
-      description:
-        'Vue Designer Nuxt Tailwind CSS / NuxtLabs UI - Quick start template',
+      title: 'EXE auctions',
+      description: 'EXE auctions',
       author: 'Pinegrow',
       nav: [
         { text: 'Home', link: '/' },
@@ -24,6 +23,7 @@ export default defineNuxtConfig({
     '@nuxthq/ui',
     '@nuxt/devtools',
     '@nuxt/content',
+    '@nuxt/image',
   ],
   pinegrow: {
     liveDesigner: {
