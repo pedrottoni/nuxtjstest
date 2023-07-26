@@ -86,6 +86,7 @@
               class="hidden sm:flex sm:ml-6"
             />
           </div>
+          <DarkModeSwitch />
           <div class="-mr-2 items-center relative">
             <NavBarMobileMenuButton v-if="navlinks.length" class="sm:hidden" />
             <NavBarMobileMenu

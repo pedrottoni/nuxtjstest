@@ -11,7 +11,7 @@ export default defineAppConfig({
     card: {
       divide: 'divide-none',
       ring: 'ring-none',
-      shadow: 'shadow-none',
+      shadow: 'shadow-0',
       rounded: 'rounded-3xl',
       body: {
         padding: 'px-0 p-0',
