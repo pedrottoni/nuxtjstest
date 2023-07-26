@@ -22,14 +22,11 @@
                 </template>
                 <template #default>
                     <p>
-            Oferecemos uma formação de preços eficiente para seus ativos
-            financeiros, permitindo que você obtenha o melhor preço de mercado
-            para o seu volume negociado </p>
+            Oferecemos uma formação de preços por oferta de demanda para ativos
+            financeiros intercambiáveis por outros do mesmo tipo. ("commodity") </p>
                 </template>
                 <template #footer>
-                    <NuxtLink class="flex place-items-center gap-1">Saiba mais
-                        <UIcon name="i-material-symbols-open-in-new-rounded"/>
-                    </NuxtLink>
+                    <UButton to="https://pinegrow.com/docs/vue/support/" external target="_blank" variant="link" class="text-primary-500" trailing-icon="i-material-symbols-open-in-new">Saiba mais</UButton>
                 </template>
             </UCard>
             <UCard>
@@ -41,14 +38,12 @@
                 </template>
                 <template #default>
                     <p>
-            Negocie com rapidez e eficiência, sem brigar com tempo em
-            negociações muito rápidas ou muito lentas, permitindo que você
-            aproveite as melhores oportunidades de mercado </p>
+            Entendemos que alguns processos de negociação as vezes sao muito
+            rápidos e outras muito lento. Nosso pico de liquidez agendado é a
+            melhor solução no mercado. </p>
                 </template>
                 <template #footer>
-                    <NuxtLink class="flex place-items-center gap-1">Saiba mais
-                        <UIcon name="i-material-symbols-open-in-new-rounded"/>
-                    </NuxtLink>
+                    <UButton to="https://pinegrow.com/docs/vue/support/" external target="_blank" variant="link" class="text-primary-500" trailing-icon="i-material-symbols-open-in-new">Saiba mais</UButton>
                 </template>
             </UCard>
             <UCard>
@@ -60,14 +55,11 @@
                 </template>
                 <template #default>
                     <p>
-            Suas negociações são realizadas com total sigilo e anonimato,
-            garantindo que suas informações permaneçam seguras e protegidas
-            enquanto todos veem o total negociado no mercado </p>
+            As únicas informações compartilhadas com o resto do mercado sao: se
+            existia compra, venda ou nao; o preço final e a quantidade total. </p>
                 </template>
                 <template #footer>
-                    <NuxtLink class="flex place-items-center gap-1">Saiba mais
-                        <UIcon name="i-material-symbols-open-in-new-rounded"/>
-                    </NuxtLink>
+                    <UButton to="https://pinegrow.com/docs/vue/support/" external target="_blank" variant="link" class="text-primary-500" trailing-icon="i-material-symbols-open-in-new">Saiba mais</UButton>
                 </template>
             </UCard>
             <UCard>
@@ -79,14 +71,11 @@
                 </template>
                 <template #default>
                     <p>
-            Anulamos atritos e conflitos de interesse entre os participantes,
-            garantindo que as negociações sejam realizadas só no limite definido
-            por tempo de chegada. </p>
+            Anulamos conflitos de interesse entre os participantes. Garantindo a
+            preferencia para os clientes com volumes maiores. </p>
                 </template>
                 <template #footer>
-                    <NuxtLink class="flex place-items-center gap-1">Saiba mais
-                        <UIcon name="i-material-symbols-open-in-new-rounded"/>
-                    </NuxtLink>
+                    <UButton to="https://pinegrow.com/docs/vue/support/" external target="_blank" variant="link" class="text-primary-500" trailing-icon="i-material-symbols-open-in-new">Saiba mais</UButton>
                 </template>
             </UCard>
         </div>

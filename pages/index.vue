@@ -15,7 +15,6 @@
         <ParceirosIndex/>
         <ModeloInovador/>
         <DiferenciaisComparativo/>
-        <WalkThrough/>
     </main>
 </template>
 <style scoped></style>

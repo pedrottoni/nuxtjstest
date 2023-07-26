@@ -8,34 +8,70 @@
                 <h4>
           Após anos desenvolvendo uma solução que combina o melhor dos dois
           sistemas, surgiu a EXE Auctions. Corsini se uniu a Adolpho Naves </h4>
-                <NuxtLink class="flex gap-1 mt-6 place-items-center">Saiba mais
-                    <UIcon name="i-material-symbols-open-in-new-rounded"/>
-                </NuxtLink>
+                <UButton to="https://pinegrow.com/docs/vue/support/" external target="_blank" variant="link" class="text-primary-500" trailing-icon="i-material-symbols-open-in-new">Veja como funciona</UButton>
             </div>
-            <div class="gap-6 lg:gap-16 xl:gap-12 grid sm:grid-cols-1 md:grid-cols-3">
-                <UCard class="p-8 shadow-md shadow-slate-400">
+            <div class="gap-6 grid place-items-center sm:grid-cols-1 lg:grid-cols-3">
+                <UCard class="h-fit p-8 shadow-md shadow-slate-400">
                     <template #header>
                         <h5 class="text-center">Calls</h5>
                     </template>
                     <template #default>
-                        <p>
-              Negocie com rapidez e eficiência, sem brigar com tempo em
-              negociações muito rápidas ou muito lentas, permitindo que você
-              aproveite as melhores oportunidades de mercado </p>
+                        <div class="border-t flex flex-col gap-4 mt-8 pt-8">
+                            <div>
+                                <h6 class="flex flex-row gap-1 mb-1 place-items-center"> <UIcon name="i-material-symbols-cancel-outline" size="36px"></UIcon><Icon name="i-material-symbols-cancel-outline-rounded" size="36px"></Icon>Método de precificação </h6>
+                                <p class="ml-6">
+                  Pre definido pelo broker. Baseado em alguma referencia de
+                  mercado ou critério subjetivo, nao necessariamente o preço
+                  ótimo </p>
+                            </div>
+                            <div>
+                                <h6 class="flex flex-row gap-1 mb-1 place-items-center"> <UIcon name="i-material-symbols-cancel-outline" size="36px"></UIcon><Icon name="i-material-symbols-cancel-outline-rounded" size="36px"></Icon>Método de precificação </h6>
+                                <p class="ml-6">
+                  Pre definido pelo broker. Baseado em alguma referencia de
+                  mercado ou critério subjetivo, nao necessariamente o preço
+                  ótimo </p>
+                            </div>
+                            <div>
+                                <h6 class="flex flex-row gap-1 mb-1 place-items-center"> <UIcon name="i-material-symbols-cancel-outline" size="36px"></UIcon><Icon name="i-material-symbols-cancel-outline-rounded" size="36px"></Icon>Método de precificação </h6>
+                                <p class="ml-6">
+                  Pre definido pelo broker. Baseado em alguma referencia de
+                  mercado ou critério subjetivo, nao necessariamente o preço
+                  ótimo </p>
+                            </div>
+                        </div>
                     </template>
                 </UCard>
-                <UCard class="shadow-md shadow-slate-400 p-8">
+                <UCard class="h-fit p-8 shadow-md shadow-slate-500">
                     <template #header>
                         <h5 class="text-center">ATS/Dark pools</h5>
                     </template>
                     <template #default>
-                        <p>
-              Suas negociações são realizadas com total sigilo e anonimato,
-              garantindo que suas informações permaneçam seguras e protegidas
-              enquanto todos veem o total negociado no mercado </p>
+                        <div class="border-t flex flex-col gap-4 mt-8 pt-8">
+                            <div>
+                                <h6 class="flex flex-row gap-1 mb-1 place-items-center"> <UIcon name="i-material-symbols-cancel-outline" size="36px"></UIcon><Icon name="i-material-symbols-cancel-outline-rounded" size="36px"></Icon>Método de precificação </h6>
+                                <p class="ml-6">
+                  Pre definido pelo broker. Baseado em alguma referencia de
+                  mercado ou critério subjetivo, nao necessariamente o preço
+                  ótimo </p>
+                            </div>
+                            <div>
+                                <h6 class="flex flex-row gap-1 mb-1 place-items-center"> <UIcon name="i-material-symbols-cancel-outline" size="36px"></UIcon><Icon name="i-material-symbols-cancel-outline-rounded" size="36px"></Icon>Método de precificação </h6>
+                                <p class="ml-6">
+                  Pre definido pelo broker. Baseado em alguma referencia de
+                  mercado ou critério subjetivo, nao necessariamente o preço
+                  ótimo </p>
+                            </div>
+                            <div>
+                                <h6 class="flex flex-row gap-1 mb-1 place-items-center"> <UIcon name="i-material-symbols-cancel-outline" size="36px"></UIcon><Icon name="i-material-symbols-cancel-outline-rounded" size="36px"></Icon>Método de precificação </h6>
+                                <p class="ml-6">
+                  Pre definido pelo broker. Baseado em alguma referencia de
+                  mercado ou critério subjetivo, nao necessariamente o preço
+                  ótimo </p>
+                            </div>
+                        </div>
                     </template>
                 </UCard>
-                <UCard class="flex flex-col place-items-center shadow-md shadow-slate-400 p-8">
+                <UCard class="border-2 border-green-500 border-solid flex flex-col p-8 place-items-center shadow-md shadow-slate-400">
                     <template #header>
                         <svg width="92" height="52" viewBox="0 0 92 52" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <path d="M28.6199 3.20357H5.4625V12.8477H23.348V16.0483H5.4625V25.5708H28.6199V28.7713H0V0H28.6199V3.20357Z" fill="#1F4386"/>
@@ -54,10 +90,29 @@
                         </svg>
                     </template>
                     <template #default>
-                        <p>
-              Anulamos atritos e conflitos de interesse entre os participantes,
-              garantindo que as negociações sejam realizadas só no limite
-              definido por tempo de chegada. </p>
+                        <div class="border-t flex flex-col gap-4 mt-8 pt-8">
+                            <div>
+                                <h6 class="flex flex-row gap-1 mb-1 place-items-center"> <UIcon name="i-material-symbols-cancel-outline"></UIcon><Icon name="i-material-symbols-cancel-outline-rounded" size="36px"></Icon>Método de precificação </h6>
+                                <p class="ml-6">
+                  Predefinido pelo broker. Baseado em alguma referencia de
+                  mercado ou critério subjetivo, nao necessariamente o preço
+                  ótimo </p>
+                            </div>
+                            <div>
+                                <h6 class="flex flex-row gap-1 mb-1 place-items-center"> <UIcon name="i-material-symbols-cancel-outline" size="36px"></UIcon><Icon name="i-material-symbols-cancel-outline-rounded" size="36px"></Icon>Método de precificação </h6>
+                                <p class="ml-6">
+                  Pre definido pelo broker. Baseado em alguma referencia de
+                  mercado ou critério subjetivo, nao necessariamente o preço
+                  ótimo </p>
+                            </div>
+                            <div>
+                                <h6 class="flex flex-row gap-1 mb-1 place-items-center"> <UIcon name="i-material-symbols-cancel-outline" size="36px"></UIcon><Icon name="i-material-symbols-cancel-outline-rounded" size="36px"></Icon>Método de precificação </h6>
+                                <p class="ml-6">
+                  Pre definido pelo broker. Baseado em alguma referencia de
+                  mercado ou critério subjetivo, nao necessariamente o preço
+                  ótimo </p>
+                            </div>
+                        </div>
                     </template>
                 </UCard>
             </div>

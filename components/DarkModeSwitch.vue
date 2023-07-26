@@ -2,27 +2,14 @@
   import { isDark, toggleDark } from '~/composables/dark'
 </script>
 <template>
-  <UButton
-    variant="ghost"
-    class="!rounded-lg mx-3"
-    aria-label="Toggle theme"
-    @click="toggleDark()"
-  >
-    <transition name="slide" mode="out-in">
-      <UIcon
-        v-if="isDark"
-        name="i-material-symbols-dark-mode-outline"
-        class="text-2xl"
-      >
-      </UIcon>
-      <UIcon
-        v-else
-        name="i-material-symbols-light-mode-outline"
-        class="text-2xl"
-      >
-      </UIcon>
-    </transition>
-  </UButton>
+    <UButton variant="ghost" class="!rounded-lg mx-3" aria-label="Toggle theme" @click="toggleDark()">
+        <transition name="slide" mode="out-in">
+            <UIcon v-if="isDark" name="i-material-symbols-dark-mode-outline" class="text-2xl">
+</UIcon>
+            <UIcon v-else name="i-material-symbols-light-mode-outline" class="text-2xl">
+</UIcon>
+        </transition>
+    </UButton>
 </template>
 <style lang="postcss">
   .slide-enter-active,
