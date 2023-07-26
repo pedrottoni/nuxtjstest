@@ -14,7 +14,7 @@
         <HeroSectionIndex/>
         <ParceirosIndex/>
         <ModeloInovador/>
-        <AboutTemplate/>
+        <DiferenciaisComparativo/>
         <WalkThrough/>
     </main>
 </template>
