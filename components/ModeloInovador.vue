@@ -16,7 +16,7 @@
             <UCard>
                 <template #header>
                     <nuxt-img src="/formacao.svg"/>
-                    <h6>
+                    <h6 class="mt-2">
             Formação de <br/>
             preços eficiente </h6>
                 </template>
@@ -32,7 +32,7 @@
             <UCard>
                 <template #header>
                     <nuxt-img src="/comhora.svg"/>
-                    <h6>
+                    <h6 class="mt-2">
             Com hora<br/>
             marcada </h6>
                 </template>
@@ -49,7 +49,7 @@
             <UCard>
                 <template #header>
                     <nuxt-img src="/anonimato.svg"/>
-                    <h6>
+                    <h6 class="mt-2">
             Anonimato<br/>
             garantido </h6>
                 </template>
@@ -65,7 +65,7 @@
             <UCard>
                 <template #header>
                     <nuxt-img src="/conflitos.svg"/>
-                    <h6>
+                    <h6 class="mt-2">
             Sem<br/>
             conflitos </h6>
                 </template>

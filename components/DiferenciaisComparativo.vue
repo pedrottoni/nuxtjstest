@@ -1,278 +1,256 @@
 <script setup lang="ts"></script>
 <template>
-  <div class="bg-slate-100">
-    <div
-      class="container flex flex-col mx-auto place-items-center px-4 py-32 md:py-40"
-    >
-      <div
-        class="mb-16 text-center flex-col w-12/12 lg:flex lg:w-6/12 lg:place-items-center"
-      >
-        <h3>Modelo inovador</h3>
-        <h2>Competition e Differentiation</h2>
-        <h4>
+    <div class="bg-slate-100">
+        <div class="container flex flex-col mx-auto place-items-center px-4 py-32 md:py-40">
+            <div class="mb-16 text-center flex-col w-12/12 lg:flex lg:w-6/12 lg:place-items-center">
+                <h3>Modelo inovador</h3>
+                <h2>Competition e Differentiation</h2>
+                <h4>
           Após anos desenvolvendo uma solução que combina o melhor dos dois
-          sistemas, surgiu a EXE Auctions. Corsini se uniu a Adolpho Naves
-        </h4>
-        <UButton
-          to="https://pinegrow.com/docs/vue/support/"
-          external
-          target="_blank"
-          variant="link"
-          class="text-primary-500"
-          trailing-icon="i-material-symbols-open-in-new"
-          >Veja como funciona</UButton
-        >
-      </div>
-      <div class="gap-6 grid place-items-center sm:grid-cols-1 lg:grid-cols-3">
-        <UCard class="h-fit p-8 shadow-md shadow-slate-300">
-          <template #header>
-            <h5 class="text-center">Calls</h5>
-          </template>
-          <template #default>
-            <div class="border-t flex flex-col gap-4 mt-8 pt-8">
-              <div>
-                <h6 class="flex flex-row gap-1 mb-1 place-items-center">
-                  <UIcon
-                    name="i-material-symbols-cancel-outline"
-                    size="36px"
-                  ></UIcon
-                  ><Icon
-                    name="i-material-symbols-cancel-outline-rounded"
-                    size="36px"
-                  ></Icon
-                  >Método de precificação
-                </h6>
-                <p class="ml-6">
-                  Pre definido pelo broker. Baseado em alguma referencia de
-                  mercado ou critério subjetivo, nao necessariamente o preço
-                  ótimo
-                </p>
-              </div>
-              <div>
-                <h6 class="flex flex-row gap-1 mb-1 place-items-center">
-                  <UIcon
-                    name="i-material-symbols-cancel-outline"
-                    size="36px"
-                  ></UIcon
-                  ><Icon
-                    name="i-material-symbols-cancel-outline-rounded"
-                    size="36px"
-                  ></Icon
-                  >Método de precificação
-                </h6>
-                <p class="ml-6">
-                  Pre definido pelo broker. Baseado em alguma referencia de
-                  mercado ou critério subjetivo, nao necessariamente o preço
-                  ótimo
-                </p>
-              </div>
-              <div>
-                <h6 class="flex flex-row gap-1 mb-1 place-items-center">
-                  <UIcon
-                    name="i-material-symbols-cancel-outline"
-                    size="36px"
-                  ></UIcon
-                  ><Icon
-                    name="i-material-symbols-cancel-outline-rounded"
-                    size="36px"
-                  ></Icon
-                  >Método de precificação
-                </h6>
-                <p class="ml-6">
-                  Pre definido pelo broker. Baseado em alguma referencia de
-                  mercado ou critério subjetivo, nao necessariamente o preço
-                  ótimo
-                </p>
-              </div>
+          sistemas, surgiu a EXE Auctions. Corsini se uniu a Adolpho Naves </h4>
+                <UButton to="https://pinegrow.com/docs/vue/support/" external target="_blank" variant="link" class="text-primary-500" trailing-icon="i-material-symbols-open-in-new">Veja como funciona</UButton>
             </div>
-          </template>
-        </UCard>
-        <UCard class="h-fit p-8 shadow-md shadow-slate-300">
-          <template #header>
-            <h5 class="text-center">ATS/Dark pools</h5>
-          </template>
-          <template #default>
-            <div class="border-t flex flex-col gap-4 mt-8 pt-8">
-              <div>
-                <h6 class="flex flex-row gap-1 mb-1 place-items-center">
-                  <UIcon
-                    name="i-material-symbols-cancel-outline"
-                    size="36px"
-                  ></UIcon
-                  ><Icon
-                    name="i-material-symbols-cancel-outline-rounded"
-                    size="36px"
-                  ></Icon
-                  >Método de precificação
-                </h6>
-                <p class="ml-6">
-                  Pre definido pelo broker. Baseado em alguma referencia de
-                  mercado ou critério subjetivo, nao necessariamente o preço
-                  ótimo
-                </p>
-              </div>
-              <div>
-                <h6 class="flex flex-row gap-1 mb-1 place-items-center">
-                  <UIcon
-                    name="i-material-symbols-cancel-outline"
-                    size="36px"
-                  ></UIcon
-                  ><Icon
-                    name="i-material-symbols-cancel-outline-rounded"
-                    size="36px"
-                  ></Icon
-                  >Método de precificação
-                </h6>
-                <p class="ml-6">
-                  Pre definido pelo broker. Baseado em alguma referencia de
-                  mercado ou critério subjetivo, nao necessariamente o preço
-                  ótimo
-                </p>
-              </div>
-              <div>
-                <h6 class="flex flex-row gap-1 mb-1 place-items-center">
-                  <UIcon
-                    name="i-material-symbols-cancel-outline"
-                    size="36px"
-                  ></UIcon
-                  ><Icon
-                    name="i-material-symbols-cancel-outline-rounded"
-                    size="36px"
-                  ></Icon
-                  >Método de precificação
-                </h6>
-                <p class="ml-6">
-                  Pre definido pelo broker. Baseado em alguma referencia de
-                  mercado ou critério subjetivo, nao necessariamente o preço
-                  ótimo
-                </p>
-              </div>
-            </div>
-          </template>
-        </UCard>
-        <UCard
-          class="border-2 border-green-500 border-solid flex flex-col p-8 place-items-center shadow-lg shadow-slate-200"
-        >
-          <template #header>
-            <svg
-              height="72"
-              viewBox="0 0 92 52"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-              width="112"
-            >
-              <path
-                d="M28.6199 3.20357H5.4625V12.8477H23.348V16.0483H5.4625V25.5708H28.6199V28.7713H0V0H28.6199V3.20357Z"
-                fill="#1F4386"
-              />
-              <path
-                d="M63.1259 0.00303601V3.20357H86.2833V12.8477H68.3978V16.0483H86.2833V25.5708H63.1259V28.7713H91.7458V0H63.1259V0.00303601Z"
-                fill="#1F4386"
-              />
-              <path
-                d="M52.9424 10.6877L63.1259 0.00303601L55.9203 0.0973474L49.4742 7.04603L52.9424 10.6877Z"
-                fill="#1F4386"
-              />
-              <path
-                d="M49.4016 14.5484L35.5864 0.00303601H28.5684L42.1687 14.6366L28.8166 28.7743H35.9405L49.4016 14.5484Z"
-                fill="#1F4386"
-              />
-              <path
-                d="M62.4995 28.3119L52.9757 18.2114L49.3017 22.0538L55.7114 28.7743H62.9262L62.5176 28.3119H62.4995Z"
-                fill="#1F4386"
-              />
-              <path
-                d="M7.77006 41.5673C8.49032 42.2458 8.85045 43.2467 8.85045 44.5762V51.0077H7.51585V49.3892C7.20111 49.9276 6.74111 50.3505 6.13282 50.6517C5.52453 50.9529 4.80124 51.105 3.96295 51.105C2.81295 51.105 1.89598 50.8282 1.21506 50.2775C0.534136 49.7238 0.19519 48.9937 0.19519 48.087C0.19519 47.1804 0.512953 46.4959 1.14545 45.9574C1.78098 45.4189 2.79177 45.1481 4.17782 45.1481H7.45532V44.5153C7.45532 43.6209 7.20716 42.9394 6.71085 42.4739C6.21453 42.0085 5.48822 41.7742 4.5319 41.7742C3.87822 41.7742 3.24874 41.8837 2.6465 42.0997C2.04427 42.3157 1.52677 42.6169 1.09703 42.9972L0.467557 41.9507C0.99111 41.5034 1.61756 41.1597 2.35296 40.9163C3.08532 40.6729 3.85703 40.5512 4.66809 40.5512C6.0148 40.5512 7.0498 40.8889 7.77006 41.5673ZM6.1994 49.4591C6.76229 49.0971 7.17992 48.5738 7.45532 47.8893V46.1917H4.21716C2.44979 46.1917 1.56914 46.8093 1.56914 48.0475C1.56914 48.6529 1.79914 49.1306 2.25611 49.4774C2.71308 49.8273 3.35467 50.0007 4.17782 50.0007C5.00098 50.0007 5.63651 49.8212 6.1994 49.4591Z"
-                fill="#58595B"
-              />
-              <path
-                d="M23.1952 40.6303V51.0077H21.8606V49.1123C21.4944 49.7451 20.989 50.2349 20.3505 50.5818C19.7089 50.9316 18.9765 51.105 18.1533 51.105C16.8066 51.105 15.7414 50.7278 14.9636 49.9702C14.1858 49.2127 13.7955 48.1053 13.7955 46.645V40.6273H15.1876V46.505C15.1876 47.5972 15.4569 48.4247 15.9926 48.9906C16.5282 49.5565 17.2939 49.8394 18.2895 49.8394C19.376 49.8394 20.2324 49.5078 20.8589 48.8446C21.4883 48.1813 21.8001 47.2565 21.8001 46.073V40.6273H23.1922L23.1952 40.6303Z"
-                fill="#58595B"
-              />
-              <path
-                d="M29.8955 50.4357C29.0905 49.9885 28.461 49.3618 28.001 48.5525C27.544 47.7433 27.314 46.8336 27.314 45.8205C27.314 44.8074 27.544 43.9008 28.001 43.0976C28.458 42.2944 29.0905 41.6708 29.8955 41.2235C30.7005 40.7763 31.6114 40.5542 32.6343 40.5542C33.524 40.5542 34.3199 40.7276 35.019 41.0775C35.7181 41.4274 36.2719 41.9354 36.6774 42.6078L35.6364 43.3167C35.2974 42.8025 34.8647 42.4192 34.3411 42.1636C33.8176 41.9081 33.2486 41.7803 32.6343 41.7803C31.8898 41.7803 31.218 41.9476 30.6218 42.2823C30.0256 42.6169 29.5626 43.0946 29.2297 43.7122C28.8968 44.3298 28.7303 45.0325 28.7303 45.8235C28.7303 46.6145 28.8968 47.3325 29.2297 47.944C29.5626 48.5556 30.0286 49.0302 30.6218 49.3648C31.218 49.6995 31.8868 49.8668 32.6343 49.8668C33.2486 49.8668 33.8176 49.7421 34.3411 49.4926C34.8647 49.2431 35.2974 48.8598 35.6364 48.3487L36.6774 49.0575C36.2719 49.7269 35.7151 50.238 35.0099 50.5878C34.3048 50.9377 33.5119 51.1111 32.6343 51.1111C31.6144 51.1111 30.7005 50.889 29.8955 50.4388V50.4357Z"
-                fill="#58595B"
-              />
-              <path
-                d="M46.0953 50.3749C45.8351 50.6122 45.5112 50.7917 45.1239 50.9164C44.7365 51.0411 44.337 51.105 43.9164 51.105C42.948 51.105 42.2035 50.8434 41.6799 50.3171C41.1564 49.7907 40.8961 49.0484 40.8961 48.087V41.8138H39.0501V40.6303H40.8961V38.3607H42.2882V40.6303H45.4295V41.8138H42.2882V48.0079C42.2882 48.6255 42.4426 49.0971 42.7482 49.4196C43.0539 49.7421 43.4957 49.9033 44.0737 49.9033C44.3612 49.9033 44.6397 49.8577 44.909 49.7664C45.1784 49.6751 45.4083 49.5443 45.6051 49.3709L46.0953 50.3779V50.3749Z"
-                fill="#58595B"
-              />
-              <path
-                d="M49.8631 38.0656C49.6664 37.8679 49.5695 37.6306 49.5695 37.3568C49.5695 37.0829 49.6664 36.8639 49.8631 36.6661C50.0598 36.4684 50.3019 36.371 50.5894 36.371C50.8769 36.371 51.119 36.4653 51.3157 36.657C51.5124 36.8487 51.6093 37.0738 51.6093 37.3385C51.6093 37.6275 51.5124 37.8709 51.3157 38.0687C51.119 38.2664 50.8769 38.3638 50.5894 38.3638C50.3019 38.3638 50.0598 38.2664 49.8631 38.0687V38.0656ZM49.8812 40.6303H51.2733V51.0077H49.8812V40.6303Z"
-                fill="#58595B"
-              />
-              <path
-                d="M57.9494 50.4266C57.1505 49.9733 56.524 49.3435 56.064 48.5434C55.607 47.7402 55.377 46.8336 55.377 45.8205C55.377 44.8074 55.607 43.9008 56.064 43.0976C56.521 42.2944 57.1505 41.6708 57.9494 41.2235C58.7483 40.7763 59.6441 40.5542 60.6368 40.5542C61.6294 40.5542 62.5282 40.7794 63.3241 41.2235C64.1231 41.6708 64.7465 42.2944 65.1974 43.0976C65.6484 43.9008 65.8753 44.8074 65.8753 45.8205C65.8753 46.8336 65.6484 47.7402 65.1974 48.5434C64.7465 49.3466 64.1201 49.9733 63.3241 50.4266C62.5252 50.8799 61.6294 51.1081 60.6368 51.1081C59.6441 51.1081 58.7453 50.8799 57.9494 50.4266ZM62.6099 49.3618C63.191 49.0271 63.648 48.5495 63.9748 47.9319C64.3016 47.3143 64.4651 46.6085 64.4651 45.8205C64.4651 45.0325 64.3016 44.3267 63.9748 43.7091C63.648 43.0915 63.194 42.6139 62.6099 42.2792C62.0289 41.9446 61.3691 41.7773 60.6368 41.7773C59.9044 41.7773 59.2477 41.9446 58.6636 42.2792C58.0826 42.6139 57.6226 43.0915 57.2897 43.7091C56.9568 44.3267 56.7903 45.0295 56.7903 45.8205C56.7903 46.6115 56.9568 47.3143 57.2897 47.9319C57.6226 48.5495 58.0795 49.0271 58.6636 49.3618C59.2447 49.6964 59.9044 49.8638 60.6368 49.8638C61.3691 49.8638 62.0258 49.6964 62.6099 49.3618Z"
-                fill="#58595B"
-              />
-              <path
-                d="M78.3286 41.686C79.0943 42.4435 79.4756 43.5448 79.4756 44.99V51.0077H78.0835V45.1299C78.0835 44.0529 77.8141 43.2284 77.2785 42.6626C76.7428 42.0967 75.9772 41.8138 74.9815 41.8138C73.8678 41.8138 72.9902 42.1454 72.3426 42.8116C71.6949 43.4749 71.3711 44.3936 71.3711 45.5649V51.0107H69.979V40.6333H71.3136V42.547C71.6919 41.9142 72.2185 41.4243 72.8933 41.0775C73.5682 40.7276 74.349 40.5542 75.2387 40.5542C76.534 40.5542 77.563 40.9315 78.3286 41.689V41.686Z"
-                fill="#58595B"
-              />
-              <path
-                d="M84.8806 50.7399C84.1149 50.4966 83.5157 50.1923 83.086 49.8212L83.7155 48.7168C84.1482 49.0575 84.6899 49.3374 85.3436 49.5565C85.9973 49.7725 86.6782 49.882 87.3834 49.882C88.3245 49.882 89.0206 49.7329 89.4745 49.4378C89.9255 49.1427 90.1524 48.7259 90.1524 48.1844C90.1524 47.8041 90.0283 47.5029 89.7802 47.2869C89.532 47.0709 89.2173 46.9066 88.839 46.794C88.4607 46.6815 87.9553 46.575 87.3289 46.4685C86.4906 46.3103 85.8187 46.1491 85.3073 45.9848C84.7958 45.8205 84.3631 45.5406 84.003 45.1451C83.6428 44.7496 83.4643 44.205 83.4643 43.5083C83.4643 42.6413 83.8244 41.9294 84.5447 41.3787C85.2649 40.825 86.2636 40.5512 87.5468 40.5512C88.2156 40.5512 88.8814 40.6394 89.5472 40.8189C90.213 40.9984 90.7637 41.2296 91.1965 41.5187L90.5882 42.6443C89.7378 42.0511 88.724 41.756 87.5468 41.756C86.657 41.756 85.9882 41.9142 85.5343 42.2306C85.0834 42.547 84.8564 42.9607 84.8564 43.4749C84.8564 43.8704 84.9835 44.1837 85.2377 44.421C85.4919 44.6583 85.8097 44.8318 86.191 44.9443C86.5693 45.0569 87.0928 45.1725 87.7616 45.2881C88.5848 45.4463 89.2476 45.6045 89.7439 45.7627C90.2402 45.9209 90.6669 46.1917 91.021 46.572C91.3751 46.9522 91.5506 47.4786 91.5506 48.1509C91.5506 49.0575 91.1753 49.7786 90.4218 50.311C89.6682 50.8434 88.6272 51.1111 87.2926 51.1111C86.4543 51.1111 85.6553 50.9894 84.8897 50.746L84.8806 50.7399Z"
-                fill="#58595B"
-              />
-            </svg>
-          </template>
-          <template #default>
-            <div class="border-t flex flex-col gap-4 mt-8 pt-8">
-              <div>
-                <h6 class="flex flex-row gap-1 mb-1 place-items-center">
-                  <UIcon name="i-material-symbols-cancel-outline"></UIcon
-                  ><Icon
-                    name="i-material-symbols-cancel-outline-rounded"
-                    size="36px"
-                  ></Icon
-                  >Método de precificação
-                </h6>
-                <p class="ml-6">
+            <div class="gap-6 grid place-items-center sm:grid-cols-1 lg:grid-cols-3">
+                <UCard class="h-fit p-8 shadow-md shadow-slate-300">
+                    <template #header>
+                        <h5 class="text-center">Calls</h5>
+                    </template>
+                    <template #default>
+                        <div class="border-gray-50 border-t-2 flex flex-col gap-5 mt-8 pt-8">
+                            <div>
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                        <g stroke="#A2CF66" filter="url(#a)">
+                                            <path fill="#A2CF66" stroke-width=".5" d="M9.4 18.3c.5.5 1.2.5 1.7 0l8.4-8.3A1.2 1.2 0 0 0 18 8.3l-7.1 7c-.3.4-.8.4-1 0L7 12.9a1.2 1.2 0 1 0-1.6 1.7l3.9 3.8Z"/>
+                                            <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
+                                        </g>
+                                        <defs>
+                                            <filter id="a" width="25" height="25.7" x="0" y=".8" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                                <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                                <feOffset dy=".7"/>
+                                                <feGaussianBlur stdDeviation=".5"/>
+                                                <feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/>
+                                                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"/>
+                                                <feBlend in2="shape" result="effect1_innerShadow_293_904"/>
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                  Método de precificação </h6>
+                                <p class="ml-8">
+                  Definido pela atual oferta e demanda para o respectivo volume.
+                  Teoricamente o preço ótimo </p>
+                            </div>
+                            <div>
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                        <g stroke="#D03435" filter="url(#a)">
+                                            <path fill="#D03435" stroke-width=".5" d="m10.2 14.3-2.4 2.4A1 1 0 0 0 9.2 18l2.3-2.3c.6-.6 1.4-.6 2 0l2.3 2.3a1 1 0 0 0 1.4-1.3l-2.4-2.4c-.5-.5-.5-1.4 0-1.9l2.4-2.4a1 1 0 1 0-1.4-1.3L13.5 11c-.6.6-1.4.6-2 0L9.2 8.7A1 1 0 1 0 7.8 10l2.4 2.4c.5.5.5 1.4 0 1.9Z"/>
+                                            <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
+                                        </g>
+                                        <defs>
+                                            <filter id="a" width="25" height="26.2" x="0" y=".8" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                                <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                                <feOffset dy="1.2"/>
+                                                <feGaussianBlur stdDeviation=".8"/>
+                                                <feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/>
+                                                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"/>
+                                                <feBlend in2="shape" result="effect1_innerShadow_420_289"/>
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                  Processo de Negociação </h6>
+                                <p class="ml-8">Lento e paulatino</p>
+                            </div>
+                            <div>
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                        <g stroke="#D03435" filter="url(#a)">
+                                            <path fill="#D03435" stroke-width=".5" d="m10.2 14.3-2.4 2.4A1 1 0 0 0 9.2 18l2.3-2.3c.6-.6 1.4-.6 2 0l2.3 2.3a1 1 0 0 0 1.4-1.3l-2.4-2.4c-.5-.5-.5-1.4 0-1.9l2.4-2.4a1 1 0 1 0-1.4-1.3L13.5 11c-.6.6-1.4.6-2 0L9.2 8.7A1 1 0 1 0 7.8 10l2.4 2.4c.5.5.5 1.4 0 1.9Z"/>
+                                            <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
+                                        </g>
+                                        <defs>
+                                            <filter id="a" width="25" height="26.2" x="0" y=".8" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                                <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                                <feOffset dy="1.2"/>
+                                                <feGaussianBlur stdDeviation=".8"/>
+                                                <feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/>
+                                                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"/>
+                                                <feBlend in2="shape" result="effect1_innerShadow_420_289"/>
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                  Ordens de Troca </h6>
+                                <p class="ml-8">Não permite ordens de troca</p>
+                            </div>
+                        </div>
+                    </template>
+                </UCard>
+                <UCard class="h-fit p-8 shadow-md shadow-slate-300">
+                    <template #header>
+                        <h5 class="text-center">ATS/Dark pools</h5>
+                    </template>
+                    <template #default>
+                        <div class="border-gray-50 border-t-2 flex flex-col gap-5 mt-8 pt-8">
+                            <div>
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                        <g stroke="#D03435" filter="url(#a)">
+                                            <path fill="#D03435" stroke-width=".5" d="m10.2 14.3-2.4 2.4A1 1 0 0 0 9.2 18l2.3-2.3c.6-.6 1.4-.6 2 0l2.3 2.3a1 1 0 0 0 1.4-1.3l-2.4-2.4c-.5-.5-.5-1.4 0-1.9l2.4-2.4a1 1 0 1 0-1.4-1.3L13.5 11c-.6.6-1.4.6-2 0L9.2 8.7A1 1 0 1 0 7.8 10l2.4 2.4c.5.5.5 1.4 0 1.9Z"/>
+                                            <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
+                                        </g>
+                                        <defs>
+                                            <filter id="a" width="25" height="26.2" x="0" y=".8" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                                <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                                <feOffset dy="1.2"/>
+                                                <feGaussianBlur stdDeviation=".8"/>
+                                                <feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/>
+                                                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"/>
+                                                <feBlend in2="shape" result="effect1_innerShadow_420_289"/>
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                  Método de precificação </h6>
+                                <p class="ml-8">
                   Predefinido pelo broker. Baseado em alguma referencia de
-                  mercado ou critério subjetivo, nao necessariamente o preço
-                  ótimo
-                </p>
-              </div>
-              <div>
-                <h6 class="flex flex-row gap-1 mb-1 place-items-center">
-                  <UIcon
-                    name="i-material-symbols-cancel-outline"
-                    size="36px"
-                  ></UIcon
-                  ><Icon
-                    name="i-material-symbols-cancel-outline-rounded"
-                    size="36px"
-                  ></Icon
-                  >Método de precificação
-                </h6>
-                <p class="ml-6">
-                  Pre definido pelo broker. Baseado em alguma referencia de
-                  mercado ou critério subjetivo, nao necessariamente o preço
-                  ótimo
-                </p>
-              </div>
-              <div>
-                <h6 class="flex flex-row gap-1 mb-1 place-items-center">
-                  <UIcon
-                    name="i-material-symbols-cancel-outline"
-                    size="36px"
-                  ></UIcon
-                  ><Icon
-                    name="i-material-symbols-cancel-outline-rounded"
-                    size="36px"
-                  ></Icon
-                  >Método de precificação
-                </h6>
-                <p class="ml-6">
-                  Pre definido pelo broker. Baseado em alguma referencia de
-                  mercado ou critério subjetivo, nao necessariamente o preço
-                  ótimo
-                </p>
-              </div>
+                  mercado ou critério subjetivo, não necessariamente o preço
+                  ótimo </p>
+                            </div>
+                            <div>
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                        <g stroke="#A2CF66" filter="url(#a)">
+                                            <path fill="#A2CF66" stroke-width=".5" d="M9.4 18.3c.5.5 1.2.5 1.7 0l8.4-8.3A1.2 1.2 0 0 0 18 8.3l-7.1 7c-.3.4-.8.4-1 0L7 12.9a1.2 1.2 0 1 0-1.6 1.7l3.9 3.8Z"/>
+                                            <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
+                                        </g>
+                                        <defs>
+                                            <filter id="a" width="25" height="25.7" x="0" y=".8" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                                <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                                <feOffset dy=".7"/>
+                                                <feGaussianBlur stdDeviation=".5"/>
+                                                <feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/>
+                                                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"/>
+                                                <feBlend in2="shape" result="effect1_innerShadow_293_904"/>
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                  Processo de Negociação </h6>
+                                <p class="ml-8">
+                  Bastante rápido, com ordens seladas e anônimas </p>
+                            </div>
+                            <div>
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                        <g stroke="#D03435" filter="url(#a)">
+                                            <path fill="#D03435" stroke-width=".5" d="m10.2 14.3-2.4 2.4A1 1 0 0 0 9.2 18l2.3-2.3c.6-.6 1.4-.6 2 0l2.3 2.3a1 1 0 0 0 1.4-1.3l-2.4-2.4c-.5-.5-.5-1.4 0-1.9l2.4-2.4a1 1 0 1 0-1.4-1.3L13.5 11c-.6.6-1.4.6-2 0L9.2 8.7A1 1 0 1 0 7.8 10l2.4 2.4c.5.5.5 1.4 0 1.9Z"/>
+                                            <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
+                                        </g>
+                                        <defs>
+                                            <filter id="a" width="25" height="26.2" x="0" y=".8" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                                <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                                <feOffset dy="1.2"/>
+                                                <feGaussianBlur stdDeviation=".8"/>
+                                                <feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/>
+                                                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"/>
+                                                <feBlend in2="shape" result="effect1_innerShadow_420_289"/>
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                  Ordens de Troca </h6>
+                                <p class="ml-8">Não permite ordens de troca</p>
+                            </div>
+                        </div>
+                    </template>
+                </UCard>
+                <UCard class="border-2 border-green-500 border-solid flex flex-col p-8 place-items-center shadow-lg shadow-slate-200">
+                    <template #header>
+                        <svg xmlns="http://www.w3.org/2000/svg" width="112" height="72" fill="none" viewBox="0 0 92 52">
+                            <path fill="#1F4386" d="M28.62 3.2H5.46v9.65h17.89v3.2H5.46v9.52h23.16v3.2H0V0h28.62v3.2ZM63.13 0v3.2h23.15v9.65H68.4v3.2h17.88v9.52H63.13v3.2h28.62V0H63.13ZM52.94 10.69 63.13 0l-7.21.1-6.45 6.95 3.47 3.64Z"/>
+                            <path fill="#1F4386" d="M49.4 14.55 35.6 0h-7.02l13.6 14.64-13.35 14.13h7.12L49.4 14.55Zm13.1 13.76-9.52-10.1-3.68 3.84 6.41 6.72h7.22l-.41-.46h-.02Z"/>
+                            <path fill="#58595B" d="M7.77 41.57c.72.68 1.08 1.68 1.08 3v6.44H7.52v-1.62a3.2 3.2 0 0 1-1.39 1.26c-.6.3-1.33.45-2.17.45a4.25 4.25 0 0 1-2.74-.82 2.68 2.68 0 0 1-1.02-2.2c0-.9.31-1.58.95-2.12.63-.54 1.64-.81 3.03-.81h3.28v-.63c0-.9-.25-1.58-.75-2.05-.5-.46-1.22-.7-2.18-.7A5.43 5.43 0 0 0 1.1 43l-.63-1.05a5.42 5.42 0 0 1 1.88-1.03 7.3 7.3 0 0 1 2.32-.37c1.34 0 2.38.34 3.1 1.02ZM6.2 49.46a3.3 3.3 0 0 0 1.26-1.57v-1.7H4.22c-1.77 0-2.65.62-2.65 1.86 0 .6.23 1.08.69 1.43.45.35 1.1.52 1.92.52.82 0 1.46-.18 2.02-.54Zm17-8.83v10.38h-1.34v-1.9a3.82 3.82 0 0 1-1.5 1.47c-.65.35-1.38.52-2.2.52a4.38 4.38 0 0 1-3.2-1.13c-.77-.76-1.16-1.86-1.16-3.32v-6.02h1.39v5.88c0 1.09.27 1.91.8 2.48.54.57 1.3.85 2.3.85 1.09 0 1.94-.33 2.57-1 .63-.66.94-1.58.94-2.77v-5.44h1.4Zm6.7 9.81a4.85 4.85 0 0 1-1.9-1.89 5.46 5.46 0 0 1-.69-2.73c0-1.01.23-1.92.7-2.72a4.85 4.85 0 0 1 1.89-1.88c.8-.44 1.71-.67 2.73-.67.9 0 1.69.18 2.39.53.7.35 1.25.86 1.66 1.53l-1.04.7c-.34-.5-.78-.9-1.3-1.15a3.84 3.84 0 0 0-1.7-.38c-.75 0-1.42.17-2.02.5-.6.34-1.06.81-1.39 1.43-.33.62-.5 1.32-.5 2.11 0 .8.17 1.51.5 2.12.33.62.8 1.09 1.4 1.42.59.34 1.26.5 2 .5.62 0 1.19-.12 1.71-.37s.96-.63 1.3-1.14l1.04.7c-.4.68-.96 1.19-1.67 1.54-.7.35-1.5.52-2.38.52a5.52 5.52 0 0 1-2.73-.67Zm16.2-.07a2.6 2.6 0 0 1-.98.55 3.9 3.9 0 0 1-1.2.18c-.97 0-1.72-.26-2.24-.78a3.04 3.04 0 0 1-.78-2.23V41.8h-1.85v-1.18h1.85v-2.27h1.39v2.27h3.14v1.18h-3.14V48c0 .62.15 1.09.46 1.41.3.32.75.48 1.32.48a2.29 2.29 0 0 0 1.54-.53l.49 1Zm3.76-12.3a.97.97 0 0 1-.3-.71c0-.28.1-.5.3-.7.2-.2.44-.29.73-.29a1 1 0 0 1 1.02.97 1 1 0 0 1-.3.73c-.2.2-.43.3-.72.3a.98.98 0 0 1-.73-.3Zm.02 2.56h1.4v10.38h-1.4V40.63Zm8.07 9.8a4.97 4.97 0 0 1-1.89-1.89 5.4 5.4 0 0 1-.68-2.72c0-1.01.23-1.92.68-2.72a4.87 4.87 0 0 1 1.89-1.88 5.4 5.4 0 0 1 2.69-.67c.99 0 1.89.23 2.68.67a4.8 4.8 0 0 1 1.88 1.88c.45.8.68 1.7.68 2.72 0 1.01-.23 1.92-.68 2.72a4.88 4.88 0 0 1-1.88 1.89c-.8.45-1.7.68-2.68.68-1 0-1.9-.23-2.7-.68Zm4.66-1.07a3.5 3.5 0 0 0 1.36-1.43c.33-.62.5-1.32.5-2.1 0-.8-.17-1.5-.5-2.12a3.49 3.49 0 0 0-1.36-1.43 3.89 3.89 0 0 0-1.97-.5 3.9 3.9 0 0 0-1.98.5 3.5 3.5 0 0 0-1.37 1.43c-.33.62-.5 1.32-.5 2.11 0 .8.17 1.5.5 2.11.33.62.79 1.1 1.37 1.43.58.34 1.24.5 1.98.5a3.9 3.9 0 0 0 1.97-.5Zm15.72-7.67c.76.75 1.15 1.85 1.15 3.3v6.02h-1.4v-5.88c0-1.08-.27-1.9-.8-2.47a3.04 3.04 0 0 0-2.3-.85c-1.11 0-1.99.34-2.64 1a3.77 3.77 0 0 0-.97 2.75v5.45h-1.4V40.63h1.34v1.92c.38-.64.9-1.13 1.58-1.47a5.02 5.02 0 0 1 2.35-.53c1.3 0 2.32.38 3.09 1.14Zm6.55 9.05a5.09 5.09 0 0 1-1.8-.92l.64-1.1c.43.34.97.62 1.62.84a6.7 6.7 0 0 0 2.04.32 3.9 3.9 0 0 0 2.1-.44c.45-.3.67-.71.67-1.26 0-.38-.12-.68-.37-.9a2.5 2.5 0 0 0-.94-.49 13.5 13.5 0 0 0-1.51-.32c-.84-.16-1.51-.32-2.02-.49a2.95 2.95 0 0 1-1.3-.83c-.37-.4-.55-.95-.55-1.64 0-.87.36-1.58 1.08-2.13a4.82 4.82 0 0 1 3-.83 7.53 7.53 0 0 1 3.66.97l-.61 1.12a5.18 5.18 0 0 0-3.04-.88c-.9 0-1.56.15-2.02.47-.45.32-.67.73-.67 1.24 0 .4.12.71.38.95.25.24.57.41.95.52.38.12.9.23 1.57.35.82.16 1.49.31 1.98.47.5.16.93.43 1.28.81.36.38.53.9.53 1.58 0 .9-.37 1.63-1.13 2.16-.75.53-1.8.8-3.13.8-.84 0-1.63-.12-2.4-.36v-.01Z"/>
+                        </svg>
+                    </template>
+                    <template #default>
+                        <div class="border-gray-50 border-t-2 flex flex-col gap-5 mt-8 pt-8">
+                            <div>
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                        <g stroke="#A2CF66" filter="url(#a)">
+                                            <path fill="#A2CF66" stroke-width=".5" d="M9.4 18.3c.5.5 1.2.5 1.7 0l8.4-8.3A1.2 1.2 0 0 0 18 8.3l-7.1 7c-.3.4-.8.4-1 0L7 12.9a1.2 1.2 0 1 0-1.6 1.7l3.9 3.8Z"/>
+                                            <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
+                                        </g>
+                                        <defs>
+                                            <filter id="a" width="25" height="25.7" x="0" y=".8" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                                <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                                <feOffset dy=".7"/>
+                                                <feGaussianBlur stdDeviation=".5"/>
+                                                <feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/>
+                                                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"/>
+                                                <feBlend in2="shape" result="effect1_innerShadow_293_904"/>
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                  Método de precificação </h6>
+                                <p class="ml-8">
+                  Definido pela atual oferta e demanda para o respectivo volume.
+                  Teoricamente o preço ótimo </p>
+                            </div>
+                            <div>
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                        <g stroke="#A2CF66" filter="url(#a)">
+                                            <path fill="#A2CF66" stroke-width=".5" d="M9.4 18.3c.5.5 1.2.5 1.7 0l8.4-8.3A1.2 1.2 0 0 0 18 8.3l-7.1 7c-.3.4-.8.4-1 0L7 12.9a1.2 1.2 0 1 0-1.6 1.7l3.9 3.8Z"/>
+                                            <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
+                                        </g>
+                                        <defs>
+                                            <filter id="a" width="25" height="25.7" x="0" y=".8" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                                <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                                <feOffset dy=".7"/>
+                                                <feGaussianBlur stdDeviation=".5"/>
+                                                <feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/>
+                                                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"/>
+                                                <feBlend in2="shape" result="effect1_innerShadow_293_904"/>
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                  Processo de Negociação </h6>
+                                <p class="ml-8">
+                  Bastante rápido, com ordens seladas e anônimas </p>
+                            </div>
+                            <div>
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                        <g stroke="#A2CF66" filter="url(#a)">
+                                            <path fill="#A2CF66" stroke-width=".5" d="M9.4 18.3c.5.5 1.2.5 1.7 0l8.4-8.3A1.2 1.2 0 0 0 18 8.3l-7.1 7c-.3.4-.8.4-1 0L7 12.9a1.2 1.2 0 1 0-1.6 1.7l3.9 3.8Z"/>
+                                            <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
+                                        </g>
+                                        <defs>
+                                            <filter id="a" width="25" height="25.7" x="0" y=".8" color-interpolation-filters="sRGB" filterUnits="userSpaceOnUse">
+                                                <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                                                <feBlend in="SourceGraphic" in2="BackgroundImageFix" result="shape"/>
+                                                <feColorMatrix in="SourceAlpha" result="hardAlpha" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"/>
+                                                <feOffset dy=".7"/>
+                                                <feGaussianBlur stdDeviation=".5"/>
+                                                <feComposite in2="hardAlpha" k2="-1" k3="1" operator="arithmetic"/>
+                                                <feColorMatrix values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"/>
+                                                <feBlend in2="shape" result="effect1_innerShadow_293_904"/>
+                                            </filter>
+                                        </defs>
+                                    </svg>
+                  Ordens de Troca </h6>
+                                <p class="ml-8">Permite ordens de troca</p>
+                            </div>
+                        </div>
+                    </template>
+                </UCard>
             </div>
-          </template>
-        </UCard>
-      </div>
+        </div>
     </div>
-  </div>
 </template>
 <style scoped></style>

@@ -60,38 +60,40 @@ html {
 }
 
 h1 {
-  font-size: 3.75rem;
   @apply text-blue-500;
+  font-size: 3.75rem;
 }
 h2 {
-  font-size: 2.3rem;
   @apply text-blue-500;
+  font-size: 2.3rem;
   line-height: 3rem;
 }
 h3 {
+  @apply text-indigo-500;
   font-size: 1.2rem;
   font-weight: extrabold;
-  @apply text-indigo-500;
 }
 h4 {
+  @apply text-indigo-950;
   font-size: 1.1rem;
   font-weight: normal;
   line-height: normal;
 }
 h5 {
+  @apply text-gray-300;
   font-size: 1.4rem;
   font-weight: bold;
-  @apply text-gray-300;
 }
 h6 {
   @apply text-blue-500;
   font-size: 1rem;
-  font-weight: bold;
+  font-weight: 600;
   line-height: 1.4rem;
 }
 p {
+  @apply text-indigo-950;
   font-size: 0.94rem;
-  font-weight: normal;
+  font-weight: 400;
   font-family: Inter, sans-serif;
 }
 /* Pinegrow generated Design Panel Extra Rules End */
