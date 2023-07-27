@@ -7,7 +7,7 @@
   // })
 </script>
 <template>
-    <div class="container mx-auto pb-32 md:pb-40 pt-24 px-4">
+    <div class="container mx-auto pb-32 pt-24 px-4 md:pb-40">
         <div class="mb-16 md:max-w-2xl md:w-9/12 sm:w-9/12">
             <h3>Modelo inovador</h3>
             <h2>A velocidade dos ATS com a eficiência dos mercados de balcão</h2>

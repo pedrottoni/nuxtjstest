@@ -16,9 +16,9 @@
                         <h5 class="text-center">Calls</h5>
                     </template>
                     <template #default>
-                        <div class="border-gray-50 border-t-2 flex flex-col gap-5 mt-8 pt-8">
+                        <div class="border-gray-50 border-t-2 flex flex-col gap-6 mt-8 pt-8">
                             <div>
-                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
                                         <g stroke="#A2CF66" filter="url(#a)">
                                             <path fill="#A2CF66" stroke-width=".5" d="M9.4 18.3c.5.5 1.2.5 1.7 0l8.4-8.3A1.2 1.2 0 0 0 18 8.3l-7.1 7c-.3.4-.8.4-1 0L7 12.9a1.2 1.2 0 1 0-1.6 1.7l3.9 3.8Z"/>
                                             <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
@@ -42,7 +42,7 @@
                   Teoricamente o preço ótimo </p>
                             </div>
                             <div>
-                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
                                         <g stroke="#D03435" filter="url(#a)">
                                             <path fill="#D03435" stroke-width=".5" d="m10.2 14.3-2.4 2.4A1 1 0 0 0 9.2 18l2.3-2.3c.6-.6 1.4-.6 2 0l2.3 2.3a1 1 0 0 0 1.4-1.3l-2.4-2.4c-.5-.5-.5-1.4 0-1.9l2.4-2.4a1 1 0 1 0-1.4-1.3L13.5 11c-.6.6-1.4.6-2 0L9.2 8.7A1 1 0 1 0 7.8 10l2.4 2.4c.5.5.5 1.4 0 1.9Z"/>
                                             <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
@@ -64,7 +64,7 @@
                                 <p class="ml-8">Lento e paulatino</p>
                             </div>
                             <div>
-                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
                                         <g stroke="#D03435" filter="url(#a)">
                                             <path fill="#D03435" stroke-width=".5" d="m10.2 14.3-2.4 2.4A1 1 0 0 0 9.2 18l2.3-2.3c.6-.6 1.4-.6 2 0l2.3 2.3a1 1 0 0 0 1.4-1.3l-2.4-2.4c-.5-.5-.5-1.4 0-1.9l2.4-2.4a1 1 0 1 0-1.4-1.3L13.5 11c-.6.6-1.4.6-2 0L9.2 8.7A1 1 0 1 0 7.8 10l2.4 2.4c.5.5.5 1.4 0 1.9Z"/>
                                             <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
@@ -93,9 +93,9 @@
                         <h5 class="text-center">ATS/Dark pools</h5>
                     </template>
                     <template #default>
-                        <div class="border-gray-50 border-t-2 flex flex-col gap-5 mt-8 pt-8">
+                        <div class="border-gray-50 border-t-2 flex flex-col gap-6 mt-8 pt-8">
                             <div>
-                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
                                         <g stroke="#D03435" filter="url(#a)">
                                             <path fill="#D03435" stroke-width=".5" d="m10.2 14.3-2.4 2.4A1 1 0 0 0 9.2 18l2.3-2.3c.6-.6 1.4-.6 2 0l2.3 2.3a1 1 0 0 0 1.4-1.3l-2.4-2.4c-.5-.5-.5-1.4 0-1.9l2.4-2.4a1 1 0 1 0-1.4-1.3L13.5 11c-.6.6-1.4.6-2 0L9.2 8.7A1 1 0 1 0 7.8 10l2.4 2.4c.5.5.5 1.4 0 1.9Z"/>
                                             <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
@@ -120,7 +120,7 @@
                   ótimo </p>
                             </div>
                             <div>
-                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
                                         <g stroke="#A2CF66" filter="url(#a)">
                                             <path fill="#A2CF66" stroke-width=".5" d="M9.4 18.3c.5.5 1.2.5 1.7 0l8.4-8.3A1.2 1.2 0 0 0 18 8.3l-7.1 7c-.3.4-.8.4-1 0L7 12.9a1.2 1.2 0 1 0-1.6 1.7l3.9 3.8Z"/>
                                             <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
@@ -143,7 +143,7 @@
                   Bastante rápido, com ordens seladas e anônimas </p>
                             </div>
                             <div>
-                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
                                         <g stroke="#D03435" filter="url(#a)">
                                             <path fill="#D03435" stroke-width=".5" d="m10.2 14.3-2.4 2.4A1 1 0 0 0 9.2 18l2.3-2.3c.6-.6 1.4-.6 2 0l2.3 2.3a1 1 0 0 0 1.4-1.3l-2.4-2.4c-.5-.5-.5-1.4 0-1.9l2.4-2.4a1 1 0 1 0-1.4-1.3L13.5 11c-.6.6-1.4.6-2 0L9.2 8.7A1 1 0 1 0 7.8 10l2.4 2.4c.5.5.5 1.4 0 1.9Z"/>
                                             <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
@@ -176,9 +176,9 @@
                         </svg>
                     </template>
                     <template #default>
-                        <div class="border-gray-50 border-t-2 flex flex-col gap-5 mt-8 pt-8">
+                        <div class="border-gray-50 border-t-2 flex flex-col gap-6 mt-8 pt-8">
                             <div>
-                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
                                         <g stroke="#A2CF66" filter="url(#a)">
                                             <path fill="#A2CF66" stroke-width=".5" d="M9.4 18.3c.5.5 1.2.5 1.7 0l8.4-8.3A1.2 1.2 0 0 0 18 8.3l-7.1 7c-.3.4-.8.4-1 0L7 12.9a1.2 1.2 0 1 0-1.6 1.7l3.9 3.8Z"/>
                                             <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
@@ -202,7 +202,7 @@
                   Teoricamente o preço ótimo </p>
                             </div>
                             <div>
-                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
                                         <g stroke="#A2CF66" filter="url(#a)">
                                             <path fill="#A2CF66" stroke-width=".5" d="M9.4 18.3c.5.5 1.2.5 1.7 0l8.4-8.3A1.2 1.2 0 0 0 18 8.3l-7.1 7c-.3.4-.8.4-1 0L7 12.9a1.2 1.2 0 1 0-1.6 1.7l3.9 3.8Z"/>
                                             <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
@@ -225,7 +225,7 @@
                   Bastante rápido, com ordens seladas e anônimas </p>
                             </div>
                             <div>
-                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-400"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
+                                <h6 class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"> <svg xmlns="http://www.w3.org/2000/svg" width="25" height="26" fill="none">
                                         <g stroke="#A2CF66" filter="url(#a)">
                                             <path fill="#A2CF66" stroke-width=".5" d="M9.4 18.3c.5.5 1.2.5 1.7 0l8.4-8.3A1.2 1.2 0 0 0 18 8.3l-7.1 7c-.3.4-.8.4-1 0L7 12.9a1.2 1.2 0 1 0-1.6 1.7l3.9 3.8Z"/>
                                             <rect width="22" height="22" x="1.5" y="2.3" stroke-width="3" rx="11"/>
