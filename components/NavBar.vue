@@ -13,7 +13,7 @@
 <template>
     <div class="w-full">
         <nav>
-            <div class="container mx-auto px-4 sm:px-6">
+            <div class="container mx-auto px-4">
                 <div class="flex h-fit items-center justify-between py-3">
                     <div class="flex items-center justify-between w-full">
                         <div class="flex flex-shrink-0 items-center">

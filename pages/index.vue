@@ -11,10 +11,10 @@
 </script>
 <template>
     <main>
-        <HeroSectionIndex/>
-        <ParceirosIndex/>
-        <ModeloInovador/>
-        <DiferenciaisComparativo/>
+        <HeroIndex/>
+        <IndexParceiros/>
+        <IndexModeloInovador/>
+        <IndexDiferenciaisComparativo/>
     </main>
 </template>
 <style scoped></style>
