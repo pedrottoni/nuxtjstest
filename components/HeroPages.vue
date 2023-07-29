@@ -28,7 +28,13 @@
       <div class="title">
         <h1>{{ props.title }}</h1>
         <h4 class="mt-4 my-8">{{ props.subtitle }}</h4>
-        <UButton v-if="props.buttom" to="" label="Comece agora" />
+        <UButton
+          v-if="props.buttom"
+          to=""
+          label="Comece agora"
+          size="xl"
+          class="!rounded-3xl blue mt-4 px-7 py-3"
+        />
       </div>
       <nuxt-img :src="props.img" fit="cover" class="md:w-1/2" />
     </div>

@@ -15,6 +15,7 @@
         <IndexParceiros/>
         <IndexModeloInovador/>
         <IndexDiferenciaisComparativo/>
+        <IndexVamos/>
     </main>
 </template>
 <style scoped></style>

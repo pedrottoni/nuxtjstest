@@ -7,8 +7,8 @@
       <div
         class="mb-16 text-center flex-col w-12/12 lg:flex lg:w-6/12 lg:place-items-center"
       >
-        <h3>Modelo inovador</h3>
-        <h2>Competition e Differentiation</h2>
+        <h3>Não definido</h3>
+        <h2>Tradução - Competition e Differentiation</h2>
         <h4>
           Após anos desenvolvendo uma solução que combina o melhor dos dois
           sistemas, surgiu a EXE Auctions. Corsini se uniu a Adolpho Naves
@@ -726,7 +726,7 @@
                   </svg>
                   Ordens de Troca
                 </h6>
-                <p class="ml-8">Permite ordens de troca</p>
+                <p class="ml-8">Sim, permite ordens de troca</p>
               </div>
             </div>
           </template>
