@@ -21,24 +21,16 @@
   })
 </script>
 <template>
-  <section class="bg-slate-100">
-    <div
-      class="container flex flex-col gap-8 mx-auto pb-24 place-items-center pt-16 px-4 md:flex-row md:justify-between"
-    >
-      <div class="title">
-        <h1>{{ props.title }}</h1>
-        <h4 class="mt-4 my-8">{{ props.subtitle }}</h4>
-        <UButton
-          v-if="props.buttom"
-          to=""
-          label="Comece agora"
-          size="xl"
-          class="!rounded-3xl blue mt-4 px-7 py-3"
-        />
-      </div>
-      <nuxt-img :src="props.img" fit="cover" class="md:w-1/2" />
-    </div>
-  </section>
+    <section class="bg-slate-100">
+        <div class="container flex flex-col gap-8 mx-auto pb-24 place-items-center pt-36 px-4 md:flex-row md:justify-between">
+            <div class="title">
+                <h1>{{ props.title }}</h1>
+                <h4 class="mt-4 my-8">{{ props.subtitle }}</h4>
+                <UButton v-if="props.buttom" to="" label="Comece agora" size="xl" class="!rounded-3xl blue mt-4 px-7 py-3"/>
+            </div>
+            <nuxt-img :src="props.img" fit="cover" class="md:w-1/2"/>
+        </div>
+    </section>
 </template>
 <style scoped>
   h1 {

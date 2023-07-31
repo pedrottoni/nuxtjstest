@@ -30,11 +30,14 @@
   })
 </script>
 <template>
-    <Head>
-        <Meta name="twitter:image" content="https://icons.vuetelescope.com/framework/nuxt.svg"/>
-        <Meta name="twitter:image:alt" content="Nuxt"/>
-        <Meta name="twitter:site" content="@pinegrow"/>
-        <Meta name="twitter:card" content="summary"/>
-        <Link rel="icon" type="image/x-icon" href="/favicon.ico"/>
-    </Head>
+  <Head>
+    <Meta
+      name="twitter:image"
+      content="https://icons.vuetelescope.com/framework/nuxt.svg"
+    />
+    <Meta name="twitter:image:alt" content="Nuxt" />
+    <Meta name="twitter:site" content="@pinegrow" />
+    <Meta name="twitter:card" content="summary" />
+    <Link rel="icon" type="image/x-icon" href="/favicon.ico" />
+  </Head>
 </template>

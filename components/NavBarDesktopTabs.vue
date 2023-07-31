@@ -15,11 +15,9 @@
   })
 </script>
 <template>
-    <div class="h-full items-center">
-        <div class="flex h-full space-x-2">
-            <UButton v-for="(navlink, index) in navlinks" :key="index" :to="navlink.link" :label="navlink.text" size="lg" :variant="isCurrentRoute(navlink, currentPath) ? 'solid' : 'ghost'" class="!rounded-lg">
+    <div class="h-full items-center flex space-x-3">
+        <UButton v-for="(navlink, index) in navlinks" :key="index" :to="navlink.link" :label="navlink.text" size="lg" variant="ghost" :color="isCurrentRoute(navlink, currentPath) ? 'primary' : 'blue'">
 </UButton>
-        </div>
     </div>
 </template>
 <style scoped></style>

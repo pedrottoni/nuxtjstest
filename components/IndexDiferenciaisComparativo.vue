@@ -1,13 +1,13 @@
 <script setup lang="ts"></script>
 <template>
     <section class="bg-slate-100">
-        <div class="container flex flex-col mx-auto place-items-center px-4 py-32 md:py-40">
-            <div class="mb-16 text-center flex-col w-12/12 lg:flex lg:w-6/12 lg:place-items-center">
+        <div class="container flex flex-col md:py-32 mx-auto place-items-center px-4 py-28">
+            <div class="flex-col mb-16 text-center lg:flex lg:max-w-2xl lg:place-items-center">
                 <h3>Diferencial</h3>
                 <h2>A velocidade dos ATS com a eficiência dos mercados de balcão</h2>
-                <h4>
-          Após anos desenvolvendo uma solução que combina o melhor dos dois
-          sistemas, surgiu a EXE Auctions. Corsini se uniu a Adolpho Naves </h4>
+                <h4 class="mb-6 lg:max-w-lg">
+          Juntando o melhor dos dois mundos. Nossa solução elimina as
+          desvantagens dos métodos atuais </h4>
                 <UButton to="https://pinegrow.com/docs/vue/support/" external target="_blank" variant="link" class="text-primary-500" trailing-icon="i-material-symbols-open-in-new">Veja como funciona</UButton>
             </div>
             <div class="gap-6 grid place-items-center sm:grid-cols-1 lg:grid-cols-3">

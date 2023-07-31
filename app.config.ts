@@ -5,7 +5,9 @@ export default defineAppConfig({
     button: {
       rounded: 'rounded-3xl',
       variant: {
-        link: 'px-0 py-0 2xs:px-0 py-0 xs:px-0 py-0 sm:px-0 py-0 md:px-0 py-0 lg:px-0 py-0 xl:px-0 py-0',
+        link: 'px-0 py-0 2xs:px-0 py-0 xs:px-0 py-0 sm:px-0 py-0 md:px-0 py-0 lg:px-0 py-0 xl:px-0 py-0 hover:text-primary-900',
+        ghost:
+          'text-{color}-500 hover:text-primary-900 dark:text-{color}-400 hover:bg-none disabled:bg-transparent dark:hover:bg-{color}-950 dark:disabled:bg-transparent focus-visible:ring-2 focus-visible:ring-inset focus-visible:ring-{color}-500 dark:focus-visible:ring-{color}-400',
       },
     },
     card: {
@@ -17,7 +19,7 @@ export default defineAppConfig({
         padding: 'px-0 p-0',
       },
       header: {
-        padding: 'px-0 pt-3',
+        padding: 'px-0',
       },
       footer: {
         padding: 'px-0 py-3',

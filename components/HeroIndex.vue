@@ -7,11 +7,14 @@
   // })
 </script>
 <template>
-    <section class="flex flex-col pt-32 px-4">
+    <section class="flex flex-col pt-40 px-4">
         <div class="text-center">
-            <h1 class="leading-tight mb-2 text-blue-950">Um novo tipo de leilão</h1>
-            <h4 class="mb-6 text-indigo-900 lg:text-2xl lg:text-gray-500">
-        Com regras de negocio modernas e diferenciadas. Criamos uma solução revolucionaria </h4>
+            <h1 class="leading-tight mb-2 text-blue-950">
+        Um novo <br class="block md:hidden"/>
+        tipo de leilão </h1>
+            <h4 class="mt-4 mb-6 text-indigo-900">
+        Com regras de negocio modernas e diferenciadas.<br class="hidden sm:block"/>
+        Criamos uma solução revolucionaria. </h4>
             <UButton to="contact" size="xl" class="!rounded-3xl blue mt-4 px-7 py-3" label="Comece agora">
 </UButton>
         </div>
@@ -20,6 +23,10 @@
 </template>
 <style scoped>
   section {
+    h4 {
+      font-size: 1.5rem;
+      line-height: 2.4rem;
+    }
     background-color: hsla(206, 100%, 90%, 1);
     background-image: radial-gradient(
         at 100% 61%,
