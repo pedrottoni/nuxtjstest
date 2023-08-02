@@ -32,9 +32,7 @@
                                 <h5 class="flex flex-row gap-2 mb-2 place-items-center text-blue-500 lg:tracking-tight">
                   Guilherme Corsini </h5>
                                 <p>
-                  Oferecemos uma formação de preços eficiente para seus ativos
-                  financeiros, permitindo que você obtenha o melhor preço de
-                  mercado para o seu volume negociado. </p>
+                Oferecemos uma formação de preços eficiente para seus ativos financeiros, permitindo que você obtenha o melhor preço de mercado para o seu volume negociado.seu volume negociado.seu volume negociado.se</p>
                             </div>
                         </div>
                     </template>
