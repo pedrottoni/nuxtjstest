@@ -260,7 +260,7 @@
         :items="items"
         variant="link"
         size="xl"
-        class="border-b border-gray-100 dark:border-gray-700 mx-auto py-6 rounded-none text-blue-900 w-full md:w-10/12"
+        class="border-b border-gray-100 mx-auto py-6 rounded-none text-blue-900 w-full md:w-10/12"
       >
         <template #faq1>
           <p class="py-6 w-10/12 mx-auto">

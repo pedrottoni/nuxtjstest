@@ -1,11 +1,15 @@
 <script setup lang="ts">
-  import { checkDarkTheme } from '~/composables/dark-color-scheme-check'
   import type { Script } from '@unhead/schema'
-  type TurboScript = Script & { once: true }
+  import { isDark, toggleDark } from '~/composables/dark'
 
+  type TurboScript = Script & { once: true }
   const config = useRuntimeConfig()
   const { title, description } = config.public
   const route = useRoute()
+
+  if (isDark.value) {
+    toggleDark()
+  }
 
   useServerSeoMeta({
     title,
@@ -21,12 +25,11 @@
     titleTemplate: (titleChunk) => {
       return titleChunk ? `${titleChunk} - ${title}` : title
     },
-    htmlAttrs: { lang: 'en-US' },
+    htmlAttrs: { lang: 'pt-BR' },
     meta: [
       { property: 'keywords', content: route.meta.tags?.toString() },
       { property: 'author', content: 'Pinegrow' },
     ],
-    script: [{ children: checkDarkTheme, once: true } as TurboScript],
   })
 </script>
 <template>

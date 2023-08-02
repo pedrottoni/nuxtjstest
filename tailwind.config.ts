@@ -14,7 +14,6 @@ export default {
       backgrounds: pg_backgrounds, // bg-design-image, bg-design-image-large
     }),
   ],
-
   theme: {
     extend: {
       // Nuxtlabs/ui can process colors extended directly, and not via plugin (as above), so the colors are added here instead of passing it to @pinegrow/tailwindcss-plugin above

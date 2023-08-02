@@ -7,13 +7,11 @@
   // })
 </script>
 <template>
-  <div
-    class="relative bg-primary-600 dark:bg-primary-200 text-white dark:text-primary-800"
-  >
+  <div class="relative bg-primary-600">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 1440 320"
-      class="h-72 bg-primary-600 dark:bg-primary-200 text-white dark:text-neutral-950 w-full"
+      class="h-72 bg-primary-600 text-white w-full"
       fill="currentColor"
       preserveAspectRatio="none"
     >

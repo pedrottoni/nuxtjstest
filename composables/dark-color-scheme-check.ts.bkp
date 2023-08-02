@@ -1,0 +1,7 @@
+export const checkDarkTheme = `;(() => {
+  const prefersDark = matchMedia('(prefers-color-scheme: light)').matches
+  const setting = localStorage.getItem('vueuse-color-scheme') || 'auto'
+  if (setting === 'light' || (prefersDark && setting !== 'dark'))
+    document.documentElement.classList.toggle('dark', false)
+})()
+`

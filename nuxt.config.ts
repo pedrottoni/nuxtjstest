@@ -5,7 +5,7 @@ export default defineNuxtConfig({
     public: {
       title: 'EXE auctions',
       description: 'EXE auctions',
-      author: 'Pinegrow',
+      author: 'Estúdio Oz',
       nav: [
         { text: 'Home', link: '/' },
         { text: 'Sobre', link: '/about' },
@@ -24,7 +24,18 @@ export default defineNuxtConfig({
     '@nuxt/devtools',
     '@nuxt/content',
     '@nuxt/image',
+    '@nuxtjs/color-mode',
   ],
+  colorMode: {
+    preference: 'light', // default value of $colorMode.preference
+    fallback: 'light', // fallback value if not system preference found
+    hid: 'nuxt-color-mode-script',
+    globalName: '__NUXT_COLOR_MODE__',
+    componentName: 'ColorScheme',
+    classPrefix: '',
+    classSuffix: '-mode',
+    storageKey: 'nuxt-color-mode',
+  },
   pinegrow: {
     liveDesigner: {
       iconPreferredCase: 'unocss', // default value (can be removed), nuxtlabs/ui uses the unocss format for icon names
