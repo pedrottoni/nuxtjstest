@@ -83,7 +83,7 @@
             <NavBarDesktopTabs
               :navlinks="desktopNavTabs"
               :current-path="currentPath"
-              class="hidden gap-4 sm:flex sm:ml-6"
+              class="hidden gap-4 md:flex sm:ml-6"
             />
           </div>
           <UButton
@@ -94,7 +94,7 @@
             label="Entrar"
           />
           <div class="-mr-2 items-center relative">
-            <NavBarMobileMenuButton v-if="navlinks.length" class="sm:hidden" />
+            <NavBarMobileMenuButton v-if="navlinks.length" class="md:hidden" />
           </div>
         </div>
       </div>
