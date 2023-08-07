@@ -14,9 +14,9 @@
 </script>
 <template>
     <div class="bg-slate-100 py-24">
-        <div class="container mx-auto px-8 lg:flex lg:flex-row lg:justify-between">
+        <div class="container gap-y-12 grid grid-cols-2 mx-auto px-4 w-full sm:grid-cols-5">
             <div>
-                <svg fill="none" xmlns="http://www.w3.org/2000/svg" width="102" height="62" viewBox="0 0 92 52" class="lg:contrast-50">
+                <svg fill="none" xmlns="http://www.w3.org/2000/svg" width="102" height="62" viewBox="0 0 92 52" class="contrast-50">
                     <path d="M28.6199 3.20357H5.4625V12.8477H23.348V16.0483H5.4625V25.5708H28.6199V28.7713H0V0H28.6199V3.20357Z" fill="#1F4386"/>
                     <path d="M63.1259 0.00303601V3.20357H86.2833V12.8477H68.3978V16.0483H86.2833V25.5708H63.1259V28.7713H91.7458V0H63.1259V0.00303601Z" fill="#1F4386"/>
                     <path d="M52.9424 10.6877L63.1259 0.00303601L55.9203 0.0973474L49.4742 7.04603L52.9424 10.6877Z" fill="#1F4386"/>
@@ -34,8 +34,8 @@
                 <p class="mt-8">mensagem</p>
                 <UButton class="mt-2" variant="link">e-mail</UButton>
             </div>
-            <NavBarDesktopTabs :navlinks="desktopNavTabs" :current-path="currentPath" class="flex flex-row justify-between justify-items-center lg:flex-col lg:justify-items-center lg:ml-80 lg:place-content-center lg:place-items-center space-x-0"/>
-            <div class="flex flex-row justify-between place-items-center lg:flex-col lg:justify-between">
+            <NavBarDesktopTabs :navlinks="desktopNavTabs" :current-path="currentPath" class="flex flex-col items-end place-content-end place-items-end space-x-0 sm:col-span-3 sm:p-0"/>
+            <div class="col-span-full flex flex-row justify-around place-items-center sm:col-span-1 sm:flex-col sm:place-content-between sm:place-items-end">
                 <NuxtLink href="https://www.facebook.com/vuedesigner" aria-label="facebook" external target="_blank">
                     <UIcon name="i-ph-facebook-logo-bold" class="text-2xl text-indigo-500" size="28px"></UIcon>
                 </NuxtLink>

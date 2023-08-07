@@ -7,7 +7,7 @@
   // })
 </script>
 <template>
-    <div class="container mx-auto pb-32 pt-28 px-4 md:pb-32">
+    <section class="container mx-auto pb-32 pt-28 px-4 md:pb-32">
         <div class="mb-16 md:max-w-xl">
             <h3>Modelo inovador</h3>
             <h2>Uma experiência radicalmente aprimorada</h2>
@@ -38,9 +38,9 @@
                 </template>
                 <template #default>
                     <p>
-            Alguns processos de negociação as vezes sao muito
-            rápidos e outras muito lentos. Nosso pico de liquidez por agendado é
-            a melhor solução no mercado. </p>
+            Alguns processos de negociação as vezes sao muito rápidos e outras
+            muito lentos. Nosso pico de liquidez por agendado é a melhor solução
+            no mercado. </p>
                 </template>
                 <template #footer>
                     <UButton to="about" variant="link" class="text-primary-500" trailing-icon="i-material-symbols-open-in-new">Saiba mais</UButton>
@@ -79,7 +79,7 @@
                 </template>
             </UCard>
         </div>
-    </div>
+    </section>
 </template>
 <style scoped>
   .maxw {

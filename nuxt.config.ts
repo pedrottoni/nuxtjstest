@@ -7,10 +7,10 @@ export default defineNuxtConfig({
       description: 'EXE auctions',
       author: 'Estúdio Oz',
       nav: [
-        { text: 'Home', link: '/' },
-        { text: 'Sobre', link: '/about' },
-        { text: 'Time', link: '/team' },
-        { text: 'Subscribe', link: '/subscribe' },
+        { text: 'EXE auctions', link: '/' },
+        { text: 'O que fazemos', link: '/about' },
+        { text: 'Nosso time', link: '/team' },
+        { text: 'Entre em contato', link: '/subscribe' },
       ],
     },
     app: {

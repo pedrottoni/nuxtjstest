@@ -4,10 +4,10 @@
 
   const { navlinks, currentPath } = useNav()
   const desktopNavTabs = computed(() => {
-    return navlinks.value.slice(0, 6)
+    return navlinks.value.slice(1, navlinks.value.length)
   })
   const mobileNavTabs = computed(() => {
-    return navlinks.value.slice(0, navlinks.value.length)
+    return navlinks.value.slice(1, navlinks.value.length)
   })
 </script>
 <template>
@@ -83,23 +83,24 @@
             <NavBarDesktopTabs
               :navlinks="desktopNavTabs"
               :current-path="currentPath"
-              class="hidden gap-8 sm:flex sm:ml-6"
+              class="hidden gap-4 sm:flex sm:ml-6"
             />
           </div>
-          <!-- <DarkModeSwitch /> -->
+          <UButton
+            to="navlink.link"
+            variant="solid"
+            class="rounded mr-3 md:ml-12 py-2 px-6"
+            size="sm"
+            label="Entrar"
+          />
           <div class="-mr-2 items-center relative">
             <NavBarMobileMenuButton v-if="navlinks.length" class="sm:hidden" />
-            <NavBarMobileMenu
-              class="hidden sm:flex sm:justify-end absolute right-0 mt-4"
-              :navlinks="mobileNavTabs"
-              :current-path="currentPath"
-            />
           </div>
         </div>
       </div>
       <NavBarMobileMenu
         class="sm:hidden"
-        :navlinks="navlinks"
+        :navlinks="mobileNavTabs"
         :current-path="currentPath"
       />
     </nav>

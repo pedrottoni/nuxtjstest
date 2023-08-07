@@ -1,12 +1,12 @@
 <script setup lang="ts">
-  // definePageMeta({
-  // 	layout: 'default',
-  // 	name: 'about',
-  // 	title: 'About',
-  //	navOrder: 4,
-  // })
+  definePageMeta({
+    layout: 'default',
+    name: 'about',
+    title: 'O que fazemos',
+    navOrder: 4,
+  })
   useHead({
-    title: () => 'about',
+    title: () => 'O que fazemos',
   })
 
   const items = [
