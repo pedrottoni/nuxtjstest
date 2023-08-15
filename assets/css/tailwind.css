@@ -54,7 +54,7 @@
 
 h1 {
   @apply text-blue-800;
-  font-size: 3.75rem;
+  font-size: clamp(3.75rem, 5vw, 5rem);
 }
 h2 {
   @apply text-blue-800;

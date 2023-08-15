@@ -1,738 +1,147 @@
 <script setup lang="ts"></script>
-<template>
-  <section class="bg-slate-100">
-    <div
-      class="container flex flex-col md:py-32 mx-auto place-items-center px-4 py-28"
-    >
-      <div
-        class="flex-col mb-16 text-center lg:flex lg:max-w-2xl lg:place-items-center"
-      >
-        <h3>Diferencial</h3>
-        <h2>A velocidade dos ATS com a eficiência dos mercados de balcão</h2>
-        <h4 class="mb-6 lg:max-w-lg">
+<template class="bg-secondary-50">
+    <section class="bg-slate-100">
+        <div class="container flex flex-col md:py-32 mx-auto place-items-center px-4 py-28">
+            <div class="flex-col mb-24 text-center lg:flex lg:max-w-2xl lg:place-items-center">
+                <h3>Diferencial</h3>
+                <h2>A velocidade dos ATS com a eficiência dos mercados de balcão</h2>
+                <h4 class="mb-6 lg:max-w-lg">
           Juntando o melhor dos dois mundos. Nossa solução elimina as
-          desvantagens dos métodos atuais
-        </h4>
-        <UButton
-          to="https://pinegrow.com/docs/vue/support/"
-          external
-          target="_blank"
-          variant="link"
-          class="text-primary-500"
-          trailing-icon="i-material-symbols-open-in-new"
-          >Veja como funciona</UButton
-        >
-      </div>
-      <div class="gap-6 grid place-items-center sm:grid-cols-1 lg:grid-cols-3">
-        <UCard class="h-fit p-8 shadow-md shadow-slate-300">
-          <template #header>
-            <h5 class="text-center">Calls</h5>
-          </template>
-          <template #default>
-            <div
-              class="border-gray-50 border-t-2 flex flex-col gap-6 mt-8 pt-8"
-            >
-              <div>
-                <h6
-                  class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="25"
-                    height="26"
-                    fill="none"
-                  >
-                    <g stroke="#A2CF66" filter="url(#a)">
-                      <path
-                        fill="#A2CF66"
-                        stroke-width=".5"
-                        d="M9.4 18.3c.5.5 1.2.5 1.7 0l8.4-8.3A1.2 1.2 0 0 0 18 8.3l-7.1 7c-.3.4-.8.4-1 0L7 12.9a1.2 1.2 0 1 0-1.6 1.7l3.9 3.8Z"
-                      />
-                      <rect
-                        width="22"
-                        height="22"
-                        x="1.5"
-                        y="2.3"
-                        stroke-width="3"
-                        rx="11"
-                      />
-                    </g>
-                    <defs>
-                      <filter
-                        id="a"
-                        width="25"
-                        height="25.7"
-                        x="0"
-                        y=".8"
-                        color-interpolation-filters="sRGB"
-                        filterUnits="userSpaceOnUse"
-                      >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
-                        <feBlend
-                          in="SourceGraphic"
-                          in2="BackgroundImageFix"
-                          result="shape"
-                        />
-                        <feColorMatrix
-                          in="SourceAlpha"
-                          result="hardAlpha"
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        />
-                        <feOffset dy=".7" />
-                        <feGaussianBlur stdDeviation=".5" />
-                        <feComposite
-                          in2="hardAlpha"
-                          k2="-1"
-                          k3="1"
-                          operator="arithmetic"
-                        />
-                        <feColorMatrix
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"
-                        />
-                        <feBlend
-                          in2="shape"
-                          result="effect1_innerShadow_293_904"
-                        />
-                      </filter>
-                    </defs>
-                  </svg>
-                  Método de precificação
-                </h6>
-                <p class="ml-8">
-                  Definido pela atual oferta e demanda para o respectivo volume.
-                  Teoricamente o preço ótimo
-                </p>
-              </div>
-              <div>
-                <h6
-                  class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="25"
-                    height="26"
-                    fill="none"
-                  >
-                    <g stroke="#D03435" filter="url(#a)">
-                      <path
-                        fill="#D03435"
-                        stroke-width=".5"
-                        d="m10.2 14.3-2.4 2.4A1 1 0 0 0 9.2 18l2.3-2.3c.6-.6 1.4-.6 2 0l2.3 2.3a1 1 0 0 0 1.4-1.3l-2.4-2.4c-.5-.5-.5-1.4 0-1.9l2.4-2.4a1 1 0 1 0-1.4-1.3L13.5 11c-.6.6-1.4.6-2 0L9.2 8.7A1 1 0 1 0 7.8 10l2.4 2.4c.5.5.5 1.4 0 1.9Z"
-                      />
-                      <rect
-                        width="22"
-                        height="22"
-                        x="1.5"
-                        y="2.3"
-                        stroke-width="3"
-                        rx="11"
-                      />
-                    </g>
-                    <defs>
-                      <filter
-                        id="a"
-                        width="25"
-                        height="26.2"
-                        x="0"
-                        y=".8"
-                        color-interpolation-filters="sRGB"
-                        filterUnits="userSpaceOnUse"
-                      >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
-                        <feBlend
-                          in="SourceGraphic"
-                          in2="BackgroundImageFix"
-                          result="shape"
-                        />
-                        <feColorMatrix
-                          in="SourceAlpha"
-                          result="hardAlpha"
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        />
-                        <feOffset dy="1.2" />
-                        <feGaussianBlur stdDeviation=".8" />
-                        <feComposite
-                          in2="hardAlpha"
-                          k2="-1"
-                          k3="1"
-                          operator="arithmetic"
-                        />
-                        <feColorMatrix
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"
-                        />
-                        <feBlend
-                          in2="shape"
-                          result="effect1_innerShadow_420_289"
-                        />
-                      </filter>
-                    </defs>
-                  </svg>
-                  Processo de Negociação
-                </h6>
-                <p class="ml-8">Lento e paulatino</p>
-              </div>
-              <div>
-                <h6
-                  class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="25"
-                    height="26"
-                    fill="none"
-                  >
-                    <g stroke="#D03435" filter="url(#a)">
-                      <path
-                        fill="#D03435"
-                        stroke-width=".5"
-                        d="m10.2 14.3-2.4 2.4A1 1 0 0 0 9.2 18l2.3-2.3c.6-.6 1.4-.6 2 0l2.3 2.3a1 1 0 0 0 1.4-1.3l-2.4-2.4c-.5-.5-.5-1.4 0-1.9l2.4-2.4a1 1 0 1 0-1.4-1.3L13.5 11c-.6.6-1.4.6-2 0L9.2 8.7A1 1 0 1 0 7.8 10l2.4 2.4c.5.5.5 1.4 0 1.9Z"
-                      />
-                      <rect
-                        width="22"
-                        height="22"
-                        x="1.5"
-                        y="2.3"
-                        stroke-width="3"
-                        rx="11"
-                      />
-                    </g>
-                    <defs>
-                      <filter
-                        id="a"
-                        width="25"
-                        height="26.2"
-                        x="0"
-                        y=".8"
-                        color-interpolation-filters="sRGB"
-                        filterUnits="userSpaceOnUse"
-                      >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
-                        <feBlend
-                          in="SourceGraphic"
-                          in2="BackgroundImageFix"
-                          result="shape"
-                        />
-                        <feColorMatrix
-                          in="SourceAlpha"
-                          result="hardAlpha"
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        />
-                        <feOffset dy="1.2" />
-                        <feGaussianBlur stdDeviation=".8" />
-                        <feComposite
-                          in2="hardAlpha"
-                          k2="-1"
-                          k3="1"
-                          operator="arithmetic"
-                        />
-                        <feColorMatrix
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"
-                        />
-                        <feBlend
-                          in2="shape"
-                          result="effect1_innerShadow_420_289"
-                        />
-                      </filter>
-                    </defs>
-                  </svg>
-                  Ordens de Troca
-                </h6>
-                <p class="ml-8">Não permite ordens de troca</p>
-              </div>
+          desvantagens dos métodos atuais </h4>
+                <UButton to="https://pinegrow.com/docs/vue/support/" external target="_blank" variant="link" class="text-primary-500" trailing-icon="i-material-symbols-open-in-new">Veja como funciona</UButton>
             </div>
-          </template>
-        </UCard>
-        <UCard class="h-fit p-8 shadow-md shadow-slate-300">
-          <template #header>
-            <h5 class="text-center">ATS/Dark pools</h5>
-          </template>
-          <template #default>
-            <div
-              class="border-gray-50 border-t-2 flex flex-col gap-6 mt-8 pt-8"
-            >
-              <div>
-                <h6
-                  class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="25"
-                    height="26"
-                    fill="none"
-                  >
-                    <g stroke="#D03435" filter="url(#a)">
-                      <path
-                        fill="#D03435"
-                        stroke-width=".5"
-                        d="m10.2 14.3-2.4 2.4A1 1 0 0 0 9.2 18l2.3-2.3c.6-.6 1.4-.6 2 0l2.3 2.3a1 1 0 0 0 1.4-1.3l-2.4-2.4c-.5-.5-.5-1.4 0-1.9l2.4-2.4a1 1 0 1 0-1.4-1.3L13.5 11c-.6.6-1.4.6-2 0L9.2 8.7A1 1 0 1 0 7.8 10l2.4 2.4c.5.5.5 1.4 0 1.9Z"
-                      />
-                      <rect
-                        width="22"
-                        height="22"
-                        x="1.5"
-                        y="2.3"
-                        stroke-width="3"
-                        rx="11"
-                      />
-                    </g>
-                    <defs>
-                      <filter
-                        id="a"
-                        width="25"
-                        height="26.2"
-                        x="0"
-                        y=".8"
-                        color-interpolation-filters="sRGB"
-                        filterUnits="userSpaceOnUse"
-                      >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
-                        <feBlend
-                          in="SourceGraphic"
-                          in2="BackgroundImageFix"
-                          result="shape"
-                        />
-                        <feColorMatrix
-                          in="SourceAlpha"
-                          result="hardAlpha"
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        />
-                        <feOffset dy="1.2" />
-                        <feGaussianBlur stdDeviation=".8" />
-                        <feComposite
-                          in2="hardAlpha"
-                          k2="-1"
-                          k3="1"
-                          operator="arithmetic"
-                        />
-                        <feColorMatrix
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"
-                        />
-                        <feBlend
-                          in2="shape"
-                          result="effect1_innerShadow_420_289"
-                        />
-                      </filter>
-                    </defs>
-                  </svg>
-                  Método de precificação
-                </h6>
-                <p class="ml-8">
-                  Predefinido pelo broker. Baseado em alguma referencia de
-                  mercado ou critério subjetivo, não necessariamente o preço
-                  ótimo
-                </p>
-              </div>
-              <div>
-                <h6
-                  class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="25"
-                    height="26"
-                    fill="none"
-                  >
-                    <g stroke="#A2CF66" filter="url(#a)">
-                      <path
-                        fill="#A2CF66"
-                        stroke-width=".5"
-                        d="M9.4 18.3c.5.5 1.2.5 1.7 0l8.4-8.3A1.2 1.2 0 0 0 18 8.3l-7.1 7c-.3.4-.8.4-1 0L7 12.9a1.2 1.2 0 1 0-1.6 1.7l3.9 3.8Z"
-                      />
-                      <rect
-                        width="22"
-                        height="22"
-                        x="1.5"
-                        y="2.3"
-                        stroke-width="3"
-                        rx="11"
-                      />
-                    </g>
-                    <defs>
-                      <filter
-                        id="a"
-                        width="25"
-                        height="25.7"
-                        x="0"
-                        y=".8"
-                        color-interpolation-filters="sRGB"
-                        filterUnits="userSpaceOnUse"
-                      >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
-                        <feBlend
-                          in="SourceGraphic"
-                          in2="BackgroundImageFix"
-                          result="shape"
-                        />
-                        <feColorMatrix
-                          in="SourceAlpha"
-                          result="hardAlpha"
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        />
-                        <feOffset dy=".7" />
-                        <feGaussianBlur stdDeviation=".5" />
-                        <feComposite
-                          in2="hardAlpha"
-                          k2="-1"
-                          k3="1"
-                          operator="arithmetic"
-                        />
-                        <feColorMatrix
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"
-                        />
-                        <feBlend
-                          in2="shape"
-                          result="effect1_innerShadow_293_904"
-                        />
-                      </filter>
-                    </defs>
-                  </svg>
-                  Processo de Negociação
-                </h6>
-                <p class="ml-8">
-                  Bastante rápido, com ordens seladas e anônimas
-                </p>
-              </div>
-              <div>
-                <h6
-                  class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="25"
-                    height="26"
-                    fill="none"
-                  >
-                    <g stroke="#D03435" filter="url(#a)">
-                      <path
-                        fill="#D03435"
-                        stroke-width=".5"
-                        d="m10.2 14.3-2.4 2.4A1 1 0 0 0 9.2 18l2.3-2.3c.6-.6 1.4-.6 2 0l2.3 2.3a1 1 0 0 0 1.4-1.3l-2.4-2.4c-.5-.5-.5-1.4 0-1.9l2.4-2.4a1 1 0 1 0-1.4-1.3L13.5 11c-.6.6-1.4.6-2 0L9.2 8.7A1 1 0 1 0 7.8 10l2.4 2.4c.5.5.5 1.4 0 1.9Z"
-                      />
-                      <rect
-                        width="22"
-                        height="22"
-                        x="1.5"
-                        y="2.3"
-                        stroke-width="3"
-                        rx="11"
-                      />
-                    </g>
-                    <defs>
-                      <filter
-                        id="a"
-                        width="25"
-                        height="26.2"
-                        x="0"
-                        y=".8"
-                        color-interpolation-filters="sRGB"
-                        filterUnits="userSpaceOnUse"
-                      >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
-                        <feBlend
-                          in="SourceGraphic"
-                          in2="BackgroundImageFix"
-                          result="shape"
-                        />
-                        <feColorMatrix
-                          in="SourceAlpha"
-                          result="hardAlpha"
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        />
-                        <feOffset dy="1.2" />
-                        <feGaussianBlur stdDeviation=".8" />
-                        <feComposite
-                          in2="hardAlpha"
-                          k2="-1"
-                          k3="1"
-                          operator="arithmetic"
-                        />
-                        <feColorMatrix
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"
-                        />
-                        <feBlend
-                          in2="shape"
-                          result="effect1_innerShadow_420_289"
-                        />
-                      </filter>
-                    </defs>
-                  </svg>
-                  Ordens de Troca
-                </h6>
-                <p class="ml-8">Não permite ordens de troca</p>
-              </div>
+            <div class="bg-transparent comparativo gap-0 grid grid-cols-3 grid-rows-7 max-w-5xl overflow-hidden place-items-center relative rounded-2xl w-full md:grid-cols-9 md:h-full">
+                <div class="border-slate-200 hidden place-items-end place-self-end py-8 w-full md:col-span-3 md:flex"></div>
+                <div class="bg-slate-100 border-2 border-secondary-10 flex h-full place-content-center place-items-end place-self-end py-8 rounded-t-2xl w-full z-10 md:col-span-2">
+                    <h6 class="font-semibold md:text-lg text-center text-slate-500">
+            Calls </h6>
+                </div>
+                <div class="bg-slate-100 border-b-2 border-r-2 border-secondary-10 border-t-2 flex h-full place-content-center place-items-end place-self-end py-8 rounded-t-2xl w-full z-10 md:col-span-2">
+                    <h6 class="font-semibold md:text-lg text-center text-slate-500">
+            ATS/Dark pools </h6>
+                </div>
+                <div class="bg-primary-500 border-l-r-2 border-r-2 border-slate-300 border-t-r-2 flex h-full place-content-center place-items-end place-self-end py-8 rounded-t-2xl w-full z-10 md:col-span-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 138 66" class="w-5/12">
+                        <path fill="#f1f4f9" d="M43.2 4.7H8.7v14h26.7v4.7H8.7v14h34.5V42H.5V0h42.7v4.7ZM94.8 0v4.7h34.5v14h-26.7v4.7h26.7v14H94.8V42h42.7V0H94.8ZM79.6 15.6 94.8 0 84 .1l-9.6 10.2 5.2 5.3Zm-5.3 5.6L53.6 0H43.2l20.3 21.4-20 20.6h10.7l20-20.8Zm19.5 20.1L79.6 26.6l-5.5 5.6 9.6 9.8h10.8l-.6-.7Z"/>
+                        <path fill="#f1f4f9" d="M11.9 52.4c1 1 1.6 2.4 1.6 4.3v9.2h-2v-2.4c-.5.8-1.2 1.4-2.1 1.8-1 .5-2 .7-3.2.7-1.8 0-3.1-.4-4.2-1.2C1 64 .5 63 .5 61.7s.5-2.3 1.4-3c1-.8 2.5-1.2 4.6-1.2h4.9v-.9c0-1.3-.4-2.2-1.1-3-.8-.6-1.9-.9-3.3-.9-1 0-2 .2-2.8.5-1 .3-1.7.7-2.3 1.2L.9 53c.8-.6 1.7-1 2.8-1.4C4.8 51 6 51 7.2 51c2 0 3.6.4 4.7 1.4ZM9.5 63.6c.8-.5 1.5-1.2 1.9-2.2V59H6.5c-2.6 0-4 .9-4 2.6 0 .9.4 1.6 1 2 .8.6 1.7.8 3 .8 1.2 0 2.2-.2 3-.8ZM35 51v15h-2v-2.7a5 5 0 0 1-2.3 2 7 7 0 0 1-3.3.8c-2 0-3.6-.5-4.8-1.6a6.5 6.5 0 0 1-1.7-4.8v-8.5h2v8.3a5 5 0 0 0 1.3 3.6c.8.8 2 1.2 3.4 1.2 1.7 0 3-.5 3.9-1.4 1-1 1.4-2.3 1.4-4v-7.7h2Zm10 14a7.1 7.1 0 0 1-2.8-2.6c-.7-1.2-1-2.5-1-4A7.1 7.1 0 0 1 45 52a8.5 8.5 0 0 1 7.6-.2c1 .5 1.9 1.2 2.5 2.2l-1.6 1a4.8 4.8 0 0 0-1.9-1.6 6 6 0 0 0-2.6-.6c-1 0-2 .2-3 .7-.9.5-1.6 1.2-2 2a6 6 0 0 0-.8 3 6 6 0 0 0 .7 3c.5 1 1.2 1.6 2.1 2.1 1 .5 2 .7 3 .7s1.8-.2 2.6-.5c.8-.4 1.4-1 2-1.6l1.5 1c-.6 1-1.4 1.7-2.5 2.2a8 8 0 0 1-3.6.7c-1.5 0-2.9-.3-4-1Zm24.3 0a4 4 0 0 1-1.4.7L66 66a5 5 0 0 1-3.4-1.1 4.2 4.2 0 0 1-1.2-3.2v-9h-2.7v-1.6h2.7v-3.3h2.1v3.3h4.7v1.7h-4.7v8.8c0 .9.3 1.5.7 2a3 3 0 0 0 2 .7c.4 0 .9 0 1.3-.2a3 3 0 0 0 1-.6l.7 1.5ZM75 47.4a1.3 1.3 0 0 1 0-2c.3-.3.6-.4 1-.4.5 0 .9.1 1.2.4.3.3.4.6.4 1s-.1.7-.4 1c-.3.3-.7.4-1.1.4-.5 0-.8-.1-1.1-.4Zm0 3.7h2.1v14.8h-2V51ZM87.1 65a7.3 7.3 0 0 1-3.8-6.5 7.1 7.1 0 0 1 3.9-6.5c1.1-.7 2.5-1 4-1a8 8 0 0 1 4 1 7 7 0 0 1 2.8 2.6 7 7 0 0 1 1 3.9 7.1 7.1 0 0 1-3.8 6.6 9 9 0 0 1-8-.1Zm7-1.5c.9-.5 1.6-1.1 2-2a6 6 0 0 0 .8-3 6 6 0 0 0-.8-3 5 5 0 0 0-2-2 6 6 0 0 0-3-.8 6 6 0 0 0-3 .7c-.8.5-1.5 1.2-2 2a6 6 0 0 0-.7 3 6 6 0 0 0 .7 3 5 5 0 0 0 2 2.1 6 6 0 0 0 3 .7 6 6 0 0 0 3-.7Zm23.6-10.9c1.1 1 1.7 2.6 1.7 4.7v8.6h-2.1v-8.4c0-1.6-.4-2.7-1.2-3.5-.8-.8-2-1.2-3.4-1.2-1.7 0-3 .4-4 1.4-1 1-1.5 2.2-1.5 3.9v7.8h-2V51h2v2.7c.5-.9 1.3-1.6 2.3-2 1-.6 2.2-.8 3.5-.8 2 0 3.5.5 4.7 1.6Zm9.8 12.9c-1.2-.4-2-.8-2.7-1.3l1-1.6c.6.5 1.4.9 2.4 1.2 1 .3 2 .4 3 .4 1.5 0 2.5-.2 3.2-.6.7-.4 1-1 1-1.8 0-.5-.2-1-.6-1.2-.3-.4-.8-.6-1.4-.8l-2.2-.4c-1.3-.2-2.3-.5-3-.7-.8-.2-1.5-.6-2-1.2-.6-.6-.8-1.3-.8-2.3 0-1.3.5-2.3 1.6-3 1-.9 2.6-1.2 4.5-1.2a12 12 0 0 1 5.5 1.3l-1 1.6a8 8 0 0 0-4.5-1.2c-1.3 0-2.3.2-3 .6-.7.5-1 1-1 1.8 0 .6.2 1 .5 1.4.4.3.9.6 1.5.7l2.3.5c1.3.2 2.2.5 3 .7.7.2 1.4.6 2 1.1.4.6.7 1.3.7 2.3 0 1.3-.6 2.3-1.7 3a8.3 8.3 0 0 1-4.7 1.2c-1.2 0-2.4-.2-3.6-.5Z"/>
+                    </svg>
+                </div>
+                <div class="bg-slate-100 border-2 border-slate-200 col-span-3 flex h-full mt-8 place-content-center place-items-center w-full md:mt-0 md:pl-8 md:place-content-start md:rounded-tl-2xl">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 55 48" class="h-full mr-3 w-8">
+                        <circle cx="40" cy="32.9" r="15" fill="#66DAFF" fill-opacity=".6"/>
+                        <path fill="#7777F8" d="m28.5 19.8 18-11v22H24v4.5h22.5c1.2 0 2.3-.4 3.2-1.3.9-.9 1.3-2 1.3-3.1V4.4c0-1.2-.4-2.2-1.3-3.1-1-.9-2-1.3-3.2-1.3h-36C9.2 0 8.2.4 7.3 1.3 6.4 2.2 6 3.2 6 4.4v11h4.5V8.8l18 11Zm0-4.4-18-11h36l-18 11Zm18-6.6V4.4 31 9Z"/>
+                        <path fill="#7777F8" fill-rule="evenodd" d="M17.7 37.7c-2 .9-4.4 1.3-7.3 1.3-2.8 0-5.3-.4-7.3-1.3S0 35.7 0 34.3v-11c0-1.4 1.2-2.5 3.2-3.4 2-.9 4.4-1.3 7.2-1.3s5.3.4 7.3 1.3 3.1 2 3.1 3.4v11c0 1.4-1.1 2.5-3 3.4Zm-9.5-7.1a22.4 22.4 0 0 0 8.4-.8l1.4-.6v-2.6a11.3 11.3 0 0 1-3 1 20.5 20.5 0 0 1-6.9.3A20.7 20.7 0 0 1 3 26.6v2.6a11.2 11.2 0 0 0 3.2 1l2 .4ZM7.8 36a18 18 0 0 0 9.4-1.2c.5-.2.7-.4.8-.6v-2.1a11.3 11.3 0 0 1-3 1 20.5 20.5 0 0 1-6.9.3A20.7 20.7 0 0 1 3 32v2.1c0 .2.3.4.7.6l1.8.7 2.4.5Zm2.6-10.8a18.4 18.4 0 0 1-6.8-1.4c-.4-.2-.6-.3-.7-.5l.7-.5 1.9-.7a18 18 0 0 1 11.7.7l.7.5c-.1.2-.3.4-.7.5a18.2 18.2 0 0 1-6.8 1.4Z" clip-rule="evenodd"/>
+                    </svg>
+                    <h6 class="font-semibold text-center text-slate-600 md:text-left">
+            Modelo de precificação </h6>
+                </div>
+                <div class="bg-slate-50 border-b-2 border-l-2 border-r-2 border-slate-200 flex flex-col h-full place-content-end place-items-center px-3 py-10 w-full md:col-span-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 47 54" class="like w-3/12">
+                        <ellipse cx="30.9" cy="37.4" fill="#A2CF66" opacity=".2" rx="16" ry="16.4"/>
+                        <path fill="#A2CF66" d="M38.7 22.1a6.5 6.5 0 0 0 1.3-4c0-2.2-1.3-4.3-3.3-5.5-.5-.3-1-.5-1.7-.5H23l.3-6.2A5.4 5.4 0 0 0 18 .2a5.8 5.8 0 0 0-5.5 4.3L8 20.2H1.6c-.9 0-1.6.7-1.6 1.6v18.4c0 .9.7 1.6 1.6 1.6h30c.5 0 1 0 1.4-.3a6.5 6.5 0 0 0 3.6-7.8 6.5 6.5 0 0 0 1-5.8 6.5 6.5 0 0 0 1-5.8Zm-35.1 16V23.9h4v14.4h-4Zm31.8-17.8-1 1 .6 1.3c.2.4.4.9.4 1.4 0 .8-.4 1.6-1 2.1l-1.1 1 .7 1.3c.2.4.3.9.3 1.4 0 .8-.3 1.6-1 2.1l-1 1 .7 1.3a2.9 2.9 0 0 1-1.3 4H10.8V23.7l5-18.2a2.2 2.2 0 0 1 2-1.7c.4 0 .8.2 1 .4.6.4.9 1 .8 1.5l-.5 10H35a3 3 0 0 1 1.4 2.5c0 .8-.4 1.6-1 2.1Z"/>
+                    </svg>
+                    <p class="font-medium lg:text-base leading-4 lg:leading-5 mt-2 text-center text-slate-600">
+            Por oferta<br/>
+            e demanda </p>
+                </div>
+                <div class="bg-slate-50 border-b-2 border-r-2 border-slate-200 flex flex-col h-full md:col-span-2 place-content-end place-items-center px-3 py-10 w-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47 54" class="like w-3/12" fill="none">
+                        <ellipse cx="30.9" cy="24.4" fill="#D03435" opacity=".2" rx="16" ry="16.4"/>
+                        <path fill="#D03435" d="M38.7 19.7a6.5 6.5 0 0 1 1.3 4c0 2.2-1.3 4.3-3.3 5.5-.5.3-1 .5-1.7.5H23l.3 6.2a5.4 5.4 0 0 1-5.4 5.7 5.8 5.8 0 0 1-5.5-4.3L8 21.6H1.6C.7 21.6 0 20.9 0 20V1.6C0 .7.7 0 1.6 0h30c.5 0 1 0 1.4.3A6.5 6.5 0 0 1 36.6 8a6.5 6.5 0 0 1 1 5.8 6.5 6.5 0 0 1 1 5.8ZM3.6 3.7V18h4V3.6h-4Zm31.8 17.8-1-1 .6-1.3c.2-.4.4-.9.4-1.4 0-.8-.4-1.6-1-2.1l-1.1-1 .7-1.3c.2-.4.3-.9.3-1.4 0-.8-.3-1.6-1-2.1l-1-1 .7-1.3a2.9 2.9 0 0 0-1.3-4H10.8v14.5l5 18.2a2.2 2.2 0 0 0 2 1.7c.4 0 .8-.2 1-.4.6-.4.9-1 .8-1.5l-.5-10H35a3 3 0 0 0 1.4-2.5c0-.8-.4-1.6-1-2.1Z"/>
+                    </svg>
+                    <p class="font-medium lg:text-base leading-4 lg:leading-5 mt-2 text-center text-slate-600">
+            Predefinido<br/>
+            pelo broker </p>
+                </div>
+                <div class="bg-real-white-100 border-b-2 border-r-2 border-slate-200 flex flex-col h-full place-content-end place-items-center px-3 py-10 w-full z-10 md:col-span-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 47 54" class="like w-3/12">
+                        <ellipse cx="30.9" cy="37.4" fill="#A2CF66" opacity=".2" rx="16" ry="16.4"/>
+                        <path fill="#A2CF66" d="M38.7 22.1a6.5 6.5 0 0 0 1.3-4c0-2.2-1.3-4.3-3.3-5.5-.5-.3-1-.5-1.7-.5H23l.3-6.2A5.4 5.4 0 0 0 18 .2a5.8 5.8 0 0 0-5.5 4.3L8 20.2H1.6c-.9 0-1.6.7-1.6 1.6v18.4c0 .9.7 1.6 1.6 1.6h30c.5 0 1 0 1.4-.3a6.5 6.5 0 0 0 3.6-7.8 6.5 6.5 0 0 0 1-5.8 6.5 6.5 0 0 0 1-5.8Zm-35.1 16V23.9h4v14.4h-4Zm31.8-17.8-1 1 .6 1.3c.2.4.4.9.4 1.4 0 .8-.4 1.6-1 2.1l-1.1 1 .7 1.3c.2.4.3.9.3 1.4 0 .8-.3 1.6-1 2.1l-1 1 .7 1.3a2.9 2.9 0 0 1-1.3 4H10.8V23.7l5-18.2a2.2 2.2 0 0 1 2-1.7c.4 0 .8.2 1 .4.6.4.9 1 .8 1.5l-.5 10H35a3 3 0 0 1 1.4 2.5c0 .8-.4 1.6-1 2.1Z"/>
+                    </svg>
+                    <p class="font-medium lg:text-base leading-4 lg:leading-5 mt-2 text-center text-slate-600">
+            Por oferta<br/>
+            e demanda </p>
+                </div>
+                <div class="bg-slate-100 border-2 border-slate-200 col-span-3 flex h-full mt-8 place-content-center place-items-center w-full md:border-b-2 md:border-r-0 md:border-t-0 md:mt-0 md:pl-8 md:place-content-start">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 55 48" class="h-full mr-3 w-8">
+                        <circle cx="40" cy="33" r="15" fill="#66DAFF" fill-opacity=".6"/>
+                        <path fill="#7777F8" d="M33 38.5c-5.2 0-9.7-1.8-13.3-5.5a18.4 18.4 0 0 1-5.5-13.5c0-5.3 1.8-9.7 5.5-13.4A18 18 0 0 1 33 .5c5.2 0 9.7 1.9 13.4 5.6 3.7 3.7 5.5 8.1 5.5 13.4 0 5.3-1.8 9.8-5.5 13.5A18.2 18.2 0 0 1 33 38.5Zm0-4.8c4 0 7.4-1.3 10.1-4.1 2.8-2.8 4.2-6.1 4.2-10.1s-1.4-7.3-4.2-10a13.6 13.6 0 0 0-10-4.3c-4 0-7.3 1.4-10 4.2a13.8 13.8 0 0 0-4.2 10.1c0 4 1.4 7.3 4.1 10 2.8 2.9 6.2 4.3 10 4.3Zm5.5-5.4 3.3-3.3-6.3-6.4V10h-4.8v10.5l7.8 7.8Zm-36.1-16V7.7h9.4v4.8H2.4ZM0 22v-5h11.8v5H0Zm2.4 9.5v-4.8h9.4v4.8H2.4Z"/>
+                    </svg>
+                    <h6 class="text-center font-semibold md:text-left text-slate-600">
+            Processo de Negociação </h6>
+                </div>
+                <div class="bg-slate-50 border-b-2 border-l-2 border-r-2 border-slate-200 flex flex-col h-full place-content-end place-items-center px-3 py-10 w-full md:col-span-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47 54" class="like w-3/12" fill="none">
+                        <ellipse cx="30.9" cy="24.4" fill="#D03435" opacity=".2" rx="16" ry="16.4"/>
+                        <path fill="#D03435" d="M38.7 19.7a6.5 6.5 0 0 1 1.3 4c0 2.2-1.3 4.3-3.3 5.5-.5.3-1 .5-1.7.5H23l.3 6.2a5.4 5.4 0 0 1-5.4 5.7 5.8 5.8 0 0 1-5.5-4.3L8 21.6H1.6C.7 21.6 0 20.9 0 20V1.6C0 .7.7 0 1.6 0h30c.5 0 1 0 1.4.3A6.5 6.5 0 0 1 36.6 8a6.5 6.5 0 0 1 1 5.8 6.5 6.5 0 0 1 1 5.8ZM3.6 3.7V18h4V3.6h-4Zm31.8 17.8-1-1 .6-1.3c.2-.4.4-.9.4-1.4 0-.8-.4-1.6-1-2.1l-1.1-1 .7-1.3c.2-.4.3-.9.3-1.4 0-.8-.3-1.6-1-2.1l-1-1 .7-1.3a2.9 2.9 0 0 0-1.3-4H10.8v14.5l5 18.2a2.2 2.2 0 0 0 2 1.7c.4 0 .8-.2 1-.4.6-.4.9-1 .8-1.5l-.5-10H35a3 3 0 0 0 1.4-2.5c0-.8-.4-1.6-1-2.1Z"/>
+                    </svg>
+                    <p class="font-medium lg:text-base leading-4 lg:leading-5 mt-2 text-center text-slate-600">
+            Lento e<br/>
+            exposto </p>
+                </div>
+                <div class="bg-slate-50 border-b-2 border-r-2 border-slate-200 flex flex-col h-full md:col-span-2 place-content-end place-items-center px-3 py-10 w-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 47 54" class="like w-3/12">
+                        <ellipse cx="30.9" cy="37.4" fill="#A2CF66" opacity=".2" rx="16" ry="16.4"/>
+                        <path fill="#A2CF66" d="M38.7 22.1a6.5 6.5 0 0 0 1.3-4c0-2.2-1.3-4.3-3.3-5.5-.5-.3-1-.5-1.7-.5H23l.3-6.2A5.4 5.4 0 0 0 18 .2a5.8 5.8 0 0 0-5.5 4.3L8 20.2H1.6c-.9 0-1.6.7-1.6 1.6v18.4c0 .9.7 1.6 1.6 1.6h30c.5 0 1 0 1.4-.3a6.5 6.5 0 0 0 3.6-7.8 6.5 6.5 0 0 0 1-5.8 6.5 6.5 0 0 0 1-5.8Zm-35.1 16V23.9h4v14.4h-4Zm31.8-17.8-1 1 .6 1.3c.2.4.4.9.4 1.4 0 .8-.4 1.6-1 2.1l-1.1 1 .7 1.3c.2.4.3.9.3 1.4 0 .8-.3 1.6-1 2.1l-1 1 .7 1.3a2.9 2.9 0 0 1-1.3 4H10.8V23.7l5-18.2a2.2 2.2 0 0 1 2-1.7c.4 0 .8.2 1 .4.6.4.9 1 .8 1.5l-.5 10H35a3 3 0 0 1 1.4 2.5c0 .8-.4 1.6-1 2.1Z"/>
+                    </svg>
+                    <p class="font-medium lg:text-base leading-4 lg:leading-5 mt-2 text-center text-slate-600">
+            Rápido com<br/>
+            ordens seladas </p>
+                </div>
+                <div class="bg-real-white-100 border-b-2 border-r-2 border-slate-200 flex flex-col h-full md-row-span-2 place-content-end place-items-center px-3 py-10 w-full z-10 md:col-span-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 47 54" class="like w-3/12">
+                        <ellipse cx="30.9" cy="37.4" fill="#A2CF66" opacity=".2" rx="16" ry="16.4"/>
+                        <path fill="#A2CF66" d="M38.7 22.1a6.5 6.5 0 0 0 1.3-4c0-2.2-1.3-4.3-3.3-5.5-.5-.3-1-.5-1.7-.5H23l.3-6.2A5.4 5.4 0 0 0 18 .2a5.8 5.8 0 0 0-5.5 4.3L8 20.2H1.6c-.9 0-1.6.7-1.6 1.6v18.4c0 .9.7 1.6 1.6 1.6h30c.5 0 1 0 1.4-.3a6.5 6.5 0 0 0 3.6-7.8 6.5 6.5 0 0 0 1-5.8 6.5 6.5 0 0 0 1-5.8Zm-35.1 16V23.9h4v14.4h-4Zm31.8-17.8-1 1 .6 1.3c.2.4.4.9.4 1.4 0 .8-.4 1.6-1 2.1l-1.1 1 .7 1.3c.2.4.3.9.3 1.4 0 .8-.3 1.6-1 2.1l-1 1 .7 1.3a2.9 2.9 0 0 1-1.3 4H10.8V23.7l5-18.2a2.2 2.2 0 0 1 2-1.7c.4 0 .8.2 1 .4.6.4.9 1 .8 1.5l-.5 10H35a3 3 0 0 1 1.4 2.5c0 .8-.4 1.6-1 2.1Z"/>
+                    </svg>
+                    <p class="font-medium lg:text-base leading-4 lg:leading-5 mt-2 text-center text-slate-600">
+            Rápido com<br/>
+            ordens seladas </p>
+                </div>
+                <div class="bg-slate-100 border-2 border-slate-200 col-span-3 flex h-full place-content-center place-items-center pt-8 w-full md:border-b-r-0 md:border-r-0 md:border-t-0 md:pl-8 md:place-content-start md:pt-0 md:rounded-bl-2xl">
+                    <svg width="55" height="49" viewBox="0 0 55 49" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-full mr-3 w-8">
+                        <circle cx="40" cy="33.8984" r="15" fill="#66DAFF" fill-opacity="0.6"/>
+                        <path d="M15 40.5L11.5 36.9375L17.9375 30.5H0V25.5H17.9375L11.5 19.0625L15 15.5L27.5 28L15 40.5ZM35 25.5L22.5 13L35 0.5L38.5 4.0625L32.0625 10.5H50V15.5H32.0625L38.5 21.9375L35 25.5Z" fill="#7777F8"/>
+                    </svg>
+                    <h6 class="text-center font-semibold md:text-left text-slate-600">
+            Ordens de Troca </h6>
+                </div>
+                <div class="bg-slate-50 border-b-2 border-l-2 border-r-2 border-slate-200 border-t-b-2 flex flex-col h-full place-content-end place-items-center px-3 py-10 rounded-bl-2xl w-full md:col-span-2 md:pb-12 md:rounded-bl-none">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47 54" class="like w-3/12" fill="none">
+                        <ellipse cx="30.9" cy="24.4" fill="#D03435" opacity=".2" rx="16" ry="16.4"/>
+                        <path fill="#D03435" d="M38.7 19.7a6.5 6.5 0 0 1 1.3 4c0 2.2-1.3 4.3-3.3 5.5-.5.3-1 .5-1.7.5H23l.3 6.2a5.4 5.4 0 0 1-5.4 5.7 5.8 5.8 0 0 1-5.5-4.3L8 21.6H1.6C.7 21.6 0 20.9 0 20V1.6C0 .7.7 0 1.6 0h30c.5 0 1 0 1.4.3A6.5 6.5 0 0 1 36.6 8a6.5 6.5 0 0 1 1 5.8 6.5 6.5 0 0 1 1 5.8ZM3.6 3.7V18h4V3.6h-4Zm31.8 17.8-1-1 .6-1.3c.2-.4.4-.9.4-1.4 0-.8-.4-1.6-1-2.1l-1.1-1 .7-1.3c.2-.4.3-.9.3-1.4 0-.8-.3-1.6-1-2.1l-1-1 .7-1.3a2.9 2.9 0 0 0-1.3-4H10.8v14.5l5 18.2a2.2 2.2 0 0 0 2 1.7c.4 0 .8-.2 1-.4.6-.4.9-1 .8-1.5l-.5-10H35a3 3 0 0 0 1.4-2.5c0-.8-.4-1.6-1-2.1Z"/>
+                    </svg>
+                    <p class="font-medium lg:text-base leading-4 lg:leading-5 mt-2 text-center text-slate-600">
+            Não permite<br/>
+            ordens de troca </p>
+                </div>
+                <div class="bg-slate-50 border-b-2 border-r-2 border-slate-200 flex flex-col h-full md:col-span-2 md:pb-12 place-content-end place-items-center px-3 py-10 w-full">
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 47 54" class="like w-3/12" fill="none">
+                        <ellipse cx="30.9" cy="24.4" fill="#D03435" opacity=".2" rx="16" ry="16.4"/>
+                        <path fill="#D03435" d="M38.7 19.7a6.5 6.5 0 0 1 1.3 4c0 2.2-1.3 4.3-3.3 5.5-.5.3-1 .5-1.7.5H23l.3 6.2a5.4 5.4 0 0 1-5.4 5.7 5.8 5.8 0 0 1-5.5-4.3L8 21.6H1.6C.7 21.6 0 20.9 0 20V1.6C0 .7.7 0 1.6 0h30c.5 0 1 0 1.4.3A6.5 6.5 0 0 1 36.6 8a6.5 6.5 0 0 1 1 5.8 6.5 6.5 0 0 1 1 5.8ZM3.6 3.7V18h4V3.6h-4Zm31.8 17.8-1-1 .6-1.3c.2-.4.4-.9.4-1.4 0-.8-.4-1.6-1-2.1l-1.1-1 .7-1.3c.2-.4.3-.9.3-1.4 0-.8-.3-1.6-1-2.1l-1-1 .7-1.3a2.9 2.9 0 0 0-1.3-4H10.8v14.5l5 18.2a2.2 2.2 0 0 0 2 1.7c.4 0 .8-.2 1-.4.6-.4.9-1 .8-1.5l-.5-10H35a3 3 0 0 0 1.4-2.5c0-.8-.4-1.6-1-2.1Z"/>
+                    </svg>
+                    <p class="font-medium lg:text-base leading-4 lg:leading-5 mt-2 text-center text-slate-600">
+            Não permite<br/>
+            ordens de troca </p>
+                </div>
+                <div class="bg-real-white-100 border-b-2 border-r-2 border-slate-200 flex flex-col h-full place-content-end place-items-center px-3 py-10 rounded-br-2xl w-full z-10 md:col-span-2 md:pb-12">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 47 54" class="like w-3/12">
+                        <ellipse cx="30.9" cy="37.4" fill="#A2CF66" opacity=".2" rx="16" ry="16.4"/>
+                        <path fill="#A2CF66" d="M38.7 22.1a6.5 6.5 0 0 0 1.3-4c0-2.2-1.3-4.3-3.3-5.5-.5-.3-1-.5-1.7-.5H23l.3-6.2A5.4 5.4 0 0 0 18 .2a5.8 5.8 0 0 0-5.5 4.3L8 20.2H1.6c-.9 0-1.6.7-1.6 1.6v18.4c0 .9.7 1.6 1.6 1.6h30c.5 0 1 0 1.4-.3a6.5 6.5 0 0 0 3.6-7.8 6.5 6.5 0 0 0 1-5.8 6.5 6.5 0 0 0 1-5.8Zm-35.1 16V23.9h4v14.4h-4Zm31.8-17.8-1 1 .6 1.3c.2.4.4.9.4 1.4 0 .8-.4 1.6-1 2.1l-1.1 1 .7 1.3c.2.4.3.9.3 1.4 0 .8-.3 1.6-1 2.1l-1 1 .7 1.3a2.9 2.9 0 0 1-1.3 4H10.8V23.7l5-18.2a2.2 2.2 0 0 1 2-1.7c.4 0 .8.2 1 .4.6.4.9 1 .8 1.5l-.5 10H35a3 3 0 0 1 1.4 2.5c0 .8-.4 1.6-1 2.1Z"/>
+                    </svg>
+                    <p class="font-medium lg:text-base leading-4 lg:leading-5 mt-2 text-center text-slate-600">
+            Permite ordens<br/>
+            de troca </p>
+                </div>
             </div>
-          </template>
-        </UCard>
-        <UCard
-          class="border-2 border-green-500 border-solid flex flex-col p-8 place-items-center shadow-lg shadow-slate-200"
-        >
-          <template #header>
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              width="112"
-              height="72"
-              fill="none"
-              viewBox="0 0 92 52"
-            >
-              <path
-                fill="#1F4386"
-                d="M28.62 3.2H5.46v9.65h17.89v3.2H5.46v9.52h23.16v3.2H0V0h28.62v3.2ZM63.13 0v3.2h23.15v9.65H68.4v3.2h17.88v9.52H63.13v3.2h28.62V0H63.13ZM52.94 10.69 63.13 0l-7.21.1-6.45 6.95 3.47 3.64Z"
-              />
-              <path
-                fill="#1F4386"
-                d="M49.4 14.55 35.6 0h-7.02l13.6 14.64-13.35 14.13h7.12L49.4 14.55Zm13.1 13.76-9.52-10.1-3.68 3.84 6.41 6.72h7.22l-.41-.46h-.02Z"
-              />
-              <path
-                fill="#58595B"
-                d="M7.77 41.57c.72.68 1.08 1.68 1.08 3v6.44H7.52v-1.62a3.2 3.2 0 0 1-1.39 1.26c-.6.3-1.33.45-2.17.45a4.25 4.25 0 0 1-2.74-.82 2.68 2.68 0 0 1-1.02-2.2c0-.9.31-1.58.95-2.12.63-.54 1.64-.81 3.03-.81h3.28v-.63c0-.9-.25-1.58-.75-2.05-.5-.46-1.22-.7-2.18-.7A5.43 5.43 0 0 0 1.1 43l-.63-1.05a5.42 5.42 0 0 1 1.88-1.03 7.3 7.3 0 0 1 2.32-.37c1.34 0 2.38.34 3.1 1.02ZM6.2 49.46a3.3 3.3 0 0 0 1.26-1.57v-1.7H4.22c-1.77 0-2.65.62-2.65 1.86 0 .6.23 1.08.69 1.43.45.35 1.1.52 1.92.52.82 0 1.46-.18 2.02-.54Zm17-8.83v10.38h-1.34v-1.9a3.82 3.82 0 0 1-1.5 1.47c-.65.35-1.38.52-2.2.52a4.38 4.38 0 0 1-3.2-1.13c-.77-.76-1.16-1.86-1.16-3.32v-6.02h1.39v5.88c0 1.09.27 1.91.8 2.48.54.57 1.3.85 2.3.85 1.09 0 1.94-.33 2.57-1 .63-.66.94-1.58.94-2.77v-5.44h1.4Zm6.7 9.81a4.85 4.85 0 0 1-1.9-1.89 5.46 5.46 0 0 1-.69-2.73c0-1.01.23-1.92.7-2.72a4.85 4.85 0 0 1 1.89-1.88c.8-.44 1.71-.67 2.73-.67.9 0 1.69.18 2.39.53.7.35 1.25.86 1.66 1.53l-1.04.7c-.34-.5-.78-.9-1.3-1.15a3.84 3.84 0 0 0-1.7-.38c-.75 0-1.42.17-2.02.5-.6.34-1.06.81-1.39 1.43-.33.62-.5 1.32-.5 2.11 0 .8.17 1.51.5 2.12.33.62.8 1.09 1.4 1.42.59.34 1.26.5 2 .5.62 0 1.19-.12 1.71-.37s.96-.63 1.3-1.14l1.04.7c-.4.68-.96 1.19-1.67 1.54-.7.35-1.5.52-2.38.52a5.52 5.52 0 0 1-2.73-.67Zm16.2-.07a2.6 2.6 0 0 1-.98.55 3.9 3.9 0 0 1-1.2.18c-.97 0-1.72-.26-2.24-.78a3.04 3.04 0 0 1-.78-2.23V41.8h-1.85v-1.18h1.85v-2.27h1.39v2.27h3.14v1.18h-3.14V48c0 .62.15 1.09.46 1.41.3.32.75.48 1.32.48a2.29 2.29 0 0 0 1.54-.53l.49 1Zm3.76-12.3a.97.97 0 0 1-.3-.71c0-.28.1-.5.3-.7.2-.2.44-.29.73-.29a1 1 0 0 1 1.02.97 1 1 0 0 1-.3.73c-.2.2-.43.3-.72.3a.98.98 0 0 1-.73-.3Zm.02 2.56h1.4v10.38h-1.4V40.63Zm8.07 9.8a4.97 4.97 0 0 1-1.89-1.89 5.4 5.4 0 0 1-.68-2.72c0-1.01.23-1.92.68-2.72a4.87 4.87 0 0 1 1.89-1.88 5.4 5.4 0 0 1 2.69-.67c.99 0 1.89.23 2.68.67a4.8 4.8 0 0 1 1.88 1.88c.45.8.68 1.7.68 2.72 0 1.01-.23 1.92-.68 2.72a4.88 4.88 0 0 1-1.88 1.89c-.8.45-1.7.68-2.68.68-1 0-1.9-.23-2.7-.68Zm4.66-1.07a3.5 3.5 0 0 0 1.36-1.43c.33-.62.5-1.32.5-2.1 0-.8-.17-1.5-.5-2.12a3.49 3.49 0 0 0-1.36-1.43 3.89 3.89 0 0 0-1.97-.5 3.9 3.9 0 0 0-1.98.5 3.5 3.5 0 0 0-1.37 1.43c-.33.62-.5 1.32-.5 2.11 0 .8.17 1.5.5 2.11.33.62.79 1.1 1.37 1.43.58.34 1.24.5 1.98.5a3.9 3.9 0 0 0 1.97-.5Zm15.72-7.67c.76.75 1.15 1.85 1.15 3.3v6.02h-1.4v-5.88c0-1.08-.27-1.9-.8-2.47a3.04 3.04 0 0 0-2.3-.85c-1.11 0-1.99.34-2.64 1a3.77 3.77 0 0 0-.97 2.75v5.45h-1.4V40.63h1.34v1.92c.38-.64.9-1.13 1.58-1.47a5.02 5.02 0 0 1 2.35-.53c1.3 0 2.32.38 3.09 1.14Zm6.55 9.05a5.09 5.09 0 0 1-1.8-.92l.64-1.1c.43.34.97.62 1.62.84a6.7 6.7 0 0 0 2.04.32 3.9 3.9 0 0 0 2.1-.44c.45-.3.67-.71.67-1.26 0-.38-.12-.68-.37-.9a2.5 2.5 0 0 0-.94-.49 13.5 13.5 0 0 0-1.51-.32c-.84-.16-1.51-.32-2.02-.49a2.95 2.95 0 0 1-1.3-.83c-.37-.4-.55-.95-.55-1.64 0-.87.36-1.58 1.08-2.13a4.82 4.82 0 0 1 3-.83 7.53 7.53 0 0 1 3.66.97l-.61 1.12a5.18 5.18 0 0 0-3.04-.88c-.9 0-1.56.15-2.02.47-.45.32-.67.73-.67 1.24 0 .4.12.71.38.95.25.24.57.41.95.52.38.12.9.23 1.57.35.82.16 1.49.31 1.98.47.5.16.93.43 1.28.81.36.38.53.9.53 1.58 0 .9-.37 1.63-1.13 2.16-.75.53-1.8.8-3.13.8-.84 0-1.63-.12-2.4-.36v-.01Z"
-              />
-            </svg>
-          </template>
-          <template #default>
-            <div
-              class="border-gray-50 border-t-2 flex flex-col gap-6 mt-8 pt-8"
-            >
-              <div>
-                <h6
-                  class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="25"
-                    height="26"
-                    fill="none"
-                  >
-                    <g stroke="#A2CF66" filter="url(#a)">
-                      <path
-                        fill="#A2CF66"
-                        stroke-width=".5"
-                        d="M9.4 18.3c.5.5 1.2.5 1.7 0l8.4-8.3A1.2 1.2 0 0 0 18 8.3l-7.1 7c-.3.4-.8.4-1 0L7 12.9a1.2 1.2 0 1 0-1.6 1.7l3.9 3.8Z"
-                      />
-                      <rect
-                        width="22"
-                        height="22"
-                        x="1.5"
-                        y="2.3"
-                        stroke-width="3"
-                        rx="11"
-                      />
-                    </g>
-                    <defs>
-                      <filter
-                        id="a"
-                        width="25"
-                        height="25.7"
-                        x="0"
-                        y=".8"
-                        color-interpolation-filters="sRGB"
-                        filterUnits="userSpaceOnUse"
-                      >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
-                        <feBlend
-                          in="SourceGraphic"
-                          in2="BackgroundImageFix"
-                          result="shape"
-                        />
-                        <feColorMatrix
-                          in="SourceAlpha"
-                          result="hardAlpha"
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        />
-                        <feOffset dy=".7" />
-                        <feGaussianBlur stdDeviation=".5" />
-                        <feComposite
-                          in2="hardAlpha"
-                          k2="-1"
-                          k3="1"
-                          operator="arithmetic"
-                        />
-                        <feColorMatrix
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"
-                        />
-                        <feBlend
-                          in2="shape"
-                          result="effect1_innerShadow_293_904"
-                        />
-                      </filter>
-                    </defs>
-                  </svg>
-                  Método de precificação
-                </h6>
-                <p class="ml-8">
-                  Definido pela atual oferta e demanda para o respectivo volume.
-                  Teoricamente o preço ótimo
-                </p>
-              </div>
-              <div>
-                <h6
-                  class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="25"
-                    height="26"
-                    fill="none"
-                  >
-                    <g stroke="#A2CF66" filter="url(#a)">
-                      <path
-                        fill="#A2CF66"
-                        stroke-width=".5"
-                        d="M9.4 18.3c.5.5 1.2.5 1.7 0l8.4-8.3A1.2 1.2 0 0 0 18 8.3l-7.1 7c-.3.4-.8.4-1 0L7 12.9a1.2 1.2 0 1 0-1.6 1.7l3.9 3.8Z"
-                      />
-                      <rect
-                        width="22"
-                        height="22"
-                        x="1.5"
-                        y="2.3"
-                        stroke-width="3"
-                        rx="11"
-                      />
-                    </g>
-                    <defs>
-                      <filter
-                        id="a"
-                        width="25"
-                        height="25.7"
-                        x="0"
-                        y=".8"
-                        color-interpolation-filters="sRGB"
-                        filterUnits="userSpaceOnUse"
-                      >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
-                        <feBlend
-                          in="SourceGraphic"
-                          in2="BackgroundImageFix"
-                          result="shape"
-                        />
-                        <feColorMatrix
-                          in="SourceAlpha"
-                          result="hardAlpha"
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        />
-                        <feOffset dy=".7" />
-                        <feGaussianBlur stdDeviation=".5" />
-                        <feComposite
-                          in2="hardAlpha"
-                          k2="-1"
-                          k3="1"
-                          operator="arithmetic"
-                        />
-                        <feColorMatrix
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"
-                        />
-                        <feBlend
-                          in2="shape"
-                          result="effect1_innerShadow_293_904"
-                        />
-                      </filter>
-                    </defs>
-                  </svg>
-                  Processo de Negociação
-                </h6>
-                <p class="ml-8">
-                  Bastante rápido, com ordens seladas e anônimas
-                </p>
-              </div>
-              <div>
-                <h6
-                  class="flex flex-row gap-2 mb-1 place-items-center text-gray-500"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="25"
-                    height="26"
-                    fill="none"
-                  >
-                    <g stroke="#A2CF66" filter="url(#a)">
-                      <path
-                        fill="#A2CF66"
-                        stroke-width=".5"
-                        d="M9.4 18.3c.5.5 1.2.5 1.7 0l8.4-8.3A1.2 1.2 0 0 0 18 8.3l-7.1 7c-.3.4-.8.4-1 0L7 12.9a1.2 1.2 0 1 0-1.6 1.7l3.9 3.8Z"
-                      />
-                      <rect
-                        width="22"
-                        height="22"
-                        x="1.5"
-                        y="2.3"
-                        stroke-width="3"
-                        rx="11"
-                      />
-                    </g>
-                    <defs>
-                      <filter
-                        id="a"
-                        width="25"
-                        height="25.7"
-                        x="0"
-                        y=".8"
-                        color-interpolation-filters="sRGB"
-                        filterUnits="userSpaceOnUse"
-                      >
-                        <feFlood
-                          flood-opacity="0"
-                          result="BackgroundImageFix"
-                        />
-                        <feBlend
-                          in="SourceGraphic"
-                          in2="BackgroundImageFix"
-                          result="shape"
-                        />
-                        <feColorMatrix
-                          in="SourceAlpha"
-                          result="hardAlpha"
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
-                        />
-                        <feOffset dy=".7" />
-                        <feGaussianBlur stdDeviation=".5" />
-                        <feComposite
-                          in2="hardAlpha"
-                          k2="-1"
-                          k3="1"
-                          operator="arithmetic"
-                        />
-                        <feColorMatrix
-                          values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.02 0"
-                        />
-                        <feBlend
-                          in2="shape"
-                          result="effect1_innerShadow_293_904"
-                        />
-                      </filter>
-                    </defs>
-                  </svg>
-                  Ordens de Troca
-                </h6>
-                <p class="ml-8">Sim, permite ordens de troca</p>
-              </div>
-            </div>
-          </template>
-        </UCard>
-      </div>
-    </div>
-  </section>
+        </div>
+    </section>
 </template>
-<style scoped></style>
+<style scoped>
+  .like {
+    max-width: 2.2rem;
+  }
+  .comparativo {
+    filter: drop-shadow(0px 0.4rem 3rem hsl(244, 100%, 80%, 0.2))
+      drop-shadow(0 0.2rem 0.5rem hsl(244, 100%, 90%, 0.3));
+  }
+</style>

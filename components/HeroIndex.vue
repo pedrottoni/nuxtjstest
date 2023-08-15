@@ -8,11 +8,9 @@
 </script>
 <template>
   <section
-    class="-mb-20 flex flex-col heroindexsection pt-32 sm:pt-40 px-4 relative sm:-mb-40 md:-mb-56 lg:-mb-56"
+    class="relative -mb-48 flex flex-col heroindexsection md:-mb-72 md:pt-28 overflow-hidden pt-32 px-4 relative sm:-mb-52 sm:pt-40"
   >
-    <div
-      class="-left-3/4 absolute backgroundelements lg:left-auto md:-left-96 top-0 z-0"
-    >
+    <div class="absolute backgroundelements z-0">
       <svg
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
@@ -43,12 +41,10 @@
       </svg>
     </div>
     <div class="justify-around place-items-center relative text-center z-1">
-      <h1 class="leading-tight mb-2 text-blue-950">
-        Um novo <br class="block md:hidden" />
-        tipo de leilão
-      </h1>
-      <h4 class="mb-6 mt-4 text-indigo-900">
-        Com regras de negocio modernas e diferenciadas.<br
+      <h1 class="leading-tight mb-2 text-blue-950">Um novo</h1>
+      <h1 class="text-indigo-500">tipo de leilão</h1>
+      <h4 class="mb-6 mt-4">
+        Com regras de negocio modernas e diferenciadas,<br
           class="hidden sm:block"
         />
         Criamos uma solução revolucionaria.
@@ -56,7 +52,7 @@
       <UButton
         to="contact"
         size="xl"
-        class="!rounded-3xl blue mt-4 px-7 py-3"
+        class="!rounded-3xl blue mt-4 px-7 py-3 relative z-20"
         label="Comece agora"
       >
       </UButton>
@@ -65,30 +61,32 @@
 </template>
 <style scoped>
   .heroindexsection {
-    background-color: rgb(237, 239, 255);
+    background-color: #f1f5f9;
     background-image: radial-gradient(
         at 100% 61%,
         hsla(206, 100%, 91%, 1) 0px,
         transparent 50%
       ),
-      radial-gradient(at 3% 97%, #aed8ff 0px, transparent 50%),
-      radial-gradient(at 58% 97%, #ceaeff 0px, transparent 50%),
-      radial-gradient(at 58% 47%, #fff6ae 0px, transparent 50%);
+      radial-gradient(at 60% 97%, #e1aeff 0px, transparent 50%),
+      radial-gradient(at 3% 97%, #dff3ff 0px, transparent 50%),
+      radial-gradient(at 40% 97%, #fff6ae 0px, transparent 50%);
     background-size: 600% 600%;
     animation: backgroundanimation 10s ease infinite;
     height: 45rem;
     .backgroundelements {
-      width: -webkit-fill-available;
-      overflow: hidden;
       height: 45rem;
+      top: 0;
+      left: 50%;
       svg {
-        height: 100vh;
-        opacity: 60%;
+        height: 45rem;
+        opacity: 90%;
+        margin: 0 -50%;
       }
     }
     h4 {
-      font-size: 1.5rem;
-      line-height: 2.4rem;
+      font-size: 1.4rem;
+      font-weight: 500;
+      line-height: 2.3rem;
     }
   }
 
@@ -101,6 +99,33 @@
     }
     100% {
       background-position: 0% 50%;
+    }
+  }
+
+  section {
+    &::after {
+      content: '';
+      display: block;
+      width: 50vw;
+      height: 200px;
+      bottom: -150px;
+      left: 0;
+      position: absolute;
+      z-index: 0;
+      background-color: #fbfcfd;
+      transform: rotateZ(183deg);
+    }
+    &:before {
+      content: '';
+      display: block;
+      width: 50vw;
+      height: 200px;
+      bottom: -150px;
+      right: -10px;
+      position: absolute;
+      z-index: 1;
+      background-color: #fbfcfd;
+      transform: rotateZ(-183deg);
     }
   }
 </style>

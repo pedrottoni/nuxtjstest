@@ -10,7 +10,7 @@
   })
 </script>
 <template>
-    <main>
+    <main class="overflow-hidden">
         <HeroIndex/>
         <IndexParceiros/>
         <IndexModeloInovador/>
