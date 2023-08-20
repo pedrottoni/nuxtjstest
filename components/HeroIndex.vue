@@ -8,7 +8,7 @@
 </script>
 <template>
   <section
-    class="relative -mb-48 flex flex-col heroindexsection md:-mb-72 md:pt-28 overflow-hidden pt-32 px-4 relative sm:-mb-52 sm:pt-40"
+    class="flex flex-col heroindexsection overflow-hidden pt-32 px-4 relative sm:pt-40 md:pt-28"
   >
     <div class="absolute backgroundelements z-0">
       <svg
@@ -42,8 +42,8 @@
     </div>
     <div class="justify-around place-items-center relative text-center z-1">
       <h1 class="leading-tight mb-2 text-blue-950">Um novo</h1>
-      <h1 class="text-indigo-500">tipo de leilão</h1>
-      <h4 class="mb-6 mt-4">
+      <h1 class="text-primary-500">tipo de leilão</h1>
+      <h4 class="mb-6 mt-10">
         Com regras de negocio modernas e diferenciadas,<br
           class="hidden sm:block"
         />
@@ -52,8 +52,9 @@
       <UButton
         to="contact"
         size="xl"
-        class="!rounded-3xl blue mt-4 px-7 py-3 relative z-20"
+        class="rounded-xl mt-4 px-7 py-3 relative z-20"
         label="Comece agora"
+        color="tertiary"
       >
       </UButton>
     </div>
@@ -61,25 +62,37 @@
 </template>
 <style scoped>
   .heroindexsection {
-    background-color: #f1f5f9;
+    background-color: hsl(0, 0%, 100%);
     background-image: radial-gradient(
         at 100% 61%,
-        hsla(206, 100%, 91%, 1) 0px,
+        hsla(206, 100%, 94%) 0px,
         transparent 50%
       ),
-      radial-gradient(at 60% 97%, #e1aeff 0px, transparent 50%),
-      radial-gradient(at 3% 97%, #dff3ff 0px, transparent 50%),
-      radial-gradient(at 40% 97%, #fff6ae 0px, transparent 50%);
+      radial-gradient(at 60% 97%, hsl(278, 100%, 96%) 0px, transparent 50%),
+      radial-gradient(at 3% 97%, hsl(203, 100%, 96%) 0px, transparent 50%),
+      radial-gradient(at 40% 97%, hsl(53, 100%, 82%) 0px, transparent 50%);
     background-size: 600% 600%;
     animation: backgroundanimation 10s ease infinite;
-    height: 45rem;
+    height: clamp(46rem, 90vw, 66rem);
+    margin-bottom: clamp(-37rem, -90vw, 66rem);
+
+    @media screen and (max-width: 1440px) {
+    }
+    @media screen and (max-width: 1023px) {
+      height: clamp(46rem, 90vw, 66rem);
+      margin-bottom: clamp(-37rem, -90vw, 66rem);
+    }
+    @media screen and (max-width: 768px) {
+      height: clamp(46rem, 90vw, 66rem);
+      margin-bottom: clamp(-37rem, -90vw, 66rem);
+    }
     .backgroundelements {
-      height: 45rem;
+      height: 64rem;
       top: 0;
       left: 50%;
       svg {
-        height: 45rem;
-        opacity: 90%;
+        height: 60rem;
+        opacity: 50%;
         margin: 0 -50%;
       }
     }
@@ -99,33 +112,6 @@
     }
     100% {
       background-position: 0% 50%;
-    }
-  }
-
-  section {
-    &::after {
-      content: '';
-      display: block;
-      width: 50vw;
-      height: 200px;
-      bottom: -150px;
-      left: 0;
-      position: absolute;
-      z-index: 0;
-      background-color: #fbfcfd;
-      transform: rotateZ(183deg);
-    }
-    &:before {
-      content: '';
-      display: block;
-      width: 50vw;
-      height: 200px;
-      bottom: -150px;
-      right: -10px;
-      position: absolute;
-      z-index: 1;
-      background-color: #fbfcfd;
-      transform: rotateZ(-183deg);
     }
   }
 </style>

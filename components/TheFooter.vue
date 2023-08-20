@@ -13,7 +13,7 @@
   })
 </script>
 <template>
-    <div class="bg-slate-100 py-24">
+    <div class="bg-slate-100 py-28">
         <div class="container gap-y-12 grid grid-cols-2 mx-auto px-4 w-full sm:grid-cols-5">
             <div>
                 <svg fill="none" xmlns="http://www.w3.org/2000/svg" width="102" height="62" viewBox="0 0 92 52" class="contrast-50">

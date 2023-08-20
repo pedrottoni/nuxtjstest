@@ -11,6 +11,7 @@ export default defineAppConfig({
       },
     },
     card: {
+      background: 'bg-transparent dark:bg-gray-900',
       divide: 'divide-none',
       ring: 'ring-none',
       shadow: 'shadow-0',

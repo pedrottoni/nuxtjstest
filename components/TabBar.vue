@@ -63,7 +63,7 @@
       margin-top: 2rem;
       display: grid;
       gap: 2rem;
-      grid-template-columns: 1fr 1fr;
+      grid-template-columns: 0.7fr 0.5fr;
       align-items: center;
     }
   }

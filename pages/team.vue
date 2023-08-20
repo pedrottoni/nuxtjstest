@@ -100,7 +100,7 @@
         </UCard>
         <UCard class="px-0 pt-0 pb-2 h-fit shadow-md shadow-slate-300">
           <template #header>
-            <nuxt-img src="guilherme_corsini.png" width="620" />
+            <nuxt-img src="jack.jpeg" width="620" />
           </template>
           <template #default>
             <div class="border-gray-50 flex flex-col mt-6 pt-0 px-5">
@@ -135,7 +135,7 @@
           class="h-fit px-0 pt-0 pb-2 shadow-md shadow-slate-300 team_card"
         >
           <template #header>
-            <nuxt-img src="guilherme_corsini.png" width="620" />
+            <nuxt-img src="mervyn.jpeg" width="620" />
           </template>
           <template #default>
             <div class="border-gray-50 flex flex-col mt-6 px-5">

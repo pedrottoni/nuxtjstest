@@ -8,6 +8,7 @@ export default defineNuxtConfig({
       author: 'Estúdio Oz',
       nav: [
         { text: 'EXE auctions', link: '/' },
+        { text: 'Home', link: '/darkPage' },
         { text: 'O que fazemos', link: '/about' },
         { text: 'Nosso time', link: '/team' },
         { text: 'Entre em contato', link: '/subscribe' },
