@@ -45,7 +45,8 @@
     "typescript": "^5.0.4"
   },
   "dependencies": {
-    "@vueuse/core": "^10.1.2"
+    "@vueuse/core": "^10.1.2",
+    "nuxt-swiper": "^1.2.0"
   },
   "web-types": "web-types.json"
 }

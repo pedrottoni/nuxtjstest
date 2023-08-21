@@ -1,7 +1,8 @@
 /* Pinegrow generated Design Panel Init Begin */
 @import url('https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900|Inter:100,200,300,400,500,600,700,800,900&display=swap');
 
-/* Pinegrow generated Design Panel Init End */
+
+    /* Pinegrow generated Design Panel Init End */
 
 @tailwind base;
 @tailwind components;
@@ -62,7 +63,7 @@ h2 {
   font-size: clamp(1.8rem, 7vw, 2.4rem);
   line-height: clamp(2rem, 9vw, 2.9rem);
   font-weight: 600;
-  letter-spacing: -0.8px;
+  letter-spacing: -0.9px;
 }
 h3 {
   @apply text-primary-500;
@@ -113,20 +114,15 @@ a {
 
 /* Pinegrow generated Design Panel Extra Rules Begin */
 
-h1,
-h2,
-h5 {
-  @apply font-sans;
+h1,h2,h5 {
+    @apply font-sans;
+}                    
+
+h3,h4,h6 {
+    @apply font-serif;
+}                    
+body, html {
+    min-height: 100vh;
 }
 
-h3,
-h4,
-h6 {
-  @apply font-serif;
-}
-body,
-html {
-  min-height: 100vh;
-}
-
-/* Pinegrow generated Design Panel Extra Rules End */
+    /* Pinegrow generated Design Panel Extra Rules End */

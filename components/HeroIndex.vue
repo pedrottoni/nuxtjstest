@@ -7,111 +7,70 @@
   // })
 </script>
 <template>
-  <section
-    class="flex flex-col heroindexsection overflow-hidden pt-32 px-4 relative sm:pt-40 md:pt-28"
-  >
-    <div class="absolute backgroundelements z-0">
-      <svg
-        xmlns="http://www.w3.org/2000/svg"
-        fill="none"
-        viewBox="0 0 2791 1248"
-      >
-        <path
-          stroke="#fff"
-          stroke-width="6"
-          d="m1493 8.2 4.9-5h-320.3l-1 1-271.4 302.4-1.8 2 1.9 2L1053.5 467l2.2 2.3 2.2-2.3L1493 8.2ZM906.7 632.8l1.9-2-2-2L316.1 4l-.8-1H7.2l4.6 5 579.4 626.4-568.7 605.1-4.8 5h312.7l.9-.8 575.3-611ZM1059.3 786l-2.2-2.3-2.2 2.3-157 165-2 2 2 2.1 274 288.6.8 1h316.6l-4.8-5L1059.3 786Z"
-          opacity=".3"
-        />
-        <path
-          fill="#7777F8"
-          d="M1113.4 466.7 1552.6 6l-315-.1-273.8 303.7 149.6 157ZM960.6 633 364.7 6.2H62L648.6 637 72.7 1246.3H380L960.6 633Zm154.2 158L956.3 956.6l276.5 289.7H1544L1114.8 791Z"
-          opacity=".1"
-        />
-        <path
-          stroke="#fff"
-          stroke-width="6"
-          d="m1833.5 632.7-2-2 2-2.1L2423.9 3.9l.9-.9h308l-4.6 5-579.3 626.4 568.7 605.1 4.7 5h-312.7l-.8-.9-575.3-610.9Z"
-          opacity=".3"
-        />
-        <path
-          fill="#7777F8"
-          d="m1891.4 633 596-627H2790l-586.6 630.8 576 609.4H2472L1891.4 633Z"
-          opacity=".1"
-        />
-      </svg>
-    </div>
-    <div class="justify-around place-items-center relative text-center z-1">
-      <h1 class="leading-tight mb-2 text-blue-950">Um novo</h1>
-      <h1 class="text-primary-500">tipo de leilão</h1>
-      <h4 class="mb-6 mt-10">
-        Com regras de negocio modernas e diferenciadas,<br
-          class="hidden sm:block"
-        />
-        Criamos uma solução revolucionaria.
-      </h4>
-      <UButton
-        to="contact"
-        size="xl"
-        class="rounded-xl mt-4 px-7 py-3 relative z-20"
-        label="Comece agora"
-        color="tertiary"
-      >
-      </UButton>
-    </div>
-  </section>
+    <section class="flex flex-col heroindexsection overflow-hidden pt-32 px-4 relative">
+        <div class="absolute backgroundelements z-0">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 2528 1298">
+                <g opacity=".6">
+                    <path fill="url(#a)" d="M1101.03 482.12 1560.74.14 1231.07 0l-286.6 317.84 156.56 164.28Z"/>
+                    <path fill="url(#b)" d="M941.19 656.27 317.54.14H.74l613.94 660.11L11.93 1298h321.6l607.66-641.73Z"/>
+                    <path fill="url(#c)" d="M1102.53 821.5 936.68 994.85 1226.03 1298h325.69l-449.19-476.5Z"/>
+                    <path fill="url(#d)" d="M1587.26 656.14 2210.91 0h316.8l-613.94 660.12 602.74 637.74h-321.59l-607.66-641.72Z"/>
+                </g>
+                <defs>
+                    <linearGradient id="a" x1="2057.49" x2="2057.49" y1="0" y2="1297.86" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#DFE7F4"/>
+                        <stop offset="1" stop-color="#D7D7D7" stop-opacity="0"/>
+                    </linearGradient>
+                    <linearGradient id="b" x1="2057.49" x2="2057.49" y1="0" y2="1297.86" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#DFE7F4"/>
+                        <stop offset="1" stop-color="#D7D7D7" stop-opacity="0"/>
+                    </linearGradient>
+                    <linearGradient id="c" x1="2057.49" x2="2057.49" y1="0" y2="1297.86" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#DFE7F4"/>
+                        <stop offset="1" stop-color="#D7D7D7" stop-opacity="0"/>
+                    </linearGradient>
+                    <linearGradient id="d" x1="2057.49" x2="2057.49" y1="0" y2="1297.86" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#DFE7F4"/>
+                        <stop offset="1" stop-color="#D7D7D7" stop-opacity="0"/>
+                    </linearGradient>
+                </defs>
+            </svg>
+        </div>
+        <div class="justify-around place-items-center relative text-center z-1">
+            <h1 class="leading-tight mb-2 text-gray-500">Um novo</h1>
+            <h1 class="text-blue-700">tipo de leilão</h1>
+            <h4 class="font-normal mb-6 mt-10 text-gray-400">
+        Com regras de negocio modernas e diferenciadas,<br class="hidden sm:block"/>
+        Criamos uma solução revolucionaria. </h4>
+            <UButton to="contact" size="xl" class="rounded-xl mt-4 px-7 py-3 relative z-20" label="Comece agora" color="tertiary">
+</UButton>
+        </div>
+    </section>
 </template>
 <style scoped>
   .heroindexsection {
-    background-color: hsl(0, 0%, 100%);
-    background-image: radial-gradient(
-        at 100% 61%,
-        hsla(206, 100%, 94%) 0px,
-        transparent 50%
-      ),
-      radial-gradient(at 60% 97%, hsl(278, 100%, 96%) 0px, transparent 50%),
-      radial-gradient(at 3% 97%, hsl(203, 100%, 96%) 0px, transparent 50%),
-      radial-gradient(at 40% 97%, hsl(53, 100%, 82%) 0px, transparent 50%);
-    background-size: 600% 600%;
-    animation: backgroundanimation 10s ease infinite;
-    height: clamp(46rem, 90vw, 66rem);
-    margin-bottom: clamp(-37rem, -90vw, 66rem);
+    background: hsl(220, 40%, 94%);
+    height: clamp(52rem, 90vw, 65rem);
+    margin-bottom: clamp(-35rem, -42vw, 54rem);
 
-    @media screen and (max-width: 1440px) {
+    @media screen and (max-width: 767px) {
+      height: clamp(52rem, 90vw, 64rem);
+      margin-bottom: clamp(-35rem, -42vw, 54rem);
     }
-    @media screen and (max-width: 1023px) {
-      height: clamp(46rem, 90vw, 66rem);
-      margin-bottom: clamp(-37rem, -90vw, 66rem);
-    }
-    @media screen and (max-width: 768px) {
-      height: clamp(46rem, 90vw, 66rem);
-      margin-bottom: clamp(-37rem, -90vw, 66rem);
-    }
+
     .backgroundelements {
-      height: 64rem;
+      height: clamp(64rem, 80vw, 64rem);
       top: 0;
       left: 50%;
       svg {
-        height: 60rem;
-        opacity: 50%;
+        height: clamp(64rem, 80vw, 64rem);
+        opacity: 40%;
         margin: 0 -50%;
       }
     }
     h4 {
       font-size: 1.4rem;
-      font-weight: 500;
       line-height: 2.3rem;
-    }
-  }
-
-  @keyframes backgroundanimation {
-    0% {
-      background-position: 0% 50%;
-    }
-    50% {
-      background-position: 100% 50%;
-    }
-    100% {
-      background-position: 0% 50%;
     }
   }
 </style>

@@ -14,7 +14,7 @@
     <div
       class="flex-col mb-8 place-items-center text-center w-12/12 lg:flex lg:w-6/12"
     >
-      <h3>Nossa missão</h3>
+      <h3>Nosso time</h3>
       <h2>O melhor de dois mundos</h2>
       <p class="mt-4 my-8">
         Após anos desenvolvendo uma solução que combina o melhor dos dois

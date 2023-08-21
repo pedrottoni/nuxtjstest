@@ -11,7 +11,6 @@
 
   const activeTab = ref(props.tabs[0].value)
 </script>
-
 <template>
   <div id="tabs">
     <div id="tab-header">
@@ -22,7 +21,7 @@
         :class="{ active: tab.value == activeTab }"
         @click="activeTab = tab.value"
       >
-        <span>{{ tab.title }}</span>
+        <span class="lg:font-medium">{{ tab.title }}</span>
       </div>
     </div>
     <div id="tabs-content">
@@ -37,6 +36,7 @@
     #tab-header {
       display: flex;
       text-align: center;
+      height: 40px;
       .tab {
         flex: 1;
         padding-bottom: 0.6rem;

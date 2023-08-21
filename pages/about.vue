@@ -282,7 +282,7 @@
             participantes podem colocar novas ordens de compra, venda ou troca
             casada. </p>
                 </div>
-                <div class="flex flex-col gap-12 place-items-center w-full md:flex-row md:gap-8 md:justify-evenly lg:gap-12">
+                <div class="flex flex-col gap-12 place-items-center w-full md:flex-row md:gap-8 md:justify-evenly md:place-items-start lg:gap-12">
                     <div class="flex flex-col">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 402 147" class="mb-4">
                             <path stroke="#C8D1E1" stroke-linecap="round" stroke-linejoin="round" stroke-width="3" d="M2 140.86V128h398v16.92"/>
@@ -305,7 +305,7 @@
                             </div>
                         </div>
                     </div>
-                    <div class="flex flex-row gap-4 w-24">
+                    <div class="flex flex-row gap-4 w-24 md:pt-9">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 37 40" class="rotate-90 md:rotate-0">
                             <path fill="#204387" fill-opacity=".2" d="M33.04 14.48a6.3 6.3 0 0 1 0 10.9L9.44 39.01A6.3 6.3 0 0 1 0 33.56V6.3A6.3 6.3 0 0 1 9.44.85l23.6 13.63Z"/>
                         </svg>

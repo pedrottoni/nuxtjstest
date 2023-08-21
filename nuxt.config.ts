@@ -26,6 +26,7 @@ export default defineNuxtConfig({
     '@nuxt/content',
     '@nuxt/image',
     '@nuxtjs/color-mode',
+    'nuxt-swiper',
   ],
   colorMode: {
     preference: 'light', // default value of $colorMode.preference
