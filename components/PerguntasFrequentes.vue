@@ -12,11 +12,11 @@
     },
     {
       label:
-        'Como funciona essa historia das quantidades? Voces nao estao dando vantagem para os grandes?',
+        'Como é essa história das quantidades? Vocês não estão dando vantagem para os grandes?',
       slot: 'faq2',
     },
     {
-      label: 'O que é o leilao de troca?',
+      label: 'O que é o leilão de troca?',
       slot: 'faq3',
     },
     {
@@ -25,7 +25,6 @@
     },
   ]
 </script>
-
 <template>
   <section class="container mx-auto px-4 py-28">
     <div class="mx-auto">
@@ -43,68 +42,53 @@
       <template #faq1>
         <div class="py-6 md:w-10/12 mx-auto">
           <p>
-            Não. A EXE Auctions possui algumas características de dark pools,
-            mas não se encaixa nesse conceito por conta da inovação que traz a
-            esse sistema de negociação e porque opera com parâmetros
-            diferentes.<br />
+            Em termos de velocidade de negociação e anonimato das ordens é
+            comparável. No entanto, dark pools são ambientes nos quais a
+            formação de preços é predeterminada. O preço final é baseado em uma
+            referência de mercado para volumes mínimos menores ou simplesmente
+            na opinião do agente que está intermediando a operação. <br />
           </p>
           <p class="pt-3">
-            Dark pools são sistemas de negociação de ativos com um processo de
-            formação de preços que não ocorre de forma transparente – são os
-            algoritmos ou os próprios participantes que determinam os preços
-            pelos quais desejam negociar os ativos – daí o nome, “dark”. Cada
-            participante insere o preço e a quantidade do ativo que deseja
-            comprar ou vender, mas, ao contrário das bolsas, onde é possível
-            enxergar a fila de preço e quantidade, na dark pool nenhuma dessas
-            informações está disponível. Para os grandes investidores, esse
-            sistema é positivo justamente porque eles não desejam que suas
-            ordens fiquem visíveis, o que poderia afetar as cotações dos ativos
-            que querem comprar ou vender.<br />
-          </p>
-          <p class="pt-3">
-            Na EXE Auctions, os participantes conseguem ver se há ofertas de
-            compra ou de venda para determinado ativo, mas não visualizam a
-            quantidade e nem o preço ofertado.<br />
-          </p>
-          <p class="pt-3">
-            Enquanto nas dark pools o preço é definido pelo participante ou por
-            algoritmo, na EXE Auctions ele é formado pela oferta e demanda do
-            ativo. Outra diferença é que, enquanto na dark pool a transação é
-            fechada para aquele que primeiro inseriu a ordem de compra ou de
-            venda primeiro, na EXE Auctions há um conjunto de critérios para que
-            o negócio seja fechado:preço, tamanho da ordem e, por último, o
-            critério temporal.
+            Na EXE Auctions o preço é resultado da real interação entre os
+            operadores já considerando o lote mínimo maior. Ou seja, é o preço
+            ótimo para aquele volume maior no específico instante de tempo da
+            transação, e não uma estimativa gerada num momento anterior à
+            negociação.<br />
           </p>
         </div>
       </template>
       <template #faq2>
         <p class="py-6 md:w-10/12 mx-auto text-left">
-          Sim, estamos. O grande participante eh a peca principal do mercado,
-          naturalmente o provedor de liquidez. Esses agentes precisam ter
-          vantagem na negociacao, os lotes menores continuam levando toda a
-          vantagem na disputa por preco, enquanto os maiores, quando empatados
-          no preco, sao executados no pro rata do lote.
+          Sim, estamos. O grande participante é uma peça fundamental do mercado,
+          o natural e maior provedor de liquidez. Todos os participantes se
+          beneficiam quando esses agentes estão presentes na formação do preço.
+          Uma forma de estimular e atrair grandes lotes é justamente dando lhes
+          alguma vantagem na negociação, os lotes menores continuam tendo a
+          prioridade quando a disputa é por preço, mas quando, e somente quando,
+          empatados no preço, o maior lote terá uma alocação proporcionalmente
+          maior.
         </p>
       </template>
       <template #faq3>
         <p class="py-6 md:w-10/12 mx-auto">
-          Eh um conceito novo nas plataformas eletronicas, onde o participante
+          É um conceito novo nas plataformas eletrônicas, onde o participante
           tem a oportunidade de fazer a troca pelo mesmo valor financeiro. Isto
-          eh, trocar 10 caixas de banana por 10 caixas de laranja, independente
-          dos precos individuais. Com a garantia que o participante sempre
-          executarah um valor proporcional a 1 x 1 caixa de fruta.
+          é, por exemplo, trocar 100 lotes de NTN-B 30 por 100 lotes de NTN-B
+          40, independente dos preços individuais. Com a garantia que o
+          participante sempre executará um valor proporcional à 1 x 1 dos lotes
+          mínimos.
         </p>
       </template>
       <template #faq4>
         <p class="py-6 md:w-10/12 mx-auto">
-          Economicamente, simplesmente banir ativos relacionados a alta emissao
-          e combustivel fossil nao eh a melhor forma de agregar valor e liquidez
-          ao mercado, mas sugerimos uma politica de custos de execucao menores
-          para ativos verdes.
+          Na nossa visão econômica, simplesmente banir a negociação de ativos
+          relacionados aos combustíveis fósseis não parece ser a melhor forma de
+          agregar valor à sociedade, preferimos sugerir às nossas corretoras
+          parceiras uma política de custos de transação menores para ativos
+          verdes.
         </p>
       </template>
     </UAccordion>
   </section>
 </template>
-
 <style scoped></style>

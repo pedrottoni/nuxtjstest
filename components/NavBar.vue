@@ -11,13 +11,20 @@
   })
 </script>
 <template>
-    <nav class="w-full z-40 border-info-100 fixed navbar">
+    <nav class="border-info-100 fixed navbarDark w-full z-40">
         <div class="container mx-auto px-4">
             <div class="flex h-fit items-center justify-between py-3">
                 <div class="flex items-center justify-between w-full">
                     <div class="flex flex-shrink-0 items-center">
                         <NuxtLink to="/" class="text-primary-600">
-                            <svg width="82" viewBox="0 0 92 52" fill="none" xmlns="http://www.w3.org/2000/svg" height="42">
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 83 27" class="w-20">
+                                <path fill="#FBFCFD" d="M25.76 3.43H4.92v8.68h16.1V15H4.91v8.57h20.84v2.88H0V.55h25.76v2.88Z"/>
+                                <path fill="#FBFCFD" d="M56.81.55v2.88h20.84v8.68h-16.1V15h16.1v8.57H56.81v2.88h25.76V.55H56.81Z"/>
+                                <path fill="#FBFCFD" d="M47.65 10.17 56.8.55l-6.48.09-5.8 6.25 3.12 3.28Z"/>
+                                <path fill="#FBFCFD" d="M44.46 13.65 32.03.55H25.7l12.24 13.17-12.02 12.73h6.42l12.11-12.8Z"/>
+                                <path fill="#FBFCFD" d="m56.25 26.03-8.57-9.09-3.3 3.46 5.76 6.05h6.5l-.37-.42h-.02Z"/>
+                            </svg>
+                            <svg width="82" viewBox="0 0 92 52" fill="none" xmlns="http://www.w3.org/2000/svg" height="42" class="hidden">
                                 <path d="M28.6199 3.20357H5.4625V12.8477H23.348V16.0483H5.4625V25.5708H28.6199V28.7713H0V0H28.6199V3.20357Z" fill="#1F4386"/>
                                 <path d="M63.1259 0.00303601V3.20357H86.2833V12.8477H68.3978V16.0483H86.2833V25.5708H63.1259V28.7713H91.7458V0H63.1259V0.00303601Z" fill="#1F4386"/>
                                 <path d="M52.9424 10.6877L63.1259 0.00303601L55.9203 0.0973474L49.4742 7.04603L52.9424 10.6877Z" fill="#1F4386"/>
@@ -36,7 +43,7 @@
                     </div>
                     <NavBarDesktopTabs :navlinks="desktopNavTabs" :current-path="currentPath" class="hidden gap-4 md:flex sm:ml-6"/>
                 </div>
-                <UButton to="navlink.link" class="rounded-xl mr-3 md:ml-12 py-2 px-6" label="Entrar" color="tertiary"/>
+                <UButton to="navlink.link" class="btn font-bold mr-3 px-6 py-2 ring-2 ring-tertiary-500 rounded-md md:ml-12" label="Entrar" color="tertiary" variant="outline"/>
                 <div class="-mr-2 items-center relative">
                     <NavBarMobileMenuButton v-if="navlinks.length" class="md:hidden"/>
                 </div>
@@ -45,4 +52,15 @@
         <NavBarMobileMenu class="sm:hidden" :navlinks="mobileNavTabs" :current-path="currentPath"/>
     </nav>
 </template>
-<style scoped></style>
+<style scoped>
+  .btn {
+    box-shadow: inset 0px 0px 0px 2px hsl(37.28deg 97.51% 52.75%) !important;
+    color: hsl(37, 90%, 55%);
+    font-weight: 600;
+    &:hover {
+      color: hsl(30, 90%, 50%);
+      box-shadow: inset 0px 0px 0px 2px hsl(30, 90%, 48%) !important;
+      background: none !important;
+    }
+  }
+</style>

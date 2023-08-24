@@ -11,7 +11,7 @@
     <div
       class="container flex flex-col gap-8 mx-auto place-items-center px-4 relative md:flex-row md:place-items-center"
     >
-      <div class="md:w-1/2 title">
+      <div class="title">
         <h2>Vamos começar?</h2>
         <h4 class="lg:max-w-2xl mt-4 my-8">
           Conheça a plataforma de leilão eletrônico que une as vantagens dos
@@ -37,8 +37,12 @@
           opacity=".08"
         />
       </svg>
-      <NuxtImg src="vamos.png" class="lg:w-7/12" />
+      <NuxtImg src="vamos.png" class="relative lg:w-7/12" />
     </div>
   </section>
 </template>
-<style scoped></style>
+<style scoped>
+  .title {
+    min-width: 19rem;
+  }
+</style>
