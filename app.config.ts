@@ -15,7 +15,7 @@ export default defineAppConfig({
       divide: 'divide-none',
       ring: 'ring-none',
       shadow: 'shadow-0',
-      rounded: 'rounded-3xl',
+      rounded: 'rounded-none',
       body: {
         padding: 'px-0 p-0',
       },

@@ -25,18 +25,13 @@ export default defineNuxtConfig({
     '@nuxt/devtools',
     '@nuxt/content',
     '@nuxt/image',
-    '@nuxtjs/color-mode',
     'nuxt-swiper',
+    '@hypernym/nuxt-gsap',
   ],
-  colorMode: {
-    preference: 'light', // default value of $colorMode.preference
-    fallback: 'light', // fallback value if not system preference found
-    hid: 'nuxt-color-mode-script',
-    globalName: '__NUXT_COLOR_MODE__',
-    componentName: 'ColorScheme',
-    classPrefix: '',
-    classSuffix: '-mode',
-    storageKey: 'nuxt-color-mode',
+  gsap: {
+    extraPlugins: {
+      scrollTrigger: true,
+    },
   },
   pinegrow: {
     liveDesigner: {
@@ -62,15 +57,6 @@ export default defineNuxtConfig({
   },
   ui: {
     icons: 'all',
-    // safelistColors: [
-    //   'primary',
-    //   'secondary',
-    //   'tertiary',
-    //   'success',
-    //   'warning',
-    //   'error',
-    //   'info',
-    // ],
   },
   content: {
     markdown: {

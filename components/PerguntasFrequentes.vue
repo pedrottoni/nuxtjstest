@@ -37,7 +37,7 @@
       :items="items"
       variant="link"
       size="xl"
-      class="border-b border-gray-100 mx-auto py-6 rounded-none text-blue-900 w-full md:w-10/12"
+      class="text-left border-b border-gray-100 mx-auto py-6 rounded-none text-blue-900 w-full md:w-10/12"
     >
       <template #faq1>
         <div class="py-6 md:w-10/12 mx-auto">

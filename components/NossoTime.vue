@@ -7,10 +7,10 @@
   // })
 </script>
 <template>
-    <section class="container flex flex-col mx-auto pb-40 place-items-center pt-32 px-4">
-        <div class="flex-col mb-8 place-items-center text-center w-12/12 lg:flex lg:w-6/12">
+    <section class="container flex flex-col mx-auto pb-40 pt-32 px-4">
+        <div class="flex flex-col mb-8 w-12/12 md:max-w-2xl">
             <h3>Nosso time</h3>
-            <h2>Depois de alguma experiência acumulada</h2>
+            <h2>Depois de alguma<br/>experiência acumulada</h2>
             <p class="mt-4 my-8">
         Após anos operando, trabalhando para o aumento de liquidez e criação de novos mercados locais e internacionais, Guilherme Corsini e Adolpho Naves agregaram seus conhecimentos para criar um novo método de negociação e junto com Jack Cavalcanti e a Mervyn Lowe, ambos com larga experiência na criação e no desenvolvimento de startups, surgiu a EXE Auctions. </p>
         </div>
@@ -72,7 +72,7 @@
                             <p>
                 Empreendedor, Business Developer com profundo conhecimento de
                 tecnologias digitais e seu poder disruptivo em negócios
-                financeiros. Sócio da NÔS Innovators, Inseed – Gestora de fundos
+                financeiros. Sócio da NÓS Innovators, Inseed – Gestora de fundos
                 Venture Capital. </p>
                         </div>
                     </div>
@@ -96,7 +96,7 @@
                 Empreendedor serial, Business Developer, Investidor e gestor de
                 hubs de inovação. Geriu o Hub InovaBra Habitat do Bradesco desde
                 sua concepção e estruturou o IPT Open Hub. CEO da consultoria
-                Nós Innovator. </p>
+                NÓS Innovator. </p>
                         </div>
                     </div>
                 </template>
