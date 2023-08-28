@@ -19,10 +19,10 @@
       ease: 'power1.out',
       duration: 0.2,
       scrollTrigger: {
-        start: '2.89% 20%',
-        end: 'bottom 10%',
+        start: '10px 10px',
+        end: 'bottom 10px',
         scrub: false,
-        markers: true,
+        markers: false,
         toggleActions: 'play reverse play reverse',
       },
     })
