@@ -9,7 +9,7 @@
 <template>
     <section class="bg-slate-100 py-28">
         <div class="container flex flex-col mx-auto place-items-center px-4">
-            <div class="flex-col mb-16 text-center flex md:w-6/12 md:place-items-center">
+            <div class="flex flex-col mb-16 text-center md:max-w-xl md:place-items-center">
                 <h3>Nosso processo</h3>
                 <h2>
             O leilão ocorre<br/>

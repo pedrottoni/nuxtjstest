@@ -23,6 +23,25 @@
       disabled: 'false',
     },
   ])
+
+  const { $gsap, $ScrollTrigger } = useNuxtApp()
+  onMounted(() => {
+    const titles = document.querySelectorAll('.sec2title')
+    for (let i = 0; i < titles.length; i++) {
+      $gsap.from(titles[i], {
+        opacity: 0,
+        y: 50 + i,
+        duration: 0.2 + i * 0.2,
+        scrollTrigger: {
+          trigger: '.sec2title',
+          start: 'bottom bottom',
+          end: 'top 4%',
+          scrub: false,
+          toggleActions: 'play reverse play reverse',
+        },
+      })
+    }
+  })
 </script>
 <template>
   <section class="bg-slate-100 py-32 z-10 relative">
@@ -32,8 +51,10 @@
       <div
         class="flex-col mb-14 place-items-center text-center w-12/12 md:max-w-xl lg:flex"
       >
-        <h3>O que fazemos</h3>
-        <h2>Uma plataforma ágil e eficiente para grandes negociações</h2>
+        <h3 class="sec2title">O que fazemos</h3>
+        <h2 class="sec2title">
+          Uma plataforma ágil e eficiente para grandes negociações
+        </h2>
       </div>
       <div class="-mb-10 -mt-16 block w-full md:hidden">
         <swiper
