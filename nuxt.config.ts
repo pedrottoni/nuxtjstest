@@ -24,8 +24,11 @@ export default defineNuxtConfig({
     '@nuxthq/ui',
     '@nuxt/devtools',
     '@nuxt/content',
+    //https://image.nuxt.com
     '@nuxt/image',
+    //https://github.com/cpreston321/nuxt-swiper
     'nuxt-swiper',
+    //https://github.com/hypernym-studio/nuxt-gsap
     '@hypernym/nuxt-gsap',
   ],
   gsap: {

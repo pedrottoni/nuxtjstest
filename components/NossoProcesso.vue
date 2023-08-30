@@ -8,13 +8,12 @@
         $gsap.from(titles[i], {
           ease: 'power1.out',
           opacity: 0 - i * 1.5,
-          y: 100 + i / 60,
-          duration: 0.4 + i / 9,
-          delay: 0.4 + i / 9,
+          yPercent: 100 + i / 60,
+          duration: 0.3 + i / 9,
           scrollTrigger: {
             trigger: '.sec4title',
-            start: 'bottom 120%',
-            end: 'top -10%',
+            start: '-90% 90%',
+            end: '-30% 8%',
             scrub: false,
             toggleActions: 'play reverse play reverse',
           },
@@ -36,11 +35,10 @@
         </h2>
         <p class="mt-4 my-8">
           O leilão funciona em duas etapas. Na primeira, são recebidas as ordens
-          de compra e venda e é feito um cálculo dos preços ofertados e
-          alocações (quantidades dos ativos que serão destinados a cada
-          participante). Na segunda rodada, os preços já estão definidos e os
-          participantes podem colocar novas ordens de compra, venda ou troca
-          casada.
+          de compra e venda e é feito o cálculo dos preços de otimizam as
+          quantidades negociadas e as respectivas alocações. Na segunda rodada,
+          os preços já estão determinados e os participantes podem colocar novas
+          ordens de compra, venda ou troca casada.
         </p>
       </div>
       <div
@@ -100,7 +98,7 @@
             >
               <nuxt-img src="/resultados.svg" width="100" />
               <h6 class="font-semibold text-slate-600 text-center">
-                Divulgação<br />dos resultados
+                Resultado<br />parcial
               </h6>
             </div>
           </div>
@@ -178,7 +176,8 @@
             >
               <nuxt-img src="/recompra.svg" width="100" />
               <h6 class="font-semibold text-slate-600 text-center">
-                ATS e<br />trocas
+                Complementares<br />
+                e trocas
               </h6>
             </div>
             <svg
@@ -197,7 +196,7 @@
             >
               <nuxt-img src="/resultados.svg" width="100" />
               <h6 class="font-semibold text-center text-slate-600">
-                Divulgação<br />dos resultados
+                Resultado<br />final
               </h6>
             </div>
           </div>

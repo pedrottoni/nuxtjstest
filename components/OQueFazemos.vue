@@ -13,12 +13,12 @@
       disabled: 'false',
     },
     {
-      title: 'Commodities',
+      title: 'Totalmente eletrônico',
       value: 'tab3',
       disabled: 'false',
     },
     {
-      title: 'Funcionamento',
+      title: 'Nicho de atuação',
       value: 'tab4',
       disabled: 'false',
     },
@@ -95,41 +95,38 @@
                 de leilão duplo
               </h5>
               <p>
-                Provemos para as corretoras a única plataforma de leilão duplo
-                (com múltiplos compradores e vendedores) que alia rapidez,
-                eficiência na formação de preços, anonimato e ausência de
-                conflitos de interesse.
+                Após um bom tempo trabalhando nas mais importantes instituicoes
+                financeiras do mundo e com os melhores profissionais do mercado
+                local e offshore. Desenvolvemos para todos uma única plataforma
+                de leilão duplo que alia rapidez, eficiência na formação de
+                preços, anonimato e ausência de ruídos.
               </p>
             </div>
           </swiper-slide>
           <swiper-slide>
             <div>
               <h5 class="mb-6">
-                Solução para negociação em mercados de commodities
+                Totalmente<br />
+                eletrônico
               </h5>
               <p>
-                A plataforma soluciona problemas de negociação de todos os
-                mercados de commodities –mercados com ativos fungíveis, nos
-                quais são normalmente utilizados leilões duplos para gerar picos
-                de liquidez.
+                Resolvendo atritos de todos os mercados de commodities, gerando
+                picos de liquidez sem interferência humana e sem algoritmos
+                baseados em proxies de mercados semelhantes. Trazemos o jeito
+                mais moderno da atualizade de transacionar ativos. Uma forma de
+                execução que todos saem corretamente satisfeitos.
               </p>
             </div>
           </swiper-slide>
           <swiper-slide>
             <div>
-              <h5 class="mb-6">
-                Funcionamento<br />
-                da plataforma
-              </h5>
+              <h5 class="mb-6">Nicho<br />de atuação</h5>
               <p class="mb-4">
-                Os traders ou brokers acessam a plataforma e inserem suas ordens
-                de compra e venda. A EXE Auctions envia o resultado das
-                transações para a corretora, que fica responsável pela boletagem
-                e pela liquidação das operações.
-              </p>
-              <p>
-                Em breve, a plataforma da EXE Auctions estará disponível para
-                transações com títulos da dívida pública brasileira.
+                Os traders acessam a plataforma e inserem suas ordens de compra
+                e venda. A EXE envia o resultado das transações para a
+                corretora, que fica responsável pela boletagem e pela liquidação
+                das operações. Todo o relacionamento de crédito com o clientes
+                continuam sendo gerenciado pela corretora parceira.
               </p>
             </div>
           </swiper-slide>
@@ -161,24 +158,24 @@
                 de leilão duplo
               </h5>
               <p>
-                Provemos para as corretoras a única plataforma de leilão duplo
-                (com múltiplos compradores e vendedores) que alia rapidez,
-                eficiência na formação de preços, anonimato e ausência de
-                conflitos de interesse.
+                Após um bom tempo trabalhando nas mais importantes instituicoes
+                financeiras do mundo e com os melhores profissionais do mercado
+                local e offshore. Desenvolvemos para todos uma única plataforma
+                de leilão duplo que alia rapidez, eficiência na formação de
+                preços, anonimato e ausência de ruídos.
               </p>
             </div>
           </template>
           <template v-if="active == 'tab3'">
             <NuxtImg src="commodities.png" class="w-1/2'" />
             <div>
-              <h5 class="mb-6">
-                Solução para negociação em mercados de commodities
-              </h5>
+              <h5 class="mb-6">Totalmente<br />eletrônico</h5>
               <p>
-                A plataforma soluciona problemas de negociação de todos os
-                mercados de commodities –mercados com ativos fungíveis, nos
-                quais são normalmente utilizados leilões duplos para gerar picos
-                de liquidez.
+                Resolvendo atritos de todos os mercados de commodities, gerando
+                picos de liquidez sem interferência humana e sem algoritmos
+                baseados em proxies de mercados semelhantes. Trazemos o jeito
+                mais moderno da atualizade de transacionar ativos. Uma forma de
+                execução que todos saem corretamente satisfeitos.
               </p>
             </div>
           </template>
@@ -186,18 +183,15 @@
             <NuxtImg src="funcionamento.png" class="w-1/2'" />
             <div>
               <h5 class="mb-6">
-                Funcionamento<br />
-                da plataforma
+                Nicho<br />
+                de atuação
               </h5>
               <p class="mb-4">
-                Os traders ou brokers acessam a plataforma e inserem suas ordens
-                de compra e venda. A EXE Auctions envia o resultado das
-                transações para a corretora, que fica responsável pela boletagem
-                e pela liquidação das operações.
-              </p>
-              <p>
-                Em breve, a plataforma da EXE Auctions estará disponível para
-                transações com títulos da dívida pública brasileira.
+                Os traders acessam a plataforma e inserem suas ordens de compra
+                e venda. A EXE envia o resultado das transações para a
+                corretora, que fica responsável pela boletagem e pela liquidação
+                das operações. Todo o relacionamento de crédito com o clientes
+                continuam sendo gerenciado pela corretora parceira.
               </p>
             </div>
           </template>

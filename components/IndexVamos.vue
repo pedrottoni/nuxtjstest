@@ -88,10 +88,10 @@
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 591 814"
-        class="-right-28 -z-10 absolute h-full"
+        class="bg"
       >
         <path
-          fill="#7777F8"
+          fill="#499afe"
           d="M591 411.52 199.09 0H0l385.81 414.01L7.05 814h202.1L591 411.52Z"
           opacity=".08"
         />
@@ -116,5 +116,11 @@
   .image {
     transform: translateX(+50%);
     opacity: 0;
+  }
+
+  .bg {
+    position: absolute;
+    height: 160%;
+    left: 52vw;
   }
 </style>
