@@ -31,7 +31,7 @@
       $gsap.from(titles[i], {
         opacity: 0,
         y: 50 + i,
-        duration: 0.2 + i * 0.2,
+        duration: 0.4 + i / 8,
         scrollTrigger: {
           trigger: '.sec2title',
           start: 'bottom bottom',
