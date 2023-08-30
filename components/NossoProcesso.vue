@@ -7,13 +7,13 @@
       mm.add('(min-width: 24px)', () => {
         $gsap.from(titles[i], {
           ease: 'power1.out',
-          opacity: 0 - i * 1.5,
+          opacity: -1 - i * 1.5,
           yPercent: 100 + i / 60,
           duration: 0.3 + i / 9,
           scrollTrigger: {
-            trigger: '.sec4title',
-            start: '-90% 90%',
-            end: '-30% 8%',
+            trigger: '.content',
+            start: 'top 75%',
+            end: 'bottom 12%',
             scrub: false,
             toggleActions: 'play reverse play reverse',
           },
@@ -42,7 +42,7 @@
         </p>
       </div>
       <div
-        class="flex flex-col gap-12 place-items-center w-full md:flex-row md:gap-8 md:justify-evenly lg:gap-12"
+        class="content flex flex-col gap-12 place-items-center w-full md:flex-row md:gap-8 md:justify-evenly lg:gap-12"
       >
         <div class="flex flex-col">
           <svg
