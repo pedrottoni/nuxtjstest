@@ -4,7 +4,7 @@
   onMounted(() => {
     const titles = document.querySelectorAll('.sec4title')
     for (let i = 0; i < titles.length; i++) {
-      mm.add('(min-width: 2724px)', () => {
+      mm.add('(min-width: 24px)', () => {
         $gsap.from(titles[i], {
           ease: 'power1.out',
           opacity: 0 - i * 1.5,
