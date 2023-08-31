@@ -7,106 +7,30 @@
   // })
   const { $gsap, $ScrollTrigger } = useNuxtApp()
 
-  const animateOnScroll = () => {
-    $gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: '.title',
-          start: 'top 96%',
-          end: 'bottom 10%',
-          scrub: false,
-          markers: false,
-          toggleActions: 'play reverse play reverse',
-        },
-      })
-      .to('.title1', {
-        xPercent: 0,
-        opacity: 1,
-        duration: 0.3,
-      })
-    $gsap
-      .timeline({
-        scrollTrigger: {
-          trigger: '.title',
-          start: 'top 96%',
-          end: 'bottom 10%',
-          scrub: false,
-          markers: false,
-          toggleActions: 'play reverse play reverse',
-        },
-      })
-      .to('.title2', {
-        xPercent: 0,
-        opacity: 1,
-        duration: 0.4,
-      })
-    $gsap.to('.card-animation1', {
-      y: 0,
-      opacity: 1,
-      ease: 'power1.out',
-      delay: 0.3,
-      scrollTrigger: {
-        trigger: '.card-trigger',
-        start: 'top 96%',
-        end: 'bottom 10%',
-        scrub: false,
-        toggleActions: 'play reverse play reverse',
-      },
-    })
-    $gsap.to('.card-animation2', {
-      y: 0,
-      opacity: 1,
-      ease: 'power1.out',
-      delay: 0.5,
-      scrollTrigger: {
-        trigger: '.card-trigger',
-        start: 'top 96%',
-        end: 'bottom 10%',
-        scrub: false,
-        markers: false,
-        toggleActions: 'play reverse play reverse',
-      },
-    })
-    $gsap.to('.card-animation3', {
-      y: 0,
-      opacity: 1,
-      ease: 'power1.out',
-      delay: 0.7,
-      scrollTrigger: {
-        trigger: '.card-trigger',
-        start: 'top 96%',
-        end: 'bottom 10%',
-        scrub: false,
-        markers: false,
-        toggleActions: 'play reverse play reverse',
-      },
-    })
-    $gsap.to('.card-animation4', {
-      y: 0,
-      opacity: 1,
-      ease: 'power1.out',
-      delay: 0.9,
-      scrollTrigger: {
-        trigger: '.card-trigger',
-        start: 'top 96%',
-        end: 'bottom 10%',
-        scrub: false,
-        markers: false,
-        toggleActions: 'play reverse play reverse',
-      },
-    })
-  }
-
   onMounted(() => {
-    animateOnScroll()
+    $gsap.from('.sec1card', {
+      ease: 'power1.out',
+      yPercent: 50,
+      opacity: 0,
+      stagger: 0.2,
+      duration: 0.3,
+      scrollTrigger: {
+        trigger: '.card-trigger',
+        start: 'top 75%',
+        end: 'bottom 12%',
+        scrub: false,
+        markers: true,
+        toggleActions: 'play reverse play reverse',
+      },
+    })
   })
 </script>
 <template>
   <section class="py-32 relative z-10">
     <div class="container mx-auto px-4 relative">
-      <div class="title mb-20 md:max-w-md">
-        <h3 class="title1">Modelo inovador</h3>
-        <h2 class="title2">Uma experiência radicalmente aprimorada</h2>
+      <div class="mb-20 md:max-w-md">
+        <h3>Modelo inovador</h3>
+        <h2>Uma experiência radicalmente aprimorada</h2>
       </div>
       <div class="-mb-10 -mt-16 block md:hidden">
         <swiper
@@ -202,7 +126,7 @@
       <div
         class="card-trigger hidden gap-6 lg:gap-10 xl:gap-12 md:grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))]"
       >
-        <UCard class="card card-animation1 max-w-md max-w-lg">
+        <UCard class="sec1card max-w-md max-w-lg">
           <template #header>
             <nuxt-img src="/formacao.svg" class="h-11" />
             <h6 class="mt-4">
@@ -228,7 +152,7 @@
             >
           </template>
         </UCard>
-        <UCard class="card card-animation2 max-w-lg">
+        <UCard class="sec1card max-w-lg">
           <template #header>
             <nuxt-img src="/comhora.svg" class="h-11" />
             <h6 class="mt-4">
@@ -244,7 +168,7 @@
             </p>
           </template>
         </UCard>
-        <UCard class="card card-animation3 max-w-lg">
+        <UCard class="sec1card max-w-lg">
           <template #header>
             <nuxt-img src="/anonimato.svg" class="h-11" />
             <h6 class="mt-4">
@@ -260,7 +184,7 @@
             </p>
           </template>
         </UCard>
-        <UCard class="card card-animation4 max-w-lg">
+        <UCard class="sec1card max-w-lg">
           <template #header>
             <nuxt-img src="/conflitos.svg" class="h-11" />
             <h6 class="mt-4">
@@ -300,18 +224,5 @@
     box-shadow: hsla(0, 0%, 0%, 0.05) 0px 6px 24px 0px,
       hsla(0, 0%, 0%, 0.08) 0px 0px 0px 1px;
     border-radius: 1rem;
-  }
-
-  .title1 {
-    transform: translateX(-50%);
-    opacity: 0;
-  }
-  .title2 {
-    transform: translateX(-50%);
-    opacity: 0;
-  }
-  .card {
-    transform: translateY(50%);
-    opacity: 0;
   }
 </style>

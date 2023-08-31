@@ -1,66 +1,21 @@
 <script setup lang="ts">
   const { $gsap, $ScrollTrigger } = useNuxtApp()
 
-  const animateVamos = () => {
-    $gsap.to('.card1', {
-      yPercent: -30,
-      opacity: 1,
-      duration: 0.4,
-      delay: 0.4,
-      scrollTrigger: {
-        trigger: '.cards',
-        start: 'top 96%',
-        end: 'bottom 10%',
-        scrub: false,
-        markers: false,
-        toggleActions: 'play reverse play reverse',
-      },
-    })
-    $gsap.to('.card2', {
-      yPercent: -32,
-      opacity: 1,
-      duration: 0.6,
-      delay: 0.4,
-      scrollTrigger: {
-        trigger: '.cards',
-        start: 'top 96%',
-        end: 'bottom 10%',
-        scrub: false,
-        markers: false,
-        toggleActions: 'play reverse play reverse',
-      },
-    })
-    $gsap.to('.card3', {
-      yPercent: -34,
-      opacity: 1,
-      duration: 0.8,
-      delay: 0.4,
-      scrollTrigger: {
-        trigger: '.cards',
-        start: 'top 96%',
-        end: 'bottom 10%',
-        scrub: false,
-        markers: false,
-        toggleActions: 'play reverse play reverse',
-      },
-    })
-    $gsap.to('.card4', {
-      yPercent: -36,
-      opacity: 1,
-      duration: 1,
-      delay: 0.4,
-      scrollTrigger: {
-        trigger: '.cards',
-        start: 'top 96%',
-        end: 'bottom 10%',
-        scrub: false,
-        markers: false,
-        toggleActions: 'play reverse play reverse',
-      },
-    })
-  }
   onMounted(() => {
-    animateVamos()
+    $gsap.from('.team-card', {
+      ease: 'power1.out',
+      yPercent: 40,
+      opacity: 0,
+      stagger: 0.2,
+      scrollTrigger: {
+        trigger: '.cards',
+        start: 'top 75%',
+        end: 'bottom 12%',
+        scrub: false,
+        markers: false,
+        toggleActions: 'play reverse play reverse',
+      },
+    })
   })
 </script>
 <template>
@@ -81,7 +36,7 @@
       class="cards gap-12 grid place-items-center w-full sm:grid-cols-2 lg:gap-4 lg:grid-cols-[repeat(auto-fit,_minmax(200px,_1fr))] xl:gap-8"
     >
       <UCard
-        class="card1 team-card h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 w-80 md:w-full"
+        class="team-card h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 w-80 md:w-full"
       >
         <template #header>
           <nuxt-img src="guilherme_corsini.png" width="620" />
@@ -116,7 +71,7 @@
         </template>
       </UCard>
       <UCard
-        class="card2 team-card h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 w-80 md:w-full"
+        class="team-card h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 w-80 md:w-full"
       >
         <template #header>
           <nuxt-img src="guilherme_corsini.png" width="620" />
@@ -151,7 +106,7 @@
         </template>
       </UCard>
       <UCard
-        class="card3 team-card h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 w-80 md:w-full"
+        class="team-card h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 w-80 md:w-full"
       >
         <template #header>
           <nuxt-img src="jack.jpeg" width="620" />
@@ -186,7 +141,7 @@
         </template>
       </UCard>
       <UCard
-        class="card4 team-card h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 team_card w-80 md:w-full"
+        class="team-card h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 team_card w-80 md:w-full"
       >
         <template #header>
           <nuxt-img src="mervyn.jpeg" width="620" />
@@ -226,21 +181,5 @@
 <style scoped>
   .team-card {
     border-radius: 0.6rem;
-  }
-  .card1 {
-    transform: translateY(30%);
-    opacity: 0;
-  }
-  .card2 {
-    transform: translateY(32%);
-    opacity: 0;
-  }
-  .card3 {
-    transform: translateY(34%);
-    opacity: 0;
-  }
-  .card4 {
-    transform: translateY(36%);
-    opacity: 0;
   }
 </style>

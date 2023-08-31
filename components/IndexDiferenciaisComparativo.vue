@@ -1,32 +1,12 @@
 <script setup lang="ts">
   const { $gsap, $ScrollTrigger } = useNuxtApp()
-  onMounted(() => {
-    const titles = document.querySelectorAll('.sec3title')
-    for (let i = 0; i < titles.length; i++) {
-      $gsap.from(titles[i], {
-        ease: 'power1.out',
-        opacity: 0,
-        x: -100 + i,
-        duration: 0.4 + i / 9,
-        scrollTrigger: {
-          trigger: '.sec3title',
-          start: 'bottom bottom',
-          end: 'top -10%',
-          scrub: false,
-          toggleActions: 'play reverse play reverse',
-        },
-      })
-    }
-  })
 </script>
 <template class="bg-secondary-50">
   <section class="pt-32 pb-40">
     <div class="container flex flex-col mx-auto px-4">
       <div class="flex-col mb-20 md:max-w-2xl lg:max-w-2xl">
-        <h3 class="sec3title">Diferencial</h3>
-        <h2 class="sec3title">
-          A velocidade dos ATS com a eficiência dos mercados de balcão
-        </h2>
+        <h3>Diferencial</h3>
+        <h2>A velocidade dos ATS com a eficiência dos mercados de balcão</h2>
         <h4 class="sec3title mb-6 md:max-w-lg">
           Juntando o melhor dos dois mundos. Nossa solução elimina as
           desvantagens dos métodos atuais
