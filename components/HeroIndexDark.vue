@@ -16,7 +16,7 @@
     <div class="absolute backgroundelements overlays z-0">
       <SVGIndexCharts class="elements relative top-0 hidden" />
       <SVGHeroIndexDots class="elements relative top-0 hidden" />
-      <NuxtImg src="/chart.png" class="elements relative top-0" />
+      <NuxtImg src="/chart.png" class="elements charts relative top-0" />
     </div>
     <div class="justify-around place-items-center relative text-center z-1">
       <h1 class="leading-tight mb-2 text-white">Um novo</h1>
@@ -65,6 +65,9 @@
     .elements {
       height: clamp(64rem, 80vw, 65rem);
       margin: 0 -50%;
+    }
+    .charts {
+      max-width: max-content;
     }
     .overlays {
       mix-blend-mode: overlay;
