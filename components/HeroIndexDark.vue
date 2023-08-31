@@ -3446,9 +3446,10 @@
       margin: 0 auto;
     }
     .bgblocks {
-      bottom: clamp(3rem, -11vw, 0rem);
-      width: clamp(20rem, 106vw, 60rem);
+      bottom: clamp(2rem, 3vw, 8rem);
       left: -18%;
+      width: clamp(20rem, 106vw, 62rem);
+      overflow: initial;
     }
     .elements {
       height: clamp(64rem, 80vw, 65rem);
