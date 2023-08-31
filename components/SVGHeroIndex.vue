@@ -58,6 +58,10 @@
     xmlns:xlink="http://www.w3.org/1999/xlink"
   >
     <defs>
+      <linearGradient id="linearGradient23">
+        <stop stop-color="#0073c6" offset="0" />
+        <stop stop-color="#0094ff" offset="1" />
+      </linearGradient>
       <filter
         id="filter16"
         x="-.46296"
@@ -68,18 +72,140 @@
       >
         <feGaussianBlur stdDeviation="1.7442655" />
       </filter>
+      <linearGradient
+        id="linearGradient24"
+        x1="351.44"
+        x2="317.02"
+        y1="510.81"
+        y2="545.43"
+        gradientUnits="userSpaceOnUse"
+        xlink:href="#linearGradient23"
+      />
+      <linearGradient
+        id="linearGradient25"
+        x1="113.68"
+        x2="149.47"
+        y1="377.29"
+        y2="414.97"
+        gradientUnits="userSpaceOnUse"
+        xlink:href="#linearGradient23"
+      />
+      <linearGradient
+        id="linearGradient26"
+        x1="64.012"
+        x2="91.083"
+        y1="382.7"
+        y2="409.77"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#0093ff" offset=".0026316" />
+        <stop stop-color="#3cf" offset="1" />
+      </linearGradient>
+      <linearGradient
+        id="linearGradient27"
+        x1="37.534"
+        x2="91.896"
+        y1="426.6"
+        y2="480.96"
+        gradientUnits="userSpaceOnUse"
+        xlink:href="#linearGradient23"
+      />
+      <linearGradient
+        id="linearGradient28"
+        x1="104.56"
+        x2="120.95"
+        y1="446.27"
+        y2="464.2"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#33a9ff" offset="0" />
+        <stop stop-color="#3cf" offset="1" />
+      </linearGradient>
+      <linearGradient
+        id="linearGradient29"
+        x1="53.094"
+        x2="73.89"
+        y1="500.36"
+        y2="520.38"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#005999" offset="0" />
+        <stop stop-color="#0076cc" offset="1" />
+      </linearGradient>
+      <linearGradient
+        id="linearGradient30"
+        x1="82.522"
+        x2="123.11"
+        y1="507.57"
+        y2="548.15"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#0094ff" offset=".0052632" />
+        <stop stop-color="#3cf" offset="1" />
+      </linearGradient>
+      <linearGradient
+        id="linearGradient31"
+        x1="357.67"
+        x2="302.04"
+        y1="367.19"
+        y2="423.16"
+        gradientUnits="userSpaceOnUse"
+        xlink:href="#linearGradient23"
+      />
+      <linearGradient
+        id="linearGradient32"
+        x1="403.52"
+        x2="372.55"
+        y1="390.14"
+        y2="421.11"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#0094ff" offset=".0026316" />
+        <stop stop-color="#3cf" offset=".99737" />
+      </linearGradient>
+      <linearGradient
+        id="linearGradient33"
+        x1="414.31"
+        x2="372.39"
+        y1="437.07"
+        y2="479.21"
+        gradientUnits="userSpaceOnUse"
+        xlink:href="#linearGradient23"
+      />
+      <linearGradient
+        id="linearGradient34"
+        x1="352.25"
+        x2="328.3"
+        y1="463.89"
+        y2="487.85"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#0094ff" offset="0" />
+        <stop stop-color="#3cf" offset=".99737" />
+      </linearGradient>
+      <linearGradient
+        id="linearGradient35"
+        x1="388.27"
+        x2="369.13"
+        y1="497.2"
+        y2="519.84"
+        gradientUnits="userSpaceOnUse"
+      >
+        <stop stop-color="#005999" offset="0" />
+        <stop stop-color="#07c" offset=".99737" />
+      </linearGradient>
     </defs>
     <g transform="translate(-21.787 -363.65)">
       <g>
         <path
           d="m319.8 545.28h29.311a2.6286 2.6286 0 0 0 2.6287-2.6287v-29.311a2.6286 2.6286 0 0 0-2.6287-2.6286h-29.311a2.6286 2.6286 0 0 0-2.6287 2.6286v29.311a2.6286 2.6286 0 0 0 2.6287 2.6287z"
-          fill="#0073c6"
+          fill="url(#linearGradient24)"
           stop-color="#000000"
-          stroke="#3f8bbd"
+          stroke="#0091fa"
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-miterlimit="0"
-          stroke-width=".4"
+          stroke-width=".3"
           style="
             -inkscape-stroke: none;
             font-variation-settings: normal;
@@ -102,13 +228,13 @@
         />
         <path
           d="m369.87 517.1h16.749a1.5021 1.5021 0 0 0 1.5021-1.5021v-16.749a1.5021 1.5021 0 0 0-1.5021-1.5021h-16.749a1.5021 1.5021 0 0 0-1.5021 1.5021v16.749a1.5021 1.5021 0 0 0 1.5021 1.5021z"
-          fill="#0073c6"
+          fill="url(#linearGradient35)"
           stop-color="#000000"
-          stroke="#3f8bbd"
+          stroke="#0a75c2"
           stroke-linecap="round"
           stroke-linejoin="round"
           stroke-miterlimit="0"
-          stroke-width=".4"
+          stroke-width=".3"
           style="
             -inkscape-stroke: none;
             font-variation-settings: normal;
@@ -132,13 +258,13 @@
       />
       <path
         d="m330.25 487.7h20.055a1.7986 1.7986 0 0 0 1.7986-1.7986v-20.055a1.7986 1.7986 0 0 0-1.7986-1.7986h-20.055a1.7986 1.7986 0 0 0-1.7986 1.7986v20.055a1.7986 1.7986 0 0 0 1.7986 1.7986z"
-        fill="#0073c6"
+        fill="url(#linearGradient34)"
         stop-color="#000000"
-        stroke="#3f8bbd"
+        stroke="#0091fa"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-miterlimit="0"
-        stroke-width=".4"
+        stroke-width=".3"
         style="
           -inkscape-stroke: none;
           font-variation-settings: normal;
@@ -161,13 +287,13 @@
       />
       <path
         d="m375.74 479.06h35.702a3.2018 3.2018 0 0 0 3.2018-3.2018v-35.702a3.2018 3.2018 0 0 0-3.2018-3.2018h-35.702a3.2018 3.2018 0 0 0-3.2018 3.2018v35.702a3.2018 3.2018 0 0 0 3.2018 3.2018z"
-        fill="#0073c6"
+        fill="url(#linearGradient33)"
         stop-color="#000000"
-        stroke="#3f8bbd"
+        stroke="#0091fa"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-miterlimit="0"
-        stroke-width=".4"
+        stroke-width=".3"
         style="
           -inkscape-stroke: none;
           font-variation-settings: normal;
@@ -190,13 +316,13 @@
       />
       <path
         d="m375.03 420.96h26.005a2.3322 2.3322 0 0 0 2.3322-2.3322v-26.005a2.3322 2.3322 0 0 0-2.3322-2.3322h-26.005a2.3322 2.3322 0 0 0-2.3322 2.3322v26.005a2.3322 2.3322 0 0 0 2.3322 2.3322z"
-        fill="#0073c6"
+        fill="url(#linearGradient32)"
         stop-color="#000000"
-        stroke="#3f8bbd"
+        stroke="#0091fa"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-miterlimit="0"
-        stroke-width=".4"
+        stroke-width=".3"
         style="
           -inkscape-stroke: none;
           font-variation-settings: normal;
@@ -223,13 +349,15 @@
       />
       <path
         d="m306.42 423.01h47.204a4.2333 4.2333 0 0 0 4.2333-4.2333v-47.204a4.2333 4.2333 0 0 0-4.2333-4.2333h-47.204a4.2333 4.2333 0 0 0-4.2333 4.2333v47.204a4.2333 4.2333 0 0 0 4.2333 4.2333z"
-        fill="#0073c6"
-        stroke="#3f8bbd"
+        fill="url(#linearGradient31)"
+        stop-color="#000000"
+        stroke="#0091fa"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-miterlimit="0"
-        stroke-width=".4"
+        stroke-width=".3"
         style="
+          -inkscape-stroke: none;
           font-variation-settings: normal;
           paint-order: fill markers stroke;
         "
@@ -248,13 +376,13 @@
       />
       <path
         d="m85.735 548h34.159a3.0635 3.0635 0 0 0 3.0635-3.0635v-34.159a3.0635 3.0635 0 0 0-3.0635-3.0635h-34.159a3.0635 3.0635 0 0 0-3.0635 3.0635v34.159a3.0635 3.0635 0 0 0 3.0635 3.0635z"
-        fill="#0073c6"
+        fill="url(#linearGradient30)"
         stop-color="#000000"
-        stroke="#3f8bbd"
+        stroke="#0091fa"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-miterlimit="0"
-        stroke-width=".4"
+        stroke-width=".3"
         style="
           -inkscape-stroke: none;
           font-variation-settings: normal;
@@ -277,13 +405,13 @@
       />
       <path
         d="m54.687 519.49h16.088a1.4428 1.4428 0 0 0 1.4428-1.4428v-16.088a1.4428 1.4428 0 0 0-1.4428-1.4428h-16.088a1.4428 1.4428 0 0 0-1.4428 1.4428v16.088a1.4428 1.4428 0 0 0 1.4428 1.4428z"
-        fill="#0073c6"
+        fill="url(#linearGradient29)"
         stop-color="#000000"
-        stroke="#3f8bbd"
+        stroke="#0a75c2"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-miterlimit="0"
-        stroke-width=".4"
+        stroke-width=".3"
         style="
           -inkscape-stroke: none;
           font-variation-settings: normal;
@@ -306,13 +434,13 @@
       />
       <path
         d="m105.52 464.2h15.427a1.3835 1.3835 0 0 0 1.3835-1.3835v-15.427a1.3835 1.3835 0 0 0-1.3835-1.3835h-15.427a1.3835 1.3835 0 0 0-1.3835 1.3835v15.427a1.3835 1.3835 0 0 0 1.3835 1.3835z"
-        fill="#0073c6"
+        fill="url(#linearGradient28)"
         stop-color="#000000"
-        stroke="#3f8bbd"
+        stroke="#0091fa"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-miterlimit="0"
-        stroke-width=".4"
+        stroke-width=".3"
         style="
           -inkscape-stroke: none;
           font-variation-settings: normal;
@@ -335,13 +463,13 @@
       />
       <path
         d="m41.795 480.81h45.84a4.111 4.111 0 0 0 4.111-4.111v-45.84a4.111 4.111 0 0 0-4.111-4.111h-45.84a4.111 4.111 0 0 0-4.111 4.111v45.84a4.111 4.111 0 0 0 4.111 4.111z"
-        fill="#0073c6"
+        fill="url(#linearGradient27)"
         stop-color="#000000"
-        stroke="#3f8bbd"
+        stroke="#0091fa"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-miterlimit="0"
-        stroke-width=".4"
+        stroke-width=".3"
         style="
           -inkscape-stroke: none;
           font-variation-settings: normal;
@@ -366,13 +494,13 @@
     <g transform="translate(-21.624 -363.81)">
       <path
         d="m115.7 414.82h30.853a2.767 2.767 0 0 0 2.767-2.767v-30.853a2.767 2.767 0 0 0-2.767-2.767h-30.853a2.767 2.767 0 0 0-2.767 2.767v30.853a2.767 2.767 0 0 0 2.767 2.767z"
-        fill="#0073c6"
+        fill="url(#linearGradient25)"
         stop-color="#000000"
-        stroke="#3f8bbd"
+        stroke="#0091fa"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-miterlimit="0"
-        stroke-width=".4"
+        stroke-width=".3"
         style="
           -inkscape-stroke: none;
           font-variation-settings: normal;
@@ -397,15 +525,14 @@
     <g transform="translate(-21.787 -363.65)">
       <path
         d="m66.198 409.62h22.7a2.0357 2.0357 0 0 0 2.0358-2.0358v-22.7a2.0357 2.0357 0 0 0-2.0358-2.0358h-22.7a2.0357 2.0357 0 0 0-2.0358 2.0358v22.7a2.0357 2.0357 0 0 0 2.0358 2.0358z"
-        fill="#0073c6"
+        fill="url(#linearGradient26)"
         stop-color="#000000"
-        stroke="#3f8bbd"
+        stroke="#0091fa"
         stroke-linecap="round"
         stroke-linejoin="round"
         stroke-miterlimit="0"
-        stroke-width=".4"
+        stroke-width=".3"
         style="
-          -inkscape-stroke: none;
           font-variation-settings: normal;
           paint-order: fill markers stroke;
         "
