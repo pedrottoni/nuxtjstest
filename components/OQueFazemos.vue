@@ -25,6 +25,51 @@
   ])
 
   const { $gsap, $ScrollTrigger } = useNuxtApp()
+  const mm = $gsap.matchMedia()
+  onMounted(() => {
+    mm.add('(min-width: 24px)', () => {
+      $gsap.from('.sec2tab', {
+        ease: 'power1.out',
+        opacity: -1,
+        yPercent: 50,
+        duration: 0.3,
+        stagger: 0.1,
+        scrollTrigger: {
+          trigger: '#tabs',
+          start: 'top 95%',
+          end: 'bottom 12%',
+          scrub: false,
+          toggleActions: 'play reverse play reverse',
+        },
+      })
+      $gsap.from('.tabimg', {
+        ease: 'power1.out',
+        opacity: -1,
+        xPercent: -50,
+        duration: 0.3,
+        scrollTrigger: {
+          trigger: '#tabs',
+          start: 'top 95%',
+          end: 'bottom 12%',
+          scrub: false,
+          toggleActions: 'play reverse play reverse',
+        },
+      })
+      $gsap.from('.tabtext', {
+        ease: 'power1.out',
+        opacity: -1,
+        xPercent: 50,
+        duration: 0.3,
+        scrollTrigger: {
+          trigger: '#tabs',
+          start: 'top 95%',
+          end: 'bottom 12%',
+          scrub: false,
+          toggleActions: 'play reverse play reverse',
+        },
+      })
+    })
+  })
 </script>
 <template>
   <section class="bg-slate-100 py-32 z-10 relative">
@@ -116,8 +161,8 @@
       <TabBar class="hidden md:block" :tabs="tabs" active="tab1">
         <template #content="{ active }">
           <template v-if="active == 'tab1'">
-            <NuxtImg src="about.png" class="w-1/3'" />
-            <div>
+            <NuxtImg src="about.png" class="tabimg w-1/3'" />
+            <div class="tabtext">
               <h5 class="mb-6">
                 Solução ágil<br />
                 e eficiente
@@ -132,8 +177,8 @@
             </div>
           </template>
           <template v-if="active == 'tab2'">
-            <NuxtImg src="duplo.png" class="w-1/2'" />
-            <div>
+            <NuxtImg src="duplo.png" class="tabimg w-1/2'" />
+            <div class="tabtext">
               <h5 class="mb-6">
                 Plataforma<br />
                 de leilão duplo
@@ -148,8 +193,8 @@
             </div>
           </template>
           <template v-if="active == 'tab3'">
-            <NuxtImg src="commodities.png" class="w-1/2'" />
-            <div>
+            <NuxtImg src="commodities.png" class="tabimg w-1/2'" />
+            <div class="tabtext">
               <h5 class="mb-6">Totalmente<br />eletrônico</h5>
               <p>
                 Resolvendo atritos de todos os mercados de commodities, gerando
@@ -161,8 +206,8 @@
             </div>
           </template>
           <template v-if="active == 'tab4'">
-            <NuxtImg src="funcionamento.png" class="w-1/2'" />
-            <div>
+            <NuxtImg src="funcionamento.png" class="tabimg w-1/2'" />
+            <div class="tabtext">
               <h5 class="mb-6">
                 Nicho<br />
                 de atuação

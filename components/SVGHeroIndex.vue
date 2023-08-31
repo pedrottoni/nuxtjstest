@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  const { $gsap, $ScrollTrigger } = useNuxtApp()
+  const { $gsap, $ScrollTrigger, $matchMedia } = useNuxtApp()
 
   const animateOnScrollSvg = () => {
     $gsap.to('.box', {
@@ -45,7 +45,9 @@
   }
 
   onMounted(() => {
-    animateOnScrollSvg()
+    $gsap.matchMedia().add('(min-width: 724px)', () => {
+      animateOnScrollSvg()
+    })
   })
 </script>
 <template>

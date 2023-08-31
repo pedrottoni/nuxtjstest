@@ -21,7 +21,7 @@
         :class="{ active: tab.value == activeTab }"
         @click="activeTab = tab.value"
       >
-        <span class="lg:font-medium">{{ tab.title }}</span>
+        <span class="sec2tab lg:font-medium">{{ tab.title }}</span>
       </div>
     </div>
     <div id="tabs-content">

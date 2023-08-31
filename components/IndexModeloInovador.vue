@@ -16,10 +16,10 @@
       duration: 0.3,
       scrollTrigger: {
         trigger: '.card-trigger',
-        start: 'top 75%',
+        start: 'top 95%',
         end: 'bottom 12%',
         scrub: false,
-        markers: true,
+        markers: false,
         toggleActions: 'play reverse play reverse',
       },
     })
