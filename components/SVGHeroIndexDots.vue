@@ -1,21 +1,4 @@
-<script setup lang="ts">
-  const { $gsap, $ScrollTrigger } = useNuxtApp()
-
-  const animateOnScroll = () => {
-    $gsap.to('.chart', {
-      y: +2000,
-      ease: 'power1.out',
-      scrollTrigger: {
-        end: 'bottom',
-        scrub: true,
-      },
-    })
-  }
-
-  onMounted(() => {
-    animateOnScroll()
-  })
-</script>
+<script setup lang="ts"></script>
 
 <template>
   <svg
