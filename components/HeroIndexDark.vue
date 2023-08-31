@@ -10,13 +10,14 @@
   <section
     class="flex flex-col heroindexsection overflow-hidden pt-32 px-4 relative"
   >
-    <!--     <div class="absolute backgroundelements z-0">
+    <div class="absolute backgroundelements z-0">
       <SVGHeroIndexX class="elements opacity-40" />
     </div>
     <div class="absolute backgroundelements overlays z-0">
       <SVGIndexCharts class="elements relative top-0 hidden" />
-      <SVGHeroIndexDots class="elements relative top-0" />
-    </div> -->
+      <SVGHeroIndexDots class="elements relative top-0 hidden" />
+      <NuxtImg src="/chart.png" class="elements relative top-0" />
+    </div>
     <div class="justify-around place-items-center relative text-center z-1">
       <h1 class="leading-tight mb-2 text-white">Um novo</h1>
       <h1 class="text-tertiary">tipo de leilão</h1>
@@ -34,7 +35,7 @@
       >
       </UButton>
       <div class="indexbg flex justify-center">
-        <SVGHeroIndex class="bgblocks absolute z-10" />
+        <SVGHeroIndex class="bgblocks absolute z-10 hidden" />
         <nuxt-img src="/indexBg.png" class="" />
       </div>
     </div>
