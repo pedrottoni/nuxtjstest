@@ -44,10 +44,10 @@
         toggleActions: 'play reverse play reverse',
       },
     })
-    $gsap.to('.image', {
+    $gsap.from('.image', {
       ease: 'power1.out',
-      xPercent: -48,
-      opacity: 1,
+      xPercent: 40,
+      opacity: 0,
       duration: 0.6,
       scrollTrigger: {
         trigger: '.vamos',
@@ -65,20 +65,20 @@
   })
 </script>
 <template>
-  <section class="py-32 bg-slate-100">
+  <section class="bg-slate-100">
     <div
-      class="container flex flex-col gap-8 mx-auto place-items-center px-4 relative md:flex-row md:place-items-center"
+      class="container gap-8 grid mx-auto place-items-center px-4 relative md:grid-cols-2"
     >
-      <div class="vamos">
+      <div class="pt-32 text-center vamos md:pb-32 md:text-left">
         <h2 class="title1">Vamos começar?</h2>
-        <h4 class="title2 lg:max-w-2xl mt-4 my-8">
+        <h4 class="mt-4 my-8 title2 w-80 lg:max-w-2xl">
           Conheça a plataforma de leilão eletrônico que une as vantagens dos
           leilões tradicionais com a agilidade da negociação eletrônica.
         </h4>
         <UButton
           to="contact"
           size="xl"
-          class="btn btnsolid mb-14 mt-4 px-7 py-3 relative rounded-md z-20"
+          class="btn btnsolid flex mb-8 mt-4 place-content-center px-7 py-3 relative rounded-md z-20 md:mb-0"
           label="Comece agora"
           color="tertiary"
         >
@@ -88,7 +88,7 @@
         xmlns="http://www.w3.org/2000/svg"
         fill="none"
         viewBox="0 0 591 814"
-        class="bg"
+        class="bg h-full"
       >
         <path
           fill="#499afe"
@@ -96,7 +96,7 @@
           opacity=".08"
         />
       </svg>
-      <NuxtImg src="vamos.png" class="image relative lg:w-7/12" />
+      <NuxtImg src="vamos.png" class="image pb-32 relative md:pt-32" />
     </div>
   </section>
 </template>
@@ -114,13 +114,11 @@
     opacity: 0;
   }
   .image {
-    transform: translateX(+50%);
-    opacity: 0;
+    width: clamp(20rem, 50vw, 40rem);
   }
 
   .bg {
     position: absolute;
-    height: 160%;
-    left: 52vw;
+    left: clamp(10rem, 52vw, 60rem);
   }
 </style>

@@ -12,7 +12,7 @@
           duration: 0.3 + i / 9,
           scrollTrigger: {
             trigger: '.content',
-            start: 'top 75%',
+            start: 'top 95%',
             end: 'bottom 12%',
             scrub: false,
             toggleActions: 'play reverse play reverse',
@@ -49,7 +49,7 @@
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 401 146"
-            class="mb-8 mx-auto w-9/12"
+            class="sec4title mb-8 mx-auto w-9/12"
           >
             <path
               stroke="#C8D1E1"
@@ -108,7 +108,7 @@
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 37 40"
-            class="rotate-90 md:rotate-0"
+            class="sec4title rotate-90 md:rotate-0"
           >
             <path
               fill="#204387"
@@ -120,7 +120,7 @@
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 37 40"
-            class="rotate-90 md:rotate-0"
+            class="sec4title rotate-90 md:rotate-0"
           >
             <path
               fill="#204387"
@@ -132,7 +132,7 @@
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 37 40"
-            class="rotate-90 md:rotate-0"
+            class="sec4title rotate-90 md:rotate-0"
           >
             <path
               fill="#204387"
@@ -146,7 +146,7 @@
             xmlns="http://www.w3.org/2000/svg"
             fill="none"
             viewBox="0 0 401 146"
-            class="mb-8 mx-auto w-9/12"
+            class="sec4title mb-8 mx-auto w-9/12"
           >
             <path
               stroke="#C8D1E1"
