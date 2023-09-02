@@ -12,8 +12,8 @@
         <div class="justify-around place-items-center relative text-center z-1">
             <h1 class="leading-tight mb-2 text-white">Um novo</h1>
             <h1 class="text-tertiary">tipo de leilão</h1>
-            <h4 class="!font-light mb-6 mt-10 text-white"><br class="hidden sm:block"/>
-        Com regras de negócio modernas e diferenciadas,
+            <h4 class="!font-light mb-6 mt-10 text-white">
+        Com regras de negócio modernas e diferenciadas,<br class="hidden sm:block"/>
         Criamos uma solução revolucionária. </h4>
             <UButton to="#vamos" size="xl" class="btnsolid mb-14 mt-4 px-7 py-3 relative rounded-md z-20" label="Comece agora">
 </UButton>
