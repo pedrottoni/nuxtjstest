@@ -26,5 +26,23 @@ export default defineAppConfig({
         padding: 'px-0 py-3',
       },
     },
+    modal: {
+      overlay: {
+        base: 'fixed inset-0 transition-opacity',
+        background: 'bg-indigo-950/40 backdrop-blur-3xl',
+        transition: {
+          enter: 'ease-out duration-300',
+          enterFrom: 'opacity-0',
+          enterTo: 'opacity-100',
+          leave: 'ease-in duration-200',
+          leaveFrom: 'opacity-100',
+          leaveTo: 'opacity-0',
+        },
+      },
+      container:
+        'flex min-h-full items-center sm:items-center justify-center text-center',
+      width: 'sm:max-w-xs',
+      ring: 'ring-2 ring-primary-500/50',
+    },
   },
 })

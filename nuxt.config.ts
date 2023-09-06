@@ -8,9 +8,12 @@ export default defineNuxtConfig({
       author: 'Estúdio Oz',
       nav: [
         { text: 'EXE auctions', link: '/' },
-        { text: 'O que fazemos', link: '/about' },
-        { text: 'Nosso time', link: '/team' },
-        { text: 'Entre em contato', link: '/subscribe' },
+        { text: 'Modelo inovador', link: '#modelo' },
+        { text: 'O que fazemos', link: '#o-que-fazemos' },
+        { text: 'Diferencial', link: '#diferencial' },
+        { text: 'Processo', link: '#processo' },
+        { text: 'Time', link: '#time' },
+        { text: 'Perguntas', link: '#perguntas' },
       ],
     },
     app: {
@@ -19,7 +22,6 @@ export default defineNuxtConfig({
   },
   modules: [
     '@pinegrow/nuxt-module',
-    // 'nuxt-icon', // not using this because the format nuxt-icon uses is not same as UIcon of @nuxthq/ui
     '@nuxthq/ui',
     '@nuxt/devtools',
     '@nuxt/content',

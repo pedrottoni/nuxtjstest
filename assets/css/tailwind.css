@@ -48,41 +48,26 @@ html {
 .bg-white {
   background-color: hsl(210, 33%, 99%);
 }
-
-.navbar {
-  background-color: hsla(0, 0%, 100%, 0.6);
-  backdrop-filter: blur(30px);
-  box-shadow: 0px 1rem 1rem -1rem hsla(0, 0%, 0%, 0.1);
-  .links {
-    a {
-      @apply text-blue-800;
-      &:hover {
-        @apply text-primary-800;
-      }
-      .outline {
-        color: brown;
-      }
-    }
-    .router-link-active {
-      @apply text-primary-500;
-    }
-  }
-}
 .navbarDark {
   padding-top: 0.6rem;
   .links {
     a {
       @apply text-white;
       &:hover {
-        @apply text-primary-200;
+        @apply text-primary-400;
       }
       .outline {
-        color: brown;
+        color: none;
       }
     }
     .router-link-active {
-      @apply text-primary-400;
     }
+  }
+}
+
+#perguntas {
+  button > span:last-child {
+    @apply text-tertiary-600;
   }
 }
 
@@ -158,13 +143,6 @@ a {
 .swiper-pagination-bullet-active {
   width: 3rem !important;
   @apply bg-tertiary !important;
-}
-
-button > span {
-  width: fit-content;
-  &:last-child {
-    color: #f4a424;
-  }
 }
 
 /* Pinegrow generated Design Panel Extra Rules Begin */

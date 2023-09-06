@@ -19,7 +19,7 @@
   })
 </script>
 <template>
-  <section class="container flex flex-col mx-auto pb-40 pt-32 px-4">
+  <section id="time" class="container flex flex-col mx-auto pb-40 pt-32 px-4">
     <div class="flex flex-col mb-8 w-12/12 md:max-w-xl">
       <h3>Nosso time</h3>
       <h2>Depois de alguma<br />experiência acumulada</h2>
@@ -39,7 +39,7 @@
         class="team-card h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 w-80 md:w-full"
       >
         <template #header>
-          <nuxt-img src="guilherme_corsini.png" width="620" />
+          <nuxt-img src="guilherme_corsini.jpg" width="620" />
         </template>
         <template #default>
           <div class="border-gray-50 flex flex-col mt-6 pt-0 px-5">
@@ -50,10 +50,10 @@
                 Guilherme Corsini
               </h5>
               <p>
-                Empreendedor, Business Developer com profundo conhecimento de
-                tecnologias digitais e seu poder disruptivo em negócios
-                financeiros. Sócio da NÓS Innovators, Inseed – Gestora de fundos
-                Venture Capital.
+                Atuando como Trader e Market-Maker, trabalhou para refinar as
+                expectativas de inflação do mercado brasileiro e para aumentar a
+                liquidez dos títulos soberanos nas plataformas eletrônicas
+                internacionais.
               </p>
             </div>
           </div>
@@ -74,7 +74,7 @@
         class="team-card h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 w-80 md:w-full"
       >
         <template #header>
-          <nuxt-img src="guilherme_corsini.png" width="620" />
+          <nuxt-img src="guilherme_corsini.jpg" width="620" />
         </template>
         <template #default>
           <div class="border-gray-50 flex flex-col mt-6 pt-0 px-5">

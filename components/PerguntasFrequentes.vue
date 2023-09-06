@@ -26,7 +26,7 @@
   ]
 </script>
 <template>
-  <section class="container mx-auto px-4 py-28">
+  <section id="perguntas" class="container mx-auto px-4 py-28">
     <div class="mx-auto">
       <h2 class="text-center">
         Perguntas<br />
@@ -37,7 +37,7 @@
       :items="items"
       variant="link"
       size="xl"
-      class="perguntas text-left border-b border-gray-100 mx-auto py-6 rounded-none text-blue-900 w-full md:w-10/12"
+      class="text-left border-b border-gray-100 mx-auto py-6 rounded-none text-blue-900 w-full md:w-10/12"
     >
       <template #faq1>
         <div class="py-6 md:w-10/12 mx-auto">

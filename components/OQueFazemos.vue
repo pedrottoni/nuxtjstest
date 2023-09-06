@@ -72,7 +72,7 @@
   })
 </script>
 <template>
-  <section class="bg-slate-100 py-32 z-10 relative">
+  <section id="o-que-fazemos" class="bg-slate-100 py-32 z-10 relative">
     <div
       class="container flex flex-col gap-8 mx-auto place-items-center px-4 md:justify-between lg:px-40"
     >

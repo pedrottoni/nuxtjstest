@@ -2,7 +2,7 @@
   const { $gsap, $ScrollTrigger } = useNuxtApp()
 </script>
 <template class="bg-secondary-50">
-    <section class="pt-32 pb-40">
+    <section id="diferencial" class="pt-32 pb-40">
         <div class="container flex flex-col mx-auto px-4">
             <div class="flex-col mb-20 md:max-w-2xl lg:max-w-2xl">
                 <h3>Diferencial</h3>
