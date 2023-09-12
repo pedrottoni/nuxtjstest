@@ -25,7 +25,7 @@
   <section id="processo" class="bg-slate-100 py-28">
     <div class="container flex flex-col mx-auto place-items-center px-4">
       <div
-        class="flex flex-col mb-16 text-center md:max-w-xl md:place-items-center"
+        class="flex flex-col mb-8 text-center md:max-w-xl md:place-items-center"
       >
         <h3>Nosso processo</h3>
         <h2>
@@ -76,7 +76,7 @@
             <div
               class="sec4title flex flex-col gap-4 place-content-center place-items-center w-32 md:w-auto"
             >
-              <NuxtImg src="/preco.svg" width="100" alt="" />
+              <NuxtImg src="/preco.svg" width="100" height="100" alt="" />
               <h6 class="font-semibold text-center text-slate-600">
                 Preço<br />e lote
               </h6>
@@ -95,7 +95,7 @@
             <div
               class="sec4title flex flex-col gap-4 place-content-center place-items-center w-32 md:w-auto"
             >
-              <NuxtImg src="/resultados.svg" width="100" alt="" />
+              <NuxtImg src="/resultados.svg" width="100" height="100" alt="" />
               <h6 class="font-semibold text-slate-600 text-center">
                 Resultado<br />parcial
               </h6>
@@ -173,7 +173,7 @@
             <div
               class="sec4title flex flex-col gap-4 place-content-center place-items-center w-32 md:w-auto"
             >
-              <NuxtImg src="/recompra.svg" width="100" alt="" />
+              <NuxtImg src="/recompra.svg" width="100" height="100" alt="" />
               <h6 class="font-semibold text-slate-600 text-center">
                 Complementares<br />
                 e trocas
@@ -193,7 +193,7 @@
             <div
               class="sec4title flex flex-col gap-4 place-content-center place-items-center w-32 md:w-auto"
             >
-              <NuxtImg src="/resultados.svg" width="100" alt="" />
+              <NuxtImg src="/resultados.svg" width="100" height="100" alt="" />
               <h6 class="font-semibold text-center text-slate-600">
                 Resultado<br />final
               </h6>
