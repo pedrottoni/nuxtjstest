@@ -12,8 +12,8 @@
       <NuxtImg
         src="/chart.png"
         class="elements charts relative top-0"
-        width="1507"
-        height="1024"
+        width="1536"
+        height="1044"
         alt=""
       />
     </div>
