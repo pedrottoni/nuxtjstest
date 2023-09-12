@@ -24,7 +24,7 @@
     },
   ])
 
-  const { $gsap, $ScrollTrigger } = useNuxtApp()
+  const { $gsap } = useNuxtApp()
   const mm = $gsap.matchMedia()
   onMounted(() => {
     mm.add('(min-width: 24px)', () => {
@@ -168,7 +168,7 @@
               src="about.png"
               width="483"
               height="441"
-              class="tabimg w-1/3"
+              class="tabimg"
               alt=""
             />
             <div class="tabtext">
@@ -186,13 +186,7 @@
             </div>
           </template>
           <template v-if="active == 'tab2'">
-            <NuxtImg
-              src="duplo.png"
-              width="483"
-              height="441"
-              class="tabimg w-1/2"
-              alt=""
-            />
+            <NuxtImg src="duplo.png" width="483" height="441" class="tabimg" />
             <div class="tabtext">
               <h5 class="mb-6">
                 Plataforma<br />
@@ -212,7 +206,7 @@
               src="commodities.png"
               width="483"
               height="441"
-              class="tabimg w-1/2"
+              class="tabimg"
               alt=""
             />
             <div class="tabtext">
@@ -231,7 +225,7 @@
               src="funcionamento.png"
               width="483"
               height="441"
-              class="tabimg w-1/2"
+              class="tabimg"
               alt=""
             />
             <div class="tabtext">
