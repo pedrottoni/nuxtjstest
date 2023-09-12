@@ -20,8 +20,8 @@
                 </svg>
             </div>
             <div class="flex gap-8">
-                <UButton icon="i-ph-twitter-logo-bold" color="tertiary" variant="outline"></UButton>
-                <UButton icon="i-ph-linkedin-logo-bold" color="tertiary" variant="outline"></UButton>
+                <UButton id="twitter" label="twitter" icon="i-ph-twitter-logo-bold" color="tertiary" variant="outline" square class="p-3"></UButton>
+                <UButton id="linkedin" label="linkedin" icon="i-ph-linkedin-logo-bold" color="tertiary" variant="outline" class="p-3" square></UButton>
             </div>
         </div>
     </div>

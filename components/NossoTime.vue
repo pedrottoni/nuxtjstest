@@ -39,7 +39,11 @@
         class="team-card h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 w-80 md:w-full"
       >
         <template #header>
-          <nuxt-img src="guilherme_corsini.jpg" width="620" />
+          <NuxtImg
+            src="guilherme_corsini.jpg"
+            width="620"
+            alt="Foto do Guilherme Corsini"
+          />
         </template>
         <template #default>
           <div class="border-gray-50 flex flex-col mt-6 pt-0 px-5">
@@ -74,7 +78,11 @@
         class="team-card h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 w-80 md:w-full"
       >
         <template #header>
-          <nuxt-img src="guilherme_corsini.jpg" width="620" />
+          <NuxtImg
+            src="guilherme_corsini.jpg"
+            width="620"
+            alt="Foto do Adolpho Naves"
+          />
         </template>
         <template #default>
           <div class="border-gray-50 flex flex-col mt-6 pt-0 px-5">
@@ -109,7 +117,7 @@
         class="team-card h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 w-80 md:w-full"
       >
         <template #header>
-          <nuxt-img src="jack.jpeg" width="620" />
+          <NuxtImg src="jack.jpeg" width="620" alt="Foto do Jack Cavalca" />
         </template>
         <template #default>
           <div class="border-gray-50 flex flex-col mt-6 pt-0 px-5">
@@ -144,7 +152,7 @@
         class="team-card h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 team_card w-80 md:w-full"
       >
         <template #header>
-          <nuxt-img src="mervyn.jpeg" width="620" />
+          <NuxtImg src="mervyn.jpeg" width="620" alt="Foto do Mervyn Lowe" />
         </template>
         <template #default>
           <div class="border-gray-50 flex flex-col mt-6 px-5">

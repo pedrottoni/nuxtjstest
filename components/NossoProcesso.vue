@@ -76,7 +76,7 @@
             <div
               class="sec4title flex flex-col gap-4 place-content-center place-items-center w-32 md:w-auto"
             >
-              <nuxt-img src="/preco.svg" width="100" />
+              <NuxtImg src="/preco.svg" width="100" alt="" />
               <h6 class="font-semibold text-center text-slate-600">
                 Preço<br />e lote
               </h6>
@@ -95,7 +95,7 @@
             <div
               class="sec4title flex flex-col gap-4 place-content-center place-items-center w-32 md:w-auto"
             >
-              <nuxt-img src="/resultados.svg" width="100" />
+              <NuxtImg src="/resultados.svg" width="100" alt="" />
               <h6 class="font-semibold text-slate-600 text-center">
                 Resultado<br />parcial
               </h6>
@@ -173,7 +173,7 @@
             <div
               class="sec4title flex flex-col gap-4 place-content-center place-items-center w-32 md:w-auto"
             >
-              <nuxt-img src="/recompra.svg" width="100" />
+              <NuxtImg src="/recompra.svg" width="100" alt="" />
               <h6 class="font-semibold text-slate-600 text-center">
                 Complementares<br />
                 e trocas
@@ -193,7 +193,7 @@
             <div
               class="sec4title flex flex-col gap-4 place-content-center place-items-center w-32 md:w-auto"
             >
-              <nuxt-img src="/resultados.svg" width="100" />
+              <NuxtImg src="/resultados.svg" width="100" alt="" />
               <h6 class="font-semibold text-center text-slate-600">
                 Resultado<br />final
               </h6>

@@ -64,7 +64,14 @@
           opacity=".08"
         />
       </svg>
-      <NuxtImg src="vamos.png" class="vamosimage pb-32 relative md:pt-32" />
+      <NuxtImg
+        src="vamos.png"
+        class="vamosimage pb-32 relative md:pt-32"
+        alt=""
+        fit="contain"
+        width="200px"
+        height="200px"
+      />
     </div>
   </section>
 </template>
