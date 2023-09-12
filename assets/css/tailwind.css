@@ -106,7 +106,7 @@ h2 {
   letter-spacing: -0.9px;
 }
 h3 {
-  @apply text-tertiary-500;
+  @apply text-tertiary-600;
   font-size: 1.2rem;
   font-weight: 510;
   letter-spacing: -0.3px;

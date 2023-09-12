@@ -69,8 +69,8 @@
         class="vamosimage pb-32 relative md:pt-32"
         alt=""
         fit="contain"
-        width="558px"
-        height="350px"
+        width="558"
+        height="350"
       />
     </div>
   </section>
@@ -89,10 +89,10 @@
   }
 
   .btnsolid {
-    background: hsl(37.28deg 97.51% 52.75%);
+    background: hsl(34, 100%, 50%);
 
     &:hover {
-      background: hsl(30, 90%, 50%);
+      background: hsl(30, 100%, 50%);
     }
   }
 </style>
