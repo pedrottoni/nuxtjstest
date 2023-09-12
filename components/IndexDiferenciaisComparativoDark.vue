@@ -402,7 +402,13 @@
         </div>
       </div>
     </div>
-    <NuxtImg src="xbg.svg" class="xbg absolute z-0" alt="" />
+    <NuxtImg
+      src="xbg.svg"
+      class="xbg absolute z-0"
+      width="832px"
+      height="858px"
+      alt=""
+    />
   </section>
 </template>
 <style scoped>

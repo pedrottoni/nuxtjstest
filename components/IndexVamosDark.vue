@@ -69,8 +69,8 @@
         class="vamosimage pb-32 relative md:pt-32"
         alt=""
         fit="contain"
-        width="200px"
-        height="200px"
+        width="558px"
+        height="350px"
       />
     </div>
   </section>

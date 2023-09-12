@@ -21,7 +21,7 @@
             </div>
             <div class="flex gap-8">
                 <UButton id="twitter" label="twitter" icon="i-ph-twitter-logo-bold" color="tertiary" variant="outline" square class="p-3"></UButton>
-                <UButton id="linkedin" label="linkedin" icon="i-ph-linkedin-logo-bold" color="tertiary" variant="outline" class="p-3" square></UButton>
+                <UButton id="linkedin" label="linkedin" icon="i-ph-linkedin-logo-bold" color="tertiary" variant="outline" class="p-3" square aria-label="linkedin"></UButton>
             </div>
         </div>
     </div>

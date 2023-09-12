@@ -164,7 +164,12 @@
       <TabBar class="hidden md:block" :tabs="tabs" active="tab1">
         <template #content="{ active }">
           <template v-if="active == 'tab1'">
-            <NuxtImg src="about.png" class="tabimg w-1/3'" />
+            <NuxtImg
+              src="about.png"
+              width="483"
+              height="441"
+              class="tabimg w-1/3'"
+            />
             <div class="tabtext">
               <h5 class="mb-6">
                 Solução ágil<br />
@@ -180,7 +185,12 @@
             </div>
           </template>
           <template v-if="active == 'tab2'">
-            <NuxtImg src="duplo.png" class="tabimg w-1/2'" />
+            <NuxtImg
+              src="duplo.png"
+              width="483"
+              height="441"
+              class="tabimg w-1/2'"
+            />
             <div class="tabtext">
               <h5 class="mb-6">
                 Plataforma<br />
@@ -196,7 +206,12 @@
             </div>
           </template>
           <template v-if="active == 'tab3'">
-            <NuxtImg src="commodities.png" class="tabimg w-1/2'" />
+            <NuxtImg
+              src="commodities.png"
+              width="483"
+              height="441"
+              class="tabimg w-1/2'"
+            />
             <div class="tabtext">
               <h5 class="mb-6">Totalmente<br />eletrônico</h5>
               <p>
@@ -209,7 +224,12 @@
             </div>
           </template>
           <template v-if="active == 'tab4'">
-            <NuxtImg src="funcionamento.png" class="tabimg w-1/2'" />
+            <NuxtImg
+              src="funcionamento.png"
+              width="483"
+              height="441"
+              class="tabimg w-1/2'"
+            />
             <div class="tabtext">
               <h5 class="mb-6">
                 Nicho<br />
