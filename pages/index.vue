@@ -10,18 +10,16 @@
   })
 </script>
 <template>
-    <main class="overflow-hidden">
-        <HeroIndex/>
-        <IndexParceiros/>
-        <IndexModeloInovador/>
-        <OQueFazemos/>
-        <IndexDiferenciaisComparativo class="hidden"/>
-        <IndexDiferenciaisComparativoDark/>
-        <NossoProcesso/>
-        <NossoTime/>
-        <IndexVamos class="hidden"/>
-        <IndexVamosDark/>
-        <PerguntasFrequentes/>
-    </main>
+  <main class="overflow-hidden">
+    <HeroIndex />
+    <IndexParceiros />
+    <IndexModeloInovador />
+    <OQueFazemos />
+    <IndexDiferenciaisComparativoDark />
+    <NossoProcesso />
+    <NossoTime />
+    <IndexVamosDark />
+    <PerguntasFrequentes />
+  </main>
 </template>
 <style scoped></style>

@@ -1,22 +1,9 @@
-<script setup lang="ts">
-  // const props = defineProps({
-  // 	name: {
-  // 		type: String,
-  // 		default: 'TheFooter',
-  // 	},
-  // })
-  import { computed } from 'vue'
-  import { useNav } from '~/composables/nav'
-  const { navlinks, currentPath } = useNav()
-  const desktopNavTabs = computed(() => {
-    return navlinks.value
-  })
-</script>
+<script setup lang="ts"></script>
 <template>
-    <div class="bg-slate-100 py-28">
-        <div class="container gap-y-12 grid grid-cols-2 mx-auto px-4 w-full sm:grid-cols-5">
+    <div class="bg-slate-100 py-8">
+        <div class="container flex justify-between mx-auto place-items-center px-4 w-full">
             <div>
-                <svg fill="none" xmlns="http://www.w3.org/2000/svg" width="102" height="62" viewBox="0 0 92 52" class="contrast-50">
+                <svg fill="none" xmlns="http://www.w3.org/2000/svg" width="80" height="62" viewBox="0 0 92 52" class="contrast-50">
                     <path d="M28.6199 3.20357H5.4625V12.8477H23.348V16.0483H5.4625V25.5708H28.6199V28.7713H0V0H28.6199V3.20357Z" fill="#1F4386"/>
                     <path d="M63.1259 0.00303601V3.20357H86.2833V12.8477H68.3978V16.0483H86.2833V25.5708H63.1259V28.7713H91.7458V0H63.1259V0.00303601Z" fill="#1F4386"/>
                     <path d="M52.9424 10.6877L63.1259 0.00303601L55.9203 0.0973474L49.4742 7.04603L52.9424 10.6877Z" fill="#1F4386"/>
@@ -31,23 +18,10 @@
                     <path d="M78.3286 41.686C79.0943 42.4435 79.4756 43.5448 79.4756 44.99V51.0077H78.0835V45.1299C78.0835 44.0529 77.8141 43.2284 77.2785 42.6626C76.7428 42.0967 75.9772 41.8138 74.9815 41.8138C73.8678 41.8138 72.9902 42.1454 72.3426 42.8116C71.6949 43.4749 71.3711 44.3936 71.3711 45.5649V51.0107H69.979V40.6333H71.3136V42.547C71.6919 41.9142 72.2185 41.4243 72.8933 41.0775C73.5682 40.7276 74.349 40.5542 75.2387 40.5542C76.534 40.5542 77.563 40.9315 78.3286 41.689V41.686Z" fill="#58595B"/>
                     <path d="M84.8806 50.7399C84.1149 50.4966 83.5157 50.1923 83.086 49.8212L83.7155 48.7168C84.1482 49.0575 84.6899 49.3374 85.3436 49.5565C85.9973 49.7725 86.6782 49.882 87.3834 49.882C88.3245 49.882 89.0206 49.7329 89.4745 49.4378C89.9255 49.1427 90.1524 48.7259 90.1524 48.1844C90.1524 47.8041 90.0283 47.5029 89.7802 47.2869C89.532 47.0709 89.2173 46.9066 88.839 46.794C88.4607 46.6815 87.9553 46.575 87.3289 46.4685C86.4906 46.3103 85.8187 46.1491 85.3073 45.9848C84.7958 45.8205 84.3631 45.5406 84.003 45.1451C83.6428 44.7496 83.4643 44.205 83.4643 43.5083C83.4643 42.6413 83.8244 41.9294 84.5447 41.3787C85.2649 40.825 86.2636 40.5512 87.5468 40.5512C88.2156 40.5512 88.8814 40.6394 89.5472 40.8189C90.213 40.9984 90.7637 41.2296 91.1965 41.5187L90.5882 42.6443C89.7378 42.0511 88.724 41.756 87.5468 41.756C86.657 41.756 85.9882 41.9142 85.5343 42.2306C85.0834 42.547 84.8564 42.9607 84.8564 43.4749C84.8564 43.8704 84.9835 44.1837 85.2377 44.421C85.4919 44.6583 85.8097 44.8318 86.191 44.9443C86.5693 45.0569 87.0928 45.1725 87.7616 45.2881C88.5848 45.4463 89.2476 45.6045 89.7439 45.7627C90.2402 45.9209 90.6669 46.1917 91.021 46.572C91.3751 46.9522 91.5506 47.4786 91.5506 48.1509C91.5506 49.0575 91.1753 49.7786 90.4218 50.311C89.6682 50.8434 88.6272 51.1111 87.2926 51.1111C86.4543 51.1111 85.6553 50.9894 84.8897 50.746L84.8806 50.7399Z" fill="#58595B"/>
                 </svg>
-                <p class="mt-8">mensagem</p>
-                <UButton class="mt-2" variant="link">e-mail</UButton>
             </div>
-            <NavBarDesktopTabs :navlinks="desktopNavTabs" :current-path="currentPath" class="flex flex-col items-end place-content-end place-items-end space-x-0 sm:col-span-3 sm:p-0"/>
-            <div class="col-span-full flex flex-row justify-around place-items-center sm:col-span-1 sm:flex-col sm:place-content-between sm:place-items-end">
-                <NuxtLink href="https://www.facebook.com/vuedesigner" aria-label="facebook" external target="_blank">
-                    <UIcon name="i-ph-facebook-logo-bold" class="text-2xl text-indigo-500" size="28px"></UIcon>
-                </NuxtLink>
-                <NuxtLink href="https://twitter.com/vuedesigner" aria-label="twitter" external target="_blank">
-                    <UIcon name="i-ph-instagram-logo-bold" class="text-2xl text-indigo-500" size="28px"></UIcon>
-                </NuxtLink>
-                <NuxtLink href="https://www.youtube.com/@vuedesigner" aria-label="youtube" external target="_blank">
-                    <UIcon name="i-ph-youtube-logo-bold" class="text-2xl text-indigo-500"></UIcon>
-                </NuxtLink>
-                <NuxtLink href="https://www.youtube.com/@vuedesigner" aria-label="youtube" external target="_blank">
-                    <UIcon name="i-ph-twitter-logo-bold" class="text-2xl text-indigo-500"></UIcon>
-                </NuxtLink>
+            <div class="flex gap-8">
+                <UButton icon="i-ph-twitter-logo-bold" color="tertiary" variant="outline"></UButton>
+                <UButton icon="i-ph-linkedin-logo-bold" color="tertiary" variant="outline"></UButton>
             </div>
         </div>
     </div>

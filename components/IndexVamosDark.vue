@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  const { $gsap, $ScrollTrigger } = useNuxtApp()
+  const { $gsap } = useNuxtApp()
 
   onMounted(() => {
     $gsap.from('.vamostitle', {
@@ -75,7 +75,6 @@
   }
   .vamosimage {
     width: clamp(20rem, 50vw, 40rem);
-    height: 100%;
   }
   .bg {
     position: absolute;

@@ -46,8 +46,8 @@
                 <div class="border-b-0 border-l-2 border-opacity-30 border-primary-300 border-r-2 border-t-0 col-span-3 flex h-full place-content-center place-items-center py-4 text-slate-50 w-full md:border-b-0 md:border-l-0 md:border-r-0 md:border-t-2 md:place-content-start md:px-8 md:py-0">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 55 48" class="h-full mr-3 w-8">
                         <circle cx="40" cy="32.9" r="15" fill="#66DAFF" fill-opacity=".6"/>
-                        <path fill="#2D9AFF" d="m28.5 19.8 18-11v22H24v4.5h22.5c1.2 0 2.3-.4 3.2-1.3.9-.9 1.3-2 1.3-3.1V4.4c0-1.2-.4-2.2-1.3-3.1-1-.9-2-1.3-3.2-1.3h-36C9.2 0 8.2.4 7.3 1.3 6.4 2.2 6 3.2 6 4.4v11h4.5V8.8l18 11Zm0-4.4-18-11h36l-18 11Zm18-6.6V4.4 31 9Z"/>
-                        <path fill="#2D9AFF" fill-rule="evenodd" d="M17.7 37.7c-2 .9-4.4 1.3-7.3 1.3-2.8 0-5.3-.4-7.3-1.3S0 35.7 0 34.3v-11c0-1.4 1.2-2.5 3.2-3.4 2-.9 4.4-1.3 7.2-1.3s5.3.4 7.3 1.3 3.1 2 3.1 3.4v11c0 1.4-1.1 2.5-3 3.4Zm-9.5-7.1a22.4 22.4 0 0 0 8.4-.8l1.4-.6v-2.6a11.3 11.3 0 0 1-3 1 20.5 20.5 0 0 1-6.9.3A20.7 20.7 0 0 1 3 26.6v2.6a11.2 11.2 0 0 0 3.2 1l2 .4ZM7.8 36a18 18 0 0 0 9.4-1.2c.5-.2.7-.4.8-.6v-2.1a11.3 11.3 0 0 1-3 1 20.5 20.5 0 0 1-6.9.3A20.7 20.7 0 0 1 3 32v2.1c0 .2.3.4.7.6l1.8.7 2.4.5Zm2.6-10.8a18.4 18.4 0 0 1-6.8-1.4c-.4-.2-.6-.3-.7-.5l.7-.5 1.9-.7a18 18 0 0 1 11.7.7l.7.5c-.1.2-.3.4-.7.5a18.2 18.2 0 0 1-6.8 1.4Z" clip-rule="evenodd"/>
+                        <path fill="hsl(37, 90%, 55%)" d="m28.5 19.8 18-11v22H24v4.5h22.5c1.2 0 2.3-.4 3.2-1.3.9-.9 1.3-2 1.3-3.1V4.4c0-1.2-.4-2.2-1.3-3.1-1-.9-2-1.3-3.2-1.3h-36C9.2 0 8.2.4 7.3 1.3 6.4 2.2 6 3.2 6 4.4v11h4.5V8.8l18 11Zm0-4.4-18-11h36l-18 11Zm18-6.6V4.4 31 9Z"/>
+                        <path fill="hsl(37, 90%, 55%)" fill-rule="evenodd" d="M17.7 37.7c-2 .9-4.4 1.3-7.3 1.3-2.8 0-5.3-.4-7.3-1.3S0 35.7 0 34.3v-11c0-1.4 1.2-2.5 3.2-3.4 2-.9 4.4-1.3 7.2-1.3s5.3.4 7.3 1.3 3.1 2 3.1 3.4v11c0 1.4-1.1 2.5-3 3.4Zm-9.5-7.1a22.4 22.4 0 0 0 8.4-.8l1.4-.6v-2.6a11.3 11.3 0 0 1-3 1 20.5 20.5 0 0 1-6.9.3A20.7 20.7 0 0 1 3 26.6v2.6a11.2 11.2 0 0 0 3.2 1l2 .4ZM7.8 36a18 18 0 0 0 9.4-1.2c.5-.2.7-.4.8-.6v-2.1a11.3 11.3 0 0 1-3 1 20.5 20.5 0 0 1-6.9.3A20.7 20.7 0 0 1 3 32v2.1c0 .2.3.4.7.6l1.8.7 2.4.5Zm2.6-10.8a18.4 18.4 0 0 1-6.8-1.4c-.4-.2-.6-.3-.7-.5l.7-.5 1.9-.7a18 18 0 0 1 11.7.7l.7.5c-.1.2-.3.4-.7.5a18.2 18.2 0 0 1-6.8 1.4Z" clip-rule="evenodd"/>
                     </svg>
                     <h6 class="font-semibold mb-0 text-center text-white md:text-left">
             Modelo de precificação </h6>
@@ -82,7 +82,7 @@
                 <div class="border-b-2 border-l-2 border-opacity-30 border-primary-300 border-r-2 col-span-3 flex h-full place-content-center place-items-center py-4 text-slate-50 w-full md:border-b-0 md:border-l-0 md:border-r-0 md:border-t-2 md:place-content-start md:px-8 md:py-0">
                     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 55 48" class="h-full mr-3 w-8">
                         <circle cx="40" cy="33" r="15" fill="#66DAFF" fill-opacity=".6"/>
-                        <path fill="#2D9AFF" d="M33 38.5c-5.2 0-9.7-1.8-13.3-5.5a18.4 18.4 0 0 1-5.5-13.5c0-5.3 1.8-9.7 5.5-13.4A18 18 0 0 1 33 .5c5.2 0 9.7 1.9 13.4 5.6 3.7 3.7 5.5 8.1 5.5 13.4 0 5.3-1.8 9.8-5.5 13.5A18.2 18.2 0 0 1 33 38.5Zm0-4.8c4 0 7.4-1.3 10.1-4.1 2.8-2.8 4.2-6.1 4.2-10.1s-1.4-7.3-4.2-10a13.6 13.6 0 0 0-10-4.3c-4 0-7.3 1.4-10 4.2a13.8 13.8 0 0 0-4.2 10.1c0 4 1.4 7.3 4.1 10 2.8 2.9 6.2 4.3 10 4.3Zm5.5-5.4 3.3-3.3-6.3-6.4V10h-4.8v10.5l7.8 7.8Zm-36.1-16V7.7h9.4v4.8H2.4ZM0 22v-5h11.8v5H0Zm2.4 9.5v-4.8h9.4v4.8H2.4Z"/>
+                        <path fill="hsl(37, 90%, 55%)" d="M33 38.5c-5.2 0-9.7-1.8-13.3-5.5a18.4 18.4 0 0 1-5.5-13.5c0-5.3 1.8-9.7 5.5-13.4A18 18 0 0 1 33 .5c5.2 0 9.7 1.9 13.4 5.6 3.7 3.7 5.5 8.1 5.5 13.4 0 5.3-1.8 9.8-5.5 13.5A18.2 18.2 0 0 1 33 38.5Zm0-4.8c4 0 7.4-1.3 10.1-4.1 2.8-2.8 4.2-6.1 4.2-10.1s-1.4-7.3-4.2-10a13.6 13.6 0 0 0-10-4.3c-4 0-7.3 1.4-10 4.2a13.8 13.8 0 0 0-4.2 10.1c0 4 1.4 7.3 4.1 10 2.8 2.9 6.2 4.3 10 4.3Zm5.5-5.4 3.3-3.3-6.3-6.4V10h-4.8v10.5l7.8 7.8Zm-36.1-16V7.7h9.4v4.8H2.4ZM0 22v-5h11.8v5H0Zm2.4 9.5v-4.8h9.4v4.8H2.4Z"/>
                     </svg>
                     <h6 class="font-semibold mb-0 text-center text-slate-50 md:text-left">
             Processo de Negociação </h6>
@@ -117,7 +117,7 @@
                 <div class="border-b-2 border-l-2 border-opacity-30 border-primary-300 border-r-2 col-span-3 flex h-full place-content-center place-items-center py-4 text-slate-50 w-full md:border-b-0 md:border-l-0 md:border-r-0 md:border-t-2 md:pl-8 md:place-content-start md:pr-14 md:py-0 md:rounded-bl-lg">
                     <svg width="55" height="49" viewBox="0 0 55 49" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-full mr-3 w-8">
                         <circle cx="40" cy="33.8984" r="15" fill="#66DAFF" fill-opacity="0.6"/>
-                        <path d="M15 40.5L11.5 36.9375L17.9375 30.5H0V25.5H17.9375L11.5 19.0625L15 15.5L27.5 28L15 40.5ZM35 25.5L22.5 13L35 0.5L38.5 4.0625L32.0625 10.5H50V15.5H32.0625L38.5 21.9375L35 25.5Z" fill="#2D9AFF"/>
+                        <path d="M15 40.5L11.5 36.9375L17.9375 30.5H0V25.5H17.9375L11.5 19.0625L15 15.5L27.5 28L15 40.5ZM35 25.5L22.5 13L35 0.5L38.5 4.0625L32.0625 10.5H50V15.5H32.0625L38.5 21.9375L35 25.5Z" fill="hsl(37, 90%, 55%)"/>
                     </svg>
                     <h6 class="font-semibold mb-0 text-center text-white md:text-left">
             Ordens de Troca </h6>
@@ -563,7 +563,7 @@
     position: sticky;
     top: 0;
     z-index: 20;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       box-shadow: 1rem 0rem 1rem 1rem hsl(234, 43%, 23%);
     }
   }
@@ -572,7 +572,7 @@
     position: sticky;
     top: 0;
     z-index: 30;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       box-shadow: 0rem 2rem 1rem -1rem hsl(234, 43%, 23%);
     }
   }
@@ -581,7 +581,7 @@
     position: sticky;
     top: 0;
     z-index: 20;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       box-shadow: -1rem 0rem 1rem 1rem hsl(234, 43%, 23%);
     }
   }
@@ -591,7 +591,7 @@
     width: 52rem;
     right: -20rem;
     opacity: 0.2;
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 767px) {
       right: -10rem;
     }
   }

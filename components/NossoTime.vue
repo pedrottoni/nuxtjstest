@@ -85,10 +85,10 @@
                 Adolpho Naves
               </h5>
               <p>
-                Empreendedor, Business Developer com profundo conhecimento de
-                tecnologias digitais e seu poder disruptivo em negócios
-                financeiros. Sócio da NÓS Innovators, Inseed – Gestora de fundos
-                Venture Capital.
+                Com mais de 30 anos trabalhando no mercado financeiro. Foi
+                pioneiro no desenvolvimento do mercado de inflacao no Brasil. Ex
+                socio da XP investimentos . Atualmente head de inflação na
+                Tullett Prebon.
               </p>
             </div>
           </div>

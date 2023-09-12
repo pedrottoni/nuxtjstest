@@ -2,6 +2,7 @@
   import { useMobileMenu } from '~/composables/mobile-menu'
   import { isCurrentRoute } from '~/composables/nav'
   const { isMobileMenuOpen } = useMobileMenu()
+  const { $gsap } = useNuxtApp()
 
   defineProps({
     navlinks: {
@@ -17,26 +18,24 @@
   })
 </script>
 <template>
-  <div>
-    <div
-      v-if="isMobileMenuOpen"
-      class="sm:min-w-[200px] rounded-lg shadow overflow-hidden bg-white text-neutral-900 px-4 py-5 sm:p-6"
-    >
-      <div class="space-y-1">
-        <UButton
-          v-for="(navlink, index) in navlinks"
-          :key="index"
-          :to="navlink.link"
-          :variant="isCurrentRoute(navlink, currentPath) ? 'solid' : 'ghost'"
-          block
-          class="!rounded-lg whitespace-nowrap"
-          size="md"
-          @click="isMobileMenuOpen = !isMobileMenuOpen"
-        >
-          <span class="w-full sm:text-center">{{ navlink.text }}</span>
+    <div v-show="isMobileMenuOpen" class="bg-slate-800 border-blue-800 border-t-2 navmobile overflow-hidden pb-5 place-content-center place-items-center pt-1 shadow text-neutral-900 sm:min-w-[200px]">
+        <UButton v-for="(navlink, index) in navlinks" :key="index" :to="navlink.link" :variant="isCurrentRoute(navlink, currentPath) ? 'solid' : 'ghost'" block class="!rounded-lg border-2 border-blue-800 navmobile-links" @click="isMobileMenuOpen = !isMobileMenuOpen"><span class="sm:text-center">{{ navlink.text }}</span>
         </UButton>
-      </div>
     </div>
-  </div>
 </template>
-<style scoped></style>
+<style scoped>
+  .navmobile {
+    background: hsl(229, 50%, 22%);
+    height: calc(100vh - 4rem);
+    display: grid;
+    align-content: stretch;
+    gap: 0.3rem;
+
+    .navmobile-links {
+      color: hsl(0, 0%, 100%);
+      text-align: center;
+      height: 100%;
+      width: 99vw;
+    }
+  }
+</style>

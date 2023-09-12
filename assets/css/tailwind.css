@@ -66,8 +66,22 @@ html {
 }
 
 #perguntas {
-  button > span:last-child {
-    @apply text-tertiary-600;
+  button {
+    & > span:first-child {
+      width: 100%;
+    }
+    & > span:last-child {
+      @apply text-tertiary-600;
+    }
+  }
+}
+
+.navmobile-btn {
+  button {
+    span {
+      color: #fff !important;
+      transition: 0.3s;
+    }
   }
 }
 

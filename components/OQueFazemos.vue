@@ -72,7 +72,10 @@
   })
 </script>
 <template>
-  <section id="o-que-fazemos" class="bg-slate-100 py-32 z-10 relative">
+  <section
+    id="o-que-fazemos"
+    class="bg-slate-100 pb-32 pt-24 relative z-10 md:pt-32"
+  >
     <div
       class="container flex flex-col gap-8 mx-auto place-items-center px-4 md:justify-between lg:px-40"
     >
