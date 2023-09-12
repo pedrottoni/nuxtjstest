@@ -168,7 +168,8 @@
               src="about.png"
               width="483"
               height="441"
-              class="tabimg w-1/3'"
+              class="tabimg w-1/3"
+              alt=""
             />
             <div class="tabtext">
               <h5 class="mb-6">
@@ -189,7 +190,8 @@
               src="duplo.png"
               width="483"
               height="441"
-              class="tabimg w-1/2'"
+              class="tabimg w-1/2"
+              alt=""
             />
             <div class="tabtext">
               <h5 class="mb-6">
@@ -210,7 +212,8 @@
               src="commodities.png"
               width="483"
               height="441"
-              class="tabimg w-1/2'"
+              class="tabimg w-1/2"
+              alt=""
             />
             <div class="tabtext">
               <h5 class="mb-6">Totalmente<br />eletrônico</h5>
@@ -228,7 +231,8 @@
               src="funcionamento.png"
               width="483"
               height="441"
-              class="tabimg w-1/2'"
+              class="tabimg w-1/2"
+              alt=""
             />
             <div class="tabtext">
               <h5 class="mb-6">
