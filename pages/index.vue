@@ -1,12 +1,12 @@
 <script setup lang="ts">
-  // definePageMeta({
-  //   name: 'home',
-  //   title: 'Home',
-  //   navOrder: 1,
-  // })
+  definePageMeta({
+    name: 'exe-auctions',
+    title: 'Exe Auctions',
+    navOrder: 1,
+  })
 
   useHead({
-    title: () => 'Home',
+    title: () => 'Exe Auction',
   })
 </script>
 <template>

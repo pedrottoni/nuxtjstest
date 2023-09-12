@@ -50,8 +50,6 @@
         &:hover {
           color: hsl(213, 48%, 47%);
         }
-        & + .tab {
-        }
 
         &.active {
           color: hsl(213, 99%, 64%);
