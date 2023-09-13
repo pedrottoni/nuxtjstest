@@ -1,5 +1,5 @@
 <script setup lang="ts">
-  const { $gsap, $ScrollTrigger } = useNuxtApp()
+  const { $gsap } = useNuxtApp()
   onMounted(() => {
     const titles = document.querySelectorAll('.box')
     for (let i = 0; i < titles.length; i++) {

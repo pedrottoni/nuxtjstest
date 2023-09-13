@@ -38,16 +38,16 @@
       class="container gap-8 grid mx-auto place-items-center px-4 relative md:grid-cols-2"
     >
       <div class="pt-32 text-center vamos md:pb-32 md:text-left">
-        <h2 class="vamostitle text-slate-50 title">Entre em contato</h2>
+        <h2 class="vamostitle text-slate-50 title">Vamos comçar?</h2>
         <h4 class="vamostitle mt-4 my-8 text-slate-50 title w-80 lg:max-w-2xl">
           Conheça a plataforma de leilão eletrônico que une as vantagens dos
           leilões tradicionais com a agilidade da negociação eletrônica.
         </h4>
         <UButton
-          to="contact"
+          to="/"
           size="xl"
           class="vamostitle btnsolid flex mb-8 mt-4 place-content-center px-7 py-3 relative rounded-md z-20 md:mb-0"
-          label="Comece agora"
+          label="Entre em contato"
           color="tertiary"
         >
         </UButton>

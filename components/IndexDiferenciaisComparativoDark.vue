@@ -1,5 +1,5 @@
 <script setup>
-  const { $gsap, $ScrollTrigger } = useNuxtApp()
+  const { $gsap } = useNuxtApp()
   onMounted(() => {
     $gsap.to('.comparativo-sticky', {
       ease: 'power1.out',
