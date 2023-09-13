@@ -38,7 +38,7 @@
       class="container gap-8 grid mx-auto place-items-center px-4 relative md:grid-cols-2"
     >
       <div class="pt-32 text-center vamos md:pb-32 md:text-left">
-        <h2 class="vamostitle text-slate-50 title">Vamos começar?</h2>
+        <h2 class="vamostitle text-slate-50 title">Entre em contato</h2>
         <h4 class="vamostitle mt-4 my-8 text-slate-50 title w-80 lg:max-w-2xl">
           Conheça a plataforma de leilão eletrônico que une as vantagens dos
           leilões tradicionais com a agilidade da negociação eletrônica.

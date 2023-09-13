@@ -405,8 +405,8 @@
     <NuxtImg
       src="xbg.svg"
       class="xbg absolute z-0"
-      width="145"
-      height="150"
+      width="832"
+      height="858"
       alt=""
     />
   </section>
