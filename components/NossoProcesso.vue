@@ -97,7 +97,7 @@
             >
               <NuxtImg src="/resultados.svg" width="100" height="100" alt="" />
               <h6 class="font-semibold text-slate-600 text-center">
-                Resultado<br />parcial
+                Resultados<br />parciais
               </h6>
             </div>
           </div>
@@ -175,7 +175,7 @@
             >
               <NuxtImg src="/recompra.svg" width="100" height="100" alt="" />
               <h6 class="font-semibold text-slate-600 text-center">
-                Complementares<br />
+                Adicionais<br />
                 e trocas
               </h6>
             </div>
@@ -195,7 +195,7 @@
             >
               <NuxtImg src="/resultados.svg" width="100" height="100" alt="" />
               <h6 class="font-semibold text-center text-slate-600">
-                Resultado<br />final
+                Resultados<br />totais
               </h6>
             </div>
           </div>
