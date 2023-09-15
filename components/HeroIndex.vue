@@ -27,7 +27,8 @@
         Criamos uma solução revolucionária.
       </h4>
       <UButton
-        to="/"
+        to="https://wa.me/18609679811"
+        target="_blank"
         size="xl"
         class="btnsolid mb-14 mt-4 px-7 py-3 relative rounded-md z-20"
         label="Comece agora"

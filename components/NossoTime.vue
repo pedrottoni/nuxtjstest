@@ -41,7 +41,7 @@
         <template #header>
           <NuxtImg
             src="guilherme_corsini.jpg"
-            width="263"
+            width="363"
             height="266"
             alt="Foto do Guilherme Corsini"
           />
@@ -82,7 +82,7 @@
         <template #header>
           <NuxtImg
             src="guilherme_corsini.jpg"
-            width="263"
+            width="363"
             height="266"
             alt="Foto do Adolpho Naves"
           />
@@ -123,7 +123,7 @@
         <template #header>
           <NuxtImg
             src="jack.jpeg"
-            width="263"
+            width="363"
             height="266"
             alt="Foto do Jack Cavalca"
           />
@@ -164,7 +164,7 @@
         <template #header>
           <NuxtImg
             src="mervyn.jpeg"
-            width="263"
+            width="363"
             height="266"
             alt="Foto do Mervyn Lowe"
           />

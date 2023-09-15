@@ -1,10 +1,5 @@
 <script setup lang="ts">
-  // const props = defineProps({
-  // 	name: {
-  // 		type: String,
-  // 		default: 'SVGIndexCharts',
-  // 	},
-  // })
+
 </script>
 
 <template>

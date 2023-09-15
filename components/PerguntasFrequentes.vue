@@ -1,10 +1,5 @@
 <script setup lang="ts">
-  // const props = defineProps({
-  // 	name: {
-  // 		type: String,
-  // 		default: 'PerguntasFrequentes',
-  // 	},
-  // })
+
   const items = [
     {
       label: 'A EXE Auctions é uma dark pool?',

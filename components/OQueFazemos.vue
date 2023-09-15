@@ -171,6 +171,7 @@
               class="tabimg"
               alt=""
             />
+
             <div class="tabtext">
               <h5 class="mb-6">
                 Solução ágil<br />

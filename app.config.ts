@@ -41,8 +41,8 @@ export default defineAppConfig({
       },
       container:
         'flex min-h-full items-center sm:items-center justify-center text-center',
-      width: 'sm:max-w-xs',
-      ring: 'ring-2 ring-primary-500/50',
+      width: 'max-w-xs',
+      ring: 'ring-2 ring-blue-500',
     },
   },
 })

@@ -1,10 +1,4 @@
 <script setup>
-  // const props = defineProps({
-  // 	name: {
-  // 		type: String,
-  // 		default: 'ModeloInovador',
-  // 	},
-  // })
   const { $gsap } = useNuxtApp()
 
   onMounted(() => {

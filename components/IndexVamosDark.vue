@@ -44,7 +44,8 @@
           leilões tradicionais com a agilidade da negociação eletrônica.
         </h4>
         <UButton
-          to="/"
+          to="https://wa.me/18609679811"
+          target="_blank"
           size="xl"
           class="vamostitle btnsolid flex mb-8 mt-4 place-content-center px-7 py-3 relative rounded-md z-20 md:mb-0"
           label="Entre em contato"
