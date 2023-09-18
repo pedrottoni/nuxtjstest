@@ -124,7 +124,7 @@
                 duplo
               </h5>
               <p>
-                Após um bom tempo trabalhando nas mais importantes instituições
+                Após um bom tempo trabalhando nas mais importantes instituicoes
                 financeiras do mundo e com os melhores profissionais do mercado
                 local e offshore. Desenvolvemos para todos uma única plataforma
                 de leilão duplo que alia: rapidez, eficiência na formação de
@@ -154,7 +154,7 @@
                 Os traders acessam a plataforma e inserem suas ordens de compra,
                 venda ou troca. A EXE envia o resultado das transações para a
                 corretora, que fica responsável pela boletagem e pela liquidação
-                das operações. Todo o relacionamento de crédito com o cliente
+                das operações. Todo o relacionamento de crédito com o clientes
                 continua sendo gerenciado pela corretora parceira.
               </p>
             </div>
@@ -174,15 +174,15 @@
 
             <div class="tabtext">
               <h5 class="mb-6">
-                Solução ágil<br />
+                Ágil<br />
                 e eficiente
               </h5>
               <p>
                 A EXE Auctions é uma plataforma de leilão criada para trazer
                 mais eficiência e transparência na formação de preços em
-                mercados com poucos participantes. Isso é possível graças ao seu
-                modelo inovador, que combina as vantagens dos leilões e da
-                negociação por sistemas eletrônicos.
+                mercados com poucos participantes. Isso só é possível graças ao
+                seu modelo inovador, que combina as vantagens dos leilões
+                tradicionais com a velocidade da negociação eletrônica.
               </p>
             </div>
           </template>
@@ -190,14 +190,14 @@
             <NuxtImg src="duplo.png" width="483" height="441" class="tabimg" />
             <div class="tabtext">
               <h5 class="mb-6">
-                Plataforma<br />
-                de leilão duplo
+                Leilão<br />
+                duplo
               </h5>
               <p>
                 Após um bom tempo trabalhando nas mais importantes instituicoes
                 financeiras do mundo e com os melhores profissionais do mercado
                 local e offshore. Desenvolvemos para todos uma única plataforma
-                de leilão duplo que alia rapidez, eficiência na formação de
+                de leilão duplo que alia: rapidez, eficiência na formação de
                 preços, anonimato e ausência de ruídos.
               </p>
             </div>
@@ -211,13 +211,16 @@
               alt=""
             />
             <div class="tabtext">
-              <h5 class="mb-6">Totalmente<br />eletrônico</h5>
+              <h5 class="mb-6">
+                Totalmente<br />
+                eletrônico
+              </h5>
               <p>
                 Resolvendo atritos de todos os mercados de commodities, gerando
-                picos de liquidez sem interferência humana e sem algoritmos
-                baseados em proxies de mercados semelhantes. Trazemos o jeito
-                mais moderno da atualizade de transacionar ativos. Uma forma de
-                execução que todos saem corretamente satisfeitos.
+                picos de liquidez sem intermediação humana e sem algoritmos
+                baseados em estimativas de preço obsoletas. Trazemos o jeito
+                mais moderno da atualidade de transacionar ativos. Uma forma de
+                execução que todos saem matematicamente satisfeitos.
               </p>
             </div>
           </template>
@@ -230,16 +233,13 @@
               alt=""
             />
             <div class="tabtext">
-              <h5 class="mb-6">
-                Nicho<br />
-                de atuação
-              </h5>
+              <h5 class="mb-6">Nicho<br />de atuação</h5>
               <p class="mb-4">
-                Os traders acessam a plataforma e inserem suas ordens de compra
-                e venda. A EXE envia o resultado das transações para a
+                Os traders acessam a plataforma e inserem suas ordens de compra,
+                venda ou troca. A EXE envia o resultado das transações para a
                 corretora, que fica responsável pela boletagem e pela liquidação
                 das operações. Todo o relacionamento de crédito com o clientes
-                continuam sendo gerenciado pela corretora parceira.
+                continua sendo gerenciado pela corretora parceira.
               </p>
             </div>
           </template>
