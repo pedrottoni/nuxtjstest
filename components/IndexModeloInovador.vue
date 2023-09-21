@@ -177,8 +177,8 @@
               <template #default>
                 <p class="pr-5">
                   Anulamos conflitos de interesse entre os participantes, com
-                  regras de negociação claras e garantindo a preferencia para os
-                  clientes com volumes maiores
+                  regras de negociação claras, e garantimos a preferência para
+                  os clientes com maiores volumes.
                 </p>
               </template>
             </UCard>
@@ -325,8 +325,8 @@
           <template #default>
             <p class="md:w-56">
               Anulamos conflitos de interesse entre os participantes, com regras
-              de negociação claras e garantindo a preferencia para os clientes
-              com volumes maiores.
+              de negociação claras, e garantimos a preferência para os clientes
+              com maiores volumes.
             </p>
           </template>
         </UCard>

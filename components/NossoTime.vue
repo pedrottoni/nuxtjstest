@@ -22,13 +22,13 @@
   <section id="time" class="container flex flex-col mx-auto pb-40 pt-32 px-4">
     <div class="flex flex-col mb-8 w-12/12 md:max-w-xl">
       <h3>Nosso time</h3>
-      <h2>Depois de alguma<br />experiência acumulada</h2>
+      <h2>Depois de muita<br />experiência acumulada</h2>
       <p class="mt-4 my-8">
         Após anos operando, trabalhando para o aumento de liquidez e criação de
         novos mercados locais e internacionais, Guilherme Corsini e Adolpho
-        Naves agregaram seus conhecimentos para criar um novo método de
-        negociação e junto com Jack Cavalcanti e a Mervyn Lowe, ambos com larga
-        experiência na criação e no desenvolvimento de startups, surgiu a EXE
+        Naves agregaram seus conhecimentos para desenvolver um novo método de
+        negociação. Com Jack Cavalcanti e Mervyn Lowe, ambos com larga
+        experiência na criação e no desenvolvimento de startups, criaram a EXE
         Auctions.
       </p>
     </div>
@@ -81,7 +81,7 @@
       >
         <template #header>
           <NuxtImg
-            src="guilherme_corsini.jpg"
+            src="adolpho_naves.png"
             width="363"
             height="266"
             alt="Foto do Adolpho Naves"
@@ -96,10 +96,10 @@
                 Adolpho Naves
               </h5>
               <p>
-                Há mais de 30 anos no mercado financeiro, desenvolveu mercados
-                de títulos públicos e swaps. Junto com a B3, amplificou o
-                mercado futuro de inflação. Traz para EXE toda sua experiência
-                em promover mercados e agora com um modelo inovador.
+                Há mais de 30 anos desenvolvendo mercados de títulos públicos e
+                swaps. Junto com a B3, amplificou o mercado futuro de inflação.
+                Traz para EXE toda sua experiência em promover mercados e agora
+                com um modelo inovador.
               </p>
             </div>
           </div>
@@ -125,7 +125,7 @@
             src="jack.jpeg"
             width="363"
             height="266"
-            alt="Foto do Jack Cavalca"
+            alt="Foto do Jack Cavalcante"
           />
         </template>
         <template #default>
@@ -134,7 +134,7 @@
               <h5
                 class="flex flex-row gap-2 mb-2 place-items-center text-blue-500"
               >
-                Jack Cavalca
+                Jack Cavalcante
               </h5>
               <p>
                 Empreendedor, Business Developer com profundo conhecimento de
@@ -178,7 +178,7 @@
                 Mervyn Lowe
               </h5>
               <p>
-                Empreendedor serial, Business Developer, Investidor e gestor de
+                Empreendedor serial, Business Developer, investidor e gestor de
                 hubs de inovação. Geriu o Hub InovaBra Habitat do Bradesco desde
                 sua concepção e estruturou o IPT Open Hub. CEO da consultoria
                 NÓS Innovator.

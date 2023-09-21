@@ -24,7 +24,7 @@
         </h2>
         <h4 class="mb-6 sec3title text-slate-300 md:max-w-lg">
           Juntando o melhor dos dois mundos. Nossa solução elimina as
-          desvantagens dos métodos atuais
+          desvantagens dos métodos atuais.
         </h4>
       </div>
       <div

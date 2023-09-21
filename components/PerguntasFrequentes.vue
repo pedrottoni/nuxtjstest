@@ -1,5 +1,4 @@
 <script setup lang="ts">
-
   const items = [
     {
       label: 'A EXE Auctions é uma dark pool?',
@@ -15,7 +14,7 @@
       slot: 'faq3',
     },
     {
-      label: 'Vocês fazem alguma coisa ESG?',
+      label: 'Vocês usam algum critério ESG?',
       slot: 'faq4',
     },
   ]
@@ -44,24 +43,24 @@
             na opinião do agente que está intermediando a operação. <br />
           </p>
           <p class="pt-3">
-            Na EXE Auctions o preço é resultado da real interação entre os
-            operadores já considerando o lote mínimo maior. Ou seja, é o preço
+            Na EXE Auctions, o preço é resultado da real interação entre os
+            operadores, já considerando o lote mínimo maior. Ou seja, é o preço
             ótimo para aquele volume maior no específico instante de tempo da
             transação, e não uma estimativa gerada num momento anterior à
-            negociação.<br />
+            negociação. <br />
           </p>
         </div>
       </template>
       <template #faq2>
         <p class="py-6 md:w-10/12 mx-auto text-left">
-          Sim, estamos. O grande participante é uma peça fundamental do mercado,
-          o natural e maior provedor de liquidez. Todos os participantes se
-          beneficiam quando esses agentes estão presentes na formação do preço.
-          Uma forma de estimular e atrair grandes lotes é justamente dando lhes
-          alguma vantagem na negociação, os lotes menores continuam tendo a
-          prioridade quando a disputa é por preço, mas quando, e somente quando,
-          empatados no preço, o maior lote terá uma alocação proporcionalmente
-          maior.
+          Sim, estamos, mas apenas como critério de desempate. O grande
+          participante é uma peça fundamental do mercado, o natural e maior
+          provedor de liquidez. Todos os participantes se beneficiam quando
+          esses agentes estão presentes na formação do preço. Uma forma de
+          estimular e atrair grandes lotes é justamente lhes dando alguma
+          vantagem na negociação. Os lotes menores continuam tendo a prioridade
+          quando a disputa é por preço, mas quando, e somente quando, empatados
+          no preço, o maior lote terá uma alocação proporcionalmente maior.
         </p>
       </template>
       <template #faq3>
@@ -78,7 +77,7 @@
         <p class="py-6 md:w-10/12 mx-auto">
           Na nossa visão econômica, simplesmente banir a negociação de ativos
           relacionados aos combustíveis fósseis não parece ser a melhor forma de
-          agregar valor à sociedade, preferimos sugerir às nossas corretoras
+          agregar valor à sociedade. Preferimos sugerir às nossas corretoras
           parceiras uma política de custos de transação menores para ativos
           verdes.
         </p>

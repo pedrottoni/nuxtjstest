@@ -124,11 +124,11 @@
                 duplo
               </h5>
               <p>
-                Após um bom tempo trabalhando nas mais importantes instituicoes
-                financeiras do mundo e com os melhores profissionais do mercado
-                local e offshore. Desenvolvemos para todos uma única plataforma
-                de leilão duplo que alia: rapidez, eficiência na formação de
-                preços, anonimato e ausência de ruídos.
+                Após um bom tempo trabalhando com os melhores profissionais do
+                mercado local e offshore, nas mais importantes instituições
+                financeiras do mundo, desenvolvemos uma única plataforma de
+                leilão duplo que alia rapidez, eficiência na formação de preços,
+                anonimato e ausência de ruídos.
               </p>
             </div>
           </swiper-slide>
@@ -143,13 +143,13 @@
                 picos de liquidez sem intermediação humana e sem algoritmos
                 baseados em estimativas de preço obsoletas. Trazemos o jeito
                 mais moderno da atualidade de transacionar ativos. Uma forma de
-                execução que todos saem matematicamente satisfeitos.
+                execução pela qual todos saem matematicamente satisfeitos.
               </p>
             </div>
           </swiper-slide>
           <swiper-slide>
             <div>
-              <h5 class="mb-6">Nicho<br />de atuação</h5>
+              <h5 class="mb-6">Como<br />funciona</h5>
               <p class="mb-4">
                 Os traders acessam a plataforma e inserem suas ordens de compra,
                 venda ou troca. A EXE envia o resultado das transações para a
@@ -194,11 +194,11 @@
                 duplo
               </h5>
               <p>
-                Após um bom tempo trabalhando nas mais importantes instituicoes
-                financeiras do mundo e com os melhores profissionais do mercado
-                local e offshore. Desenvolvemos para todos uma única plataforma
-                de leilão duplo que alia: rapidez, eficiência na formação de
-                preços, anonimato e ausência de ruídos.
+                Após um bom tempo trabalhando com os melhores profissionais do
+                mercado local e offshore, nas mais importantes instituições
+                financeiras do mundo, desenvolvemos uma única plataforma de
+                leilão duplo que alia rapidez, eficiência na formação de preços,
+                anonimato e ausência de ruídos.
               </p>
             </div>
           </template>
@@ -220,7 +220,7 @@
                 picos de liquidez sem intermediação humana e sem algoritmos
                 baseados em estimativas de preço obsoletas. Trazemos o jeito
                 mais moderno da atualidade de transacionar ativos. Uma forma de
-                execução que todos saem matematicamente satisfeitos.
+                execução pela qual todos saem matematicamente satisfeitos.
               </p>
             </div>
           </template>
@@ -233,7 +233,7 @@
               alt=""
             />
             <div class="tabtext">
-              <h5 class="mb-6">Nicho<br />de atuação</h5>
+              <h5 class="mb-6">Como<br />funciona</h5>
               <p class="mb-4">
                 Os traders acessam a plataforma e inserem suas ordens de compra,
                 venda ou troca. A EXE envia o resultado das transações para a

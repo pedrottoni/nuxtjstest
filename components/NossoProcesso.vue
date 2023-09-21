@@ -34,7 +34,7 @@
         </h2>
         <p class="mt-4 my-8">
           O leilão funciona em duas etapas. Na primeira, são recebidas as ordens
-          de compra e venda e é feito o cálculo dos preços de otimizam as
+          de compra e venda e é feito o cálculo dos preços que otimizam as
           quantidades negociadas e as respectivas alocações. Na segunda rodada,
           os preços já estão determinados e os participantes podem colocar novas
           ordens de compra, venda ou troca casada.
