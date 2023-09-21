@@ -18,7 +18,7 @@
       disabled: 'false',
     },
     {
-      title: 'Nicho de atuação',
+      title: 'Como funcina',
       value: 'tab4',
       disabled: 'false',
     },
