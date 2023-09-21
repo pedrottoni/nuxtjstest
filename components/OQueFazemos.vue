@@ -18,7 +18,7 @@
       disabled: 'false',
     },
     {
-      title: 'Como funcina',
+      title: 'Como funciona',
       value: 'tab4',
       disabled: 'false',
     },
