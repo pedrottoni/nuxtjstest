@@ -96,10 +96,10 @@
                 Adolpho Naves
               </h5>
               <p>
-                Há mais de 30 anos desenvolvendo mercados de títulos públicos e
-                swaps. Junto com a B3, amplificou o mercado futuro de inflação.
-                Traz para EXE toda sua experiência em promover mercados e agora
-                com um modelo inovador.
+                Há mais de 30 anos desenvolvendo mercados de títulos e swaps.
+                Junto com a B3, amplificou o mercado futuro de inflação. Traz
+                para EXE toda sua experiência em promover mercados e agora com
+                um modelo inovador.
               </p>
             </div>
           </div>
