@@ -207,11 +207,20 @@
           </swiper>
         </UModal>
         <UButton
+          v-show="false"
           class="btn font-bold mr-3 px-6 py-2 ring-2 ring-tertiary-500 rounded-md md:ml-12"
           label="Entrar"
           color="tertiary"
           variant="outline"
           @click="isOpen = true"
+        />
+        <UButton
+          to="https://dev.exeauctions.com"
+          target="_blank"
+          class="btn font-bold mr-3 px-6 py-2 ring-2 ring-tertiary-500 rounded-md md:ml-12"
+          label="Sandbox"
+          color="tertiary"
+          variant="outline"
         />
         <div class="navmobile-btn -mr-2 items-center relative">
           <NavBarMobileMenuButton v-if="navlinks.length" class="lg:hidden" />

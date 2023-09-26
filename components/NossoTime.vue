@@ -54,7 +54,7 @@
               >
                 Guilherme Corsini
               </h5>
-              <p>
+              <p class="letter-m">
                 Após acumular vasta experiência como Trader, sendo exposto a
                 diversos tipos de leilões e plataformas dos mercados domésticos
                 e internacionais, criou o algoritmo de negociação eletrônica,

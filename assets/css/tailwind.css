@@ -1,8 +1,7 @@
 /* Pinegrow generated Design Panel Init Begin */
 @import url('https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900|Inter:100,200,300,400,500,600,700,800,900&display=swap');
 
-
-    /* Pinegrow generated Design Panel Init End */
+/* Pinegrow generated Design Panel Init End */
 
 @tailwind base;
 @tailwind components;
@@ -167,17 +166,28 @@ a {
   @apply bg-tertiary !important;
 }
 
+.letter-s {
+  letter-spacing: -0.1px;
+}
+.letter-m {
+  letter-spacing: -0.2px;
+}
 /* Pinegrow generated Design Panel Extra Rules Begin */
 
-h1,h2,h5 {
-    @apply font-sans;
-}                    
-
-h3,h4,h6 {
-    @apply font-serif;
-}                    
-body, html {
-    min-height: 100vh;
+h1,
+h2,
+h5 {
+  @apply font-sans;
 }
 
-    /* Pinegrow generated Design Panel Extra Rules End */
+h3,
+h4,
+h6 {
+  @apply font-serif;
+}
+body,
+html {
+  min-height: 100vh;
+}
+
+/* Pinegrow generated Design Panel Extra Rules End */
