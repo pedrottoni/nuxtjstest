@@ -66,7 +66,7 @@
       <template #faq3>
         <p class="py-6 md:w-10/12 mx-auto">
           É um conceito novo nas plataformas eletrônicas, onde o participante
-          tem a oportunidade de fazer a troca pelo mesmo valor financeiro. Isto
+          tem a oportunidade de fazer a troca pelo mesmo valor de face. Isto
           é, por exemplo, trocar 100 lotes de NTN-B 30 por 100 lotes de NTN-B
           40, independente dos preços individuais. Com a garantia que o
           participante sempre executará um valor proporcional à 1 x 1 dos lotes
