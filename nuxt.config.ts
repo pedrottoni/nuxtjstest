@@ -1,6 +1,7 @@
 // import { fileURLToPath, URL } from 'node:url'
-
+//npx nuxi generate
 export default defineNuxtConfig({
+  ssr: false,
   runtimeConfig: {
     public: {
       title: 'EXE auctions',

@@ -9,7 +9,7 @@
     <div class="absolute backgroundelements overlays z-0">
       <SVGIndexCharts class="elements relative top-0 hidden" />
       <SVGHeroIndexDots class="elements relative top-0 hidden" />
-      <NuxtImg
+      <img
         src="/chart.png"
         class="elements charts relative top-0"
         width="1536"
@@ -36,7 +36,7 @@
       </UButton> -->
       <div class="indexbg flex justify-center">
         <SVGHeroIndex class="bgblocks absolute z-10" />
-        <NuxtImg src="/indexBg.png" width="720" height="436" alt="" class="mt-10" />
+        <img src="/indexBg.png" width="720" height="436" alt="" class="mt-10" />
       </div>
     </div>
   </section>

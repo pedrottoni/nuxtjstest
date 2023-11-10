@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
   const { $gsap } = useNuxtApp()
   onMounted(() => {
     const titles = document.querySelectorAll('.sec4title')
@@ -76,7 +76,7 @@
             <div
               class="sec4title flex flex-col gap-4 place-content-center place-items-center w-32 md:w-auto"
             >
-              <NuxtImg src="/preco.svg" width="100" height="100" alt="" />
+              <img src="/preco.svg" width="100" height="100" alt="" />
               <h6 class="font-semibold text-center text-slate-600">
                 Preço<br />e lote
               </h6>
@@ -95,7 +95,7 @@
             <div
               class="sec4title flex flex-col gap-4 place-content-center place-items-center w-32 md:w-auto"
             >
-              <NuxtImg src="/resultados.svg" width="100" height="100" alt="" />
+              <img src="/resultados.svg" width="100" height="100" alt="" />
               <h6 class="font-semibold text-slate-600 text-center">
                 Resultados<br />parciais
               </h6>
@@ -173,7 +173,7 @@
             <div
               class="sec4title flex flex-col gap-4 place-content-center place-items-center w-32 md:w-auto"
             >
-              <NuxtImg src="/recompra.svg" width="100" height="100" alt="" />
+              <img src="/recompra.svg" width="100" height="100" alt="" />
               <h6 class="font-semibold text-slate-600 text-center">
                 Adicionais<br />
                 e trocas
@@ -193,7 +193,7 @@
             <div
               class="sec4title flex flex-col gap-4 place-content-center place-items-center w-32 md:w-auto"
             >
-              <NuxtImg src="/resultados.svg" width="100" height="100" alt="" />
+              <img src="/resultados.svg" width="100" height="100" alt="" />
               <h6 class="font-semibold text-center text-slate-600">
                 Resultados<br />totais
               </h6>

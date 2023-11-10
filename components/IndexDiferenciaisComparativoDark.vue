@@ -402,8 +402,8 @@
         </div>
       </div>
     </div>
-    <NuxtImg
-      src="xbg.svg"
+    <img
+      src="/xbg.svg"
       class="xbg absolute z-0"
       width="832"
       height="858"

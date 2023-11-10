@@ -164,8 +164,8 @@
       <TabBar class="hidden md:block" :tabs="tabs" active="tab1">
         <template #content="{ active }">
           <template v-if="active == 'tab1'">
-            <NuxtImg
-              src="about.png"
+            <img
+              src="/about.png"
               width="483"
               height="441"
               class="tabimg"
@@ -187,7 +187,7 @@
             </div>
           </template>
           <template v-if="active == 'tab2'">
-            <NuxtImg src="duplo.png" width="483" height="441" class="tabimg" />
+            <img src="/duplo.png" width="483" height="441" class="tabimg" />
             <div class="tabtext">
               <h5 class="mb-6">
                 Leilão<br />
@@ -203,8 +203,8 @@
             </div>
           </template>
           <template v-if="active == 'tab3'">
-            <NuxtImg
-              src="commodities.png"
+            <img
+              src="/commodities.png"
               width="483"
               height="441"
               class="tabimg"
@@ -225,8 +225,8 @@
             </div>
           </template>
           <template v-if="active == 'tab4'">
-            <NuxtImg
-              src="funcionamento.png"
+            <img
+              src="/funcionamento.png"
               width="483"
               height="441"
               class="tabimg"

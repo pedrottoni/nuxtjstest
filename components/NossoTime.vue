@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
   const { $gsap } = useNuxtApp()
 
   onMounted(() => {
@@ -39,8 +39,8 @@
         class="h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 team-card w-80 md:w-full lg:bg-real-white-100"
       >
         <template #header>
-          <NuxtImg
-            src="guilherme_corsini.jpg"
+          <img
+            src="/guilherme_corsini.jpg"
             width="363"
             height="266"
             alt="Foto do Guilherme Corsini"
@@ -80,8 +80,8 @@
         class="h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 team-card w-80 md:w-full lg:bg-real-white-100"
       >
         <template #header>
-          <NuxtImg
-            src="adolpho_naves.png"
+          <img
+            src="/adolpho_naves.png"
             width="363"
             height="266"
             alt="Foto do Adolpho Naves"
@@ -121,8 +121,8 @@
         class="h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 team-card w-80 md:w-full lg:bg-real-white-100"
       >
         <template #header>
-          <NuxtImg
-            src="jack.jpeg"
+          <img
+            src="/jack.jpeg"
             width="363"
             height="266"
             alt="Foto do Jack Cavalcante"
@@ -162,8 +162,8 @@
         class="h-fit pb-2 pt-0 px-0 shadow-md shadow-slate-300 team-card team_card w-80 md:w-full lg:bg-real-white-100"
       >
         <template #header>
-          <NuxtImg
-            src="mervyn.jpeg"
+          <img
+            src="/mervyn.jpeg"
             width="363"
             height="266"
             alt="Foto do Mervyn Lowe"

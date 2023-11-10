@@ -1,4 +1,4 @@
-<script setup lang="ts">
+<script setup>
   const { $gsap } = useNuxtApp()
 
   onMounted(() => {
@@ -65,8 +65,8 @@
           opacity=".08"
         />
       </svg>
-      <NuxtImg
-        src="vamos.png"
+      <img
+        src="/vamos.png"
         class="vamosimage pb-32 relative md:pt-32"
         alt=""
         fit="contain"
