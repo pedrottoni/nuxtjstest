@@ -215,7 +215,7 @@
           @click="isOpen = true"
         />
         <UButton
-          to="https://dev.exeauctions.com"
+          to="https://sbox.exeauctions.com"
           target="_blank"
           class="btn font-bold mr-3 px-6 py-2 ring-2 ring-tertiary-500 rounded-md md:ml-12"
           label="Sandbox"
